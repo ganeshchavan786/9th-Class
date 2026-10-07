@@ -71,8 +71,24 @@ Organized following enterprise software engineering standards with clear separat
   - **Total Active:** **56 Exam Papers • 1,400 Unique MCQs • 56 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Science_Exam_Papers/PDF_Ready_To_Print/`
 
-### 2. Upcoming Subjects
-- **Social Science:** `Social_Science_Exam_Papers/` (NCERT book `iest1dd` ready)
+### 2. Social Science (NCERT Class 9 Integrated)
+- **Social Science Portal URL:** `https://ganeshchavan786.github.io/9th-Class/Social_Science_Exam_Papers/`
+- **Chapters Covered (Chapters 1 to 9):**
+  1. Understanding Social Science
+  2. Shaping of the Earth's Surface (Geography)
+  3. Atmosphere and Climate (Geography)
+  4. Early Humans and Beginning of Civilisation (History)
+  5. State and Society up to 1000 CE (History)
+  6. Democracy (Political Science)
+  7. Elections (Political Science)
+  8. Building Blocks in Economics: The Problem of Choice (Economics)
+  9. The Price Puzzle: What Drives the Market (Economics)
+- **Practice Sets Available:**
+  - **Set A:** Foundation & Core Concepts (9 papers $	imes$ 25 = 225 MCQs)
+  - **Total Active:** **9 Exam Papers • 225 Unique MCQs • 9 Print-Ready PDFs**
+- **Printable PDFs:** Available inside `Social_Science_Exam_Papers/PDF_Ready_To_Print/`
+
+### 3. Upcoming Subjects
 - **Mathematics:** `Maths_Exam_Papers/` (Scheduled)
 - **English:** `English_Exam_Papers/` (Scheduled)
 

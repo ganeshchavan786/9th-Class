@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 Social Science - Examination Portal</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <style>
+    body {
+      background: #f5f5f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .dashboard-container {
+      max-width: 1100px;
+      margin: 25px auto;
+      padding: 0 20px;
+    }
+    .back-nav {
+      margin-bottom: 15px;
+    }
+    .back-nav a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #78350f;
+      text-decoration: none;
+      background: #fef3c7;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #fde68a;
+      transition: background 0.2s;
+    }
+    .back-nav a:hover {
+      background: #fde68a;
+    }
+    .dashboard-header {
+      background: linear-gradient(135deg, #451a03 0%, #78350f 50%, #9a3412 100%);
+      color: #ffffff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(120, 53, 15, 0.25);
+      margin-bottom: 25px;
+    }
+    .dashboard-header h1 {
+      font-size: 27px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .dashboard-header p {
+      font-size: 14.5px;
+      color: #fef3c7;
+      line-height: 1.5;
+      max-width: 850px;
+    }
+    .stats-bar {
+      display: flex;
+      gap: 12px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+    .stat-badge {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(6px);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 600;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .chapters-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+      gap: 20px;
+    }
+    .chapter-card {
+      background: #ffffff;
+      border: 1px solid #e7e5e4;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .chapter-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+      border-color: #d6d3d1;
+    }
+    .chapter-badge {
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      color: #78350f;
+      background: #fffbeb;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid #fde68a;
+    }
+    .chapter-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1c1917;
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+    .chapter-desc {
+      font-size: 12.5px;
+      color: #57534e;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+    .set-btn {
+      display: block;
+      text-align: center;
+      padding: 9px 12px;
+      font-size: 12.5px;
+      font-weight: 700;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .set-btn-a { background: #854d0e; color: #fff; border: 1px solid #713f12; }
+    .set-btn-a:hover { background: #713f12; }
+    
+    .set-pill {
+      background: #f5f5f4;
+      padding: 2px 6px;
+      border-radius: 4px;
+      border: 1px solid #e7e5e4;
+      color: #78716c;
+    }
+    
+    .pdf-pill {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      color: #44403c;
+      background: #ffffff;
+      padding: 5px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      border: 1px solid #d6d3d1;
+      transition: all 0.15s;
+    }
+    .pdf-pill:hover {
+      background: #fafaf9;
+      border-color: #a8a29e;
+    }
+  </style>
+</head>
+<body>
+
+<div class="dashboard-container">
+  
+  <div class="back-nav">
+    <a href="../index.html">
+      ⬅️ Back to Main Subjects Portal (All Subjects)
+    </a>
+  </div>
+
+  <div class="dashboard-header">
+    <h1>CBSE CLASS IX — SOCIAL SCIENCE EXAMINATION HUB</h1>
+    <p>Complete Chapter-Wise Practice Papers for Chapters 1 to 9 based on the latest NCERT Class 9 Social Science Curriculum (History, Geography, Political Science, and Economics). Complete with interactive timer, auto-grading, printable OMR answer sheets, and ready-to-print A4 PDF downloads.</p>
+    <div class="stats-bar">
+      <div class="stat-badge">📚 9 NCERT Chapters Covered</div>
+      <div class="stat-badge">⚡ Set A (Foundation) Active</div>
+      <div class="stat-badge">📝 9 Exam Papers Active (225 MCQs)</div>
+      <div class="stat-badge">🖨️ 9 Print-Ready A4 PDFs</div>
+      <div class="stat-badge">⭕ Realistic OMR Answer Sheets</div>
+      <div class="stat-badge">💯 100% CBSE English Medium</div>
+    </div>
+  </div>
+
+  <div class="chapters-grid">
+
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 1 • FOUNDATIONS</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Understanding Social Science</div>
+      <p class="chapter-desc">Scope of social science, primary and secondary sources, epigraphy, numismatics, archaeology, radiocarbon dating, and democratic ethics.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_01_understanding_sst_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch01_Understanding_SST_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 2 • GEOGRAPHY</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Shaping of the Earth's Surface</div>
+      <p class="chapter-desc">Endogenic and exogenic forces, plate tectonics, earthquake focus and epicentre, weathering vs erosion, meanders, oxbow lakes, glacial U-valleys, and moraines.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_02_shaping_earth_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch02_Shaping_Earth_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 3 • GEOGRAPHY</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Atmosphere and Climate</div>
+      <p class="chapter-desc">Atmospheric composition, troposphere and stratosphere, lapse rate, Coriolis force, jet streams, monsoon mechanism, greenhouse gases, and carbon footprint.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_03_atmosphere_climate_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch03_Atmosphere_Climate_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 4 • HISTORY</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Early Humans and Beginning of Civilisation</div>
+      <p class="chapter-desc">Palaeolithic to Neolithic transition, Bhimbetka art, Harappan town planning, Citadel, Great Bath, Lothal dockyard, Dholavira reservoirs, and seals.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_04_early_civilisation_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch04_Early_Civilisation_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 5 • HISTORY</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">State and Society up to 1000 CE</div>
+      <p class="chapter-desc">Vedic society, 16 Mahajanapadas, Mauryan Empire, Kautilya's Arthashastra, Ashoka's Dhamma, Gupta classical golden age, Aryabhata, and Chola local assemblies.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_05_state_society_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch05_State_Society_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 6 • POLITICAL SCIENCE</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Democracy</div>
+      <p class="chapter-desc">Definition of democracy, rule of law, universal adult franchise, free and fair elections, non-democratic historical cases, and resolution of social conflicts.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_06_democracy_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch06_Democracy_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 7 • POLITICAL SCIENCE</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Elections</div>
+      <p class="chapter-desc">543 Lok Sabha constituencies, reserved seats, electoral roll, candidate affidavit disclosures, Model Code of Conduct, ECI independence, EVMs, and VVPAT.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_07_elections_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch07_Elections_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 8 • ECONOMICS</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">Building Blocks in Economics: The Problem of Choice</div>
+      <p class="chapter-desc">Scarcity of resources, opportunity cost, factors of production (land, labour, physical capital, human capital), three central economic questions, and sectors.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_08_economics_choice_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch08_Economics_Choice_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+    <div class="chapter-card">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
+        <span class="chapter-badge">CHAPTER 9 • ECONOMICS</span>
+        <span style="font-size: 11px; font-weight: 700; color: #854d0e; background: #fef3c7; padding: 2px 8px; border-radius: 12px; border: 1px solid #fde68a;">
+          ✅ SET A ACTIVE (25 MCQs)
+        </span>
+      </div>
+      <div class="chapter-title">The Price Puzzle: What Drives the Market</div>
+      <p class="chapter-desc">Law of Demand and downward demand curve, Law of Supply, market equilibrium, shortages and surpluses, substitute vs complementary goods, and price elasticity.</p>
+      
+      <!-- Interactive Exam Papers Grid -->
+      <div style="background: #fafaf9; border: 1px solid #e7e5e4; border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <div style="font-size: 11.5px; font-weight: 700; color: #44403c; margin-bottom: 8px; display: flex; justify-content: space-between;">
+          <span>AVAILABLE PRACTICE SETS:</span>
+          <span style="color: #78716c;">(25 Marks | 45 Mins)</span>
+        </div>
+        
+        <div style="display: grid; grid-template-columns: 1fr; gap: 6px; margin-bottom: 8px;">
+          <a href="chapter_09_price_puzzle_set_a.html" class="set-btn set-btn-a">📘 SET A (Foundation & Core Concepts)</a>
+        </div>
+
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #78716c; padding-top: 5px; border-top: 1px dashed #d6d3d1;">
+          <span style="font-weight: 600;">Upcoming:</span>
+          <span class="set-pill">Set B (HOTS)</span>
+          <span class="set-pill">Set C (Sources)</span>
+          <span class="set-pill">Set D (Assertion-Reason)</span>
+          <span class="set-pill">Set E (Case Study)</span>
+          <span class="set-pill">Set F (Speed)</span>
+          <span class="set-pill">Set G (Mastery)</span>
+        </div>
+      </div>
+
+      <!-- Direct PDF Downloads Strip -->
+      <div style="background: #f5f5f4; border: 1px solid #d6d3d1; border-radius: 8px; padding: 8px 10px;">
+        <div style="font-size: 11px; font-weight: 700; color: #57534e; margin-bottom: 6px;">
+          🖨️ DIRECT PRINT-READY A4 PDF DOWNLOAD:
+        </div>
+        <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+          <a href="PDF_Ready_To_Print/Class_9_SST_Ch09_Price_Puzzle_Set_A.pdf" target="_blank" class="pdf-pill" style="border-left: 3px solid #854d0e;">
+            📄 Download Set A Printable PDF (with OMR Sheet)
+          </a>
+        </div>
+      </div>
+    </div>
+        
+  </div>
+
+  <div style="margin-top: 35px; background: #ffffff; border: 1px solid #e7e5e4; border-radius: 10px; padding: 22px; font-size: 13px; color: #57534e; line-height: 1.6;">
+    <h3 style="margin-bottom: 8px; color: #1c1917; font-size: 15px;">📋 NCERT Social Science 4-Domain Integrated Roadmap:</h3>
+    <ul style="padding-left: 20px; margin: 0;">
+      <li><b>Introductory Foundations:</b> Chapter 1 (Understanding Social Science).</li>
+      <li><b>Geography:</b> Chapter 2 (Shaping of the Earth's Surface), Chapter 3 (Atmosphere and Climate).</li>
+      <li><b>History:</b> Chapter 4 (Early Humans and Beginning of Civilisation), Chapter 5 (State and Society up to 1000 CE).</li>
+      <li><b>Political Science:</b> Chapter 6 (Democracy), Chapter 7 (Elections).</li>
+      <li><b>Economics:</b> Chapter 8 (Building Blocks in Economics: The Problem of Choice), Chapter 9 (The Price Puzzle: What Drives the Market).</li>
+    </ul>
+  </div>
+
+</div>
+
+</body>
+</html>
