@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 Science - Cell: The Building Block of Life - SET B (HOTS)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<div class="screen-wrapper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="toolbar no-print">
+    <div class="toolbar-title">
+      <span>🔥 CBSE 9TH SCIENCE | CH 2 [SET B - HOTS]</span>
+      <span class="timer-badge" id="timerDisplay">45:00</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="btn btn-secondary" onclick="toggleTimer()" id="timerBtn">⏸️ Pause Timer</button>
+      <button class="btn btn-check" onclick="checkAnswers()">✔️ Check My Score</button>
+      <button class="btn btn-secondary" onclick="toggleAnswerKey()">📄 Toggle Key</button>
+      <button class="btn btn-print" onclick="window.print()">🖨️ Print Paper (A4)</button>
+    </div>
+  </div>
+
+  <!-- Professional Examination Header -->
+  <div class="exam-header">
+    <div class="school-name">CENTRAL BOARD OF SECONDARY EDUCATION</div>
+    <div class="exam-title">HALF-YEARLY PRACTICE EXAMINATION (SESSION 2024-2025)</div>
+    <div class="exam-title" style="font-size: 13.5px; color: #1e3a8a; margin-top: 3px; font-weight: 800;">
+      SUBJECT: SCIENCE (CLASS - IX) | CHAPTER 2: CELL: THE BUILDING BLOCK OF LIFE [SET B - ADVANCED HOTS]
+    </div>
+    <div class="exam-meta-line">
+      <span>TIME ALLOWED: 45 MINUTES</span>
+      <span>MAXIMUM MARKS: 25</span>
+      <span>PAPER CODE: 086/CH02/SET-B</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET B - Higher Order Thinking Skills):</h4>
+    <ol>
+      <li>The question paper comprises <b>25 Multiple Choice Questions (MCQs)</b> of <b>1 mark each</b>.</li>
+      <li><b>Section A (Q1 – Q15):</b> Advanced Conceptual and Numerical MCQs with single correct option.</li>
+      <li><b>Section B (Q16 – Q20):</b> Critical Assertion-Reasoning based questions testing analytical clarity.</li>
+      <li><b>Section C (Q21 – Q25):</b> Case-Study / Practical Experimental Data-interpretation questions.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding circle on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+    <div class="section-banner">
+      <span>SECTION A: ADVANCED & NUMERICAL MCQS (Q.1 TO Q.15)</span>
+      <span>[15 MARKS]</span>
+    </div>
+
+
+            <div class="question-card" id="qcard_1">
+              <div class="question-text">
+                <span class="question-number">Q.1</span>
+                Why are most biological cells microscopic in size rather than growing into giant macroscopic entities?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>They lack sufficient DNA to divide</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>As a cell grows, its volume increases faster than its surface area, limiting nutrient diffusion across the membrane</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Large cells are crushed by atmospheric air pressure</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Cell organelles cannot replicate inside large volumes</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_1"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_2">
+              <div class="question-text">
+                <span class="question-number">Q.2</span>
+                A student places peeled raw potato cups in three troughs: Trough A (water, empty cup), Trough B (water, cup filled with 10% sugar solution), and Trough C (boiled potato cup, filled with 10% sugar solution). Water collects inside the cup in:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Trough A only</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Trough B only</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Trough B and Trough C</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Trough C only</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_2"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_3">
+              <div class="question-text">
+                <span class="question-number">Q.3</span>
+                Which sequence correctly traces the intracellular pathway of a newly synthesized digestive enzyme from its site of manufacture to secretion outside the cell?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Golgi apparatus → Ribosome → RER → Plasma membrane</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Rough ER → Transport vesicle → Golgi apparatus → Secretory vesicle → Plasma membrane</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Smooth ER → Lysosome → Mitochondria → Plasma membrane</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Nucleus → Cytoplasm → Vacuole → Plasma membrane</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_3"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_4">
+              <div class="question-text">
+                <span class="question-number">Q.4</span>
+                Why does a plant cell not undergo lysis (bursting) when placed in pure distilled water, unlike a human red blood cell?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Plant cells do not absorb water in hypotonic solutions</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>The rigid cellulose cell wall exerts inward wall pressure equal and opposite to turgor pressure</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Plant cytoplasm contains zero dissolved solutes</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Plant cell membranes lack aquaporin channels</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_4"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_5">
+              <div class="question-text">
+                <span class="question-number">Q.5</span>
+                Which cellular organelle is intimately involved in membrane biogenesis (the synthesis of lipids and proteins required to build new cell membranes)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Lysosomes and Peroxisomes</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Endoplasmic Reticulum (RER for proteins, SER for lipids)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Centrioles and Centrosomes</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Plastids and Vacuoles</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_5"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_6">
+              <div class="question-text">
+                <span class="question-number">Q.6</span>
+                The inner mitochondrial membrane contains a high proportion of cardiolipin and is deeply folded into cristae. In which cells would you expect to find the highest density of cristae?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Dormant plant seed cells</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Sperm tail cells and avian flight muscle cells</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Subcutaneous adipose fat cells</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Dead cork bark cells</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_6"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_7">
+              <div class="question-text">
+                <span class="question-number">Q.7</span>
+                The primary structural component of the fungal cell wall that differs chemically from plant cellulose is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Peptidoglycan</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Chitin</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Pectin</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Glycogen</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_7"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_8">
+              <div class="question-text">
+                <span class="question-number">Q.8</span>
+                Amoeba engulfs food particles from its external environment by the inward folding of its flexible plasma membrane. This process is termed:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Plasmolysis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Endocytosis (Phagocytosis)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Exosmosis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Facilitated diffusion</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_8"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_9">
+              <div class="question-text">
+                <span class="question-number">Q.9</span>
+                Which of the following cellular structures lacks any surrounding membrane and is responsible for assembling ribosomal subunits inside the nucleus?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Nuclear envelope</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Nucleolus</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Golgi cisterna</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Peroxisome</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_9"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_10">
+              <div class="question-text">
+                <span class="question-number">Q.10</span>
+                What happens when green tomatoes ripen and transform into bright red tomatoes?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Chloroplasts transform into chromoplasts as chlorophyll degrades and carotenoids/lycopene accumulate</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Leucoplasts transform into chloroplasts</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Chromoplasts convert into vacuoles</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Cell walls dissolve completely</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_10"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_11">
+              <div class="question-text">
+                <span class="question-number">Q.11</span>
+                A cell with diploid chromosome number $2n = 16$ undergoes mitotic division. What will be the chromosome number in each of the two resulting daughter cells?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>8</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>16</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>32</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>4</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_11"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_12">
+              <div class="question-text">
+                <span class="question-number">Q.12</span>
+                If a germ cell with $2n = 16$ chromosomes undergoes meiosis to form gametes, how many daughter cells are produced and what is their chromosome count?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>2 cells with 16 chromosomes each</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>4 cells with 8 chromosomes each</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>4 cells with 16 chromosomes each</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>2 cells with 8 chromosomes each</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_12"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_13">
+              <div class="question-text">
+                <span class="question-number">Q.13</span>
+                Which organelle contains hydrolytic digestive enzymes that function optimally in an acidic luminal pH ($pprox 4.5 - 5.0$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Peroxisome</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Lysosome</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Mitochondrion</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Ribosome</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_13"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_14">
+              <div class="question-text">
+                <span class="question-number">Q.14</span>
+                The single membrane bounding the large central sap vacuole in plant cells is specifically designated as the:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Tonoplast</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Plasmalemma</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Pellicle</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Crista</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_14"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_15">
+              <div class="question-text">
+                <span class="question-number">Q.15</span>
+                Chromatin material is biochemically constituted of:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>DNA and histone proteins</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>RNA and lipids only</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Carbohydrates and minerals</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Pure double-stranded RNA</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_15"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION B: ASSERTION - REASON QUESTIONS (Q.16 TO Q.20)</span>
+      <span>[5 MARKS]</span>
+    </div>
+    <div style="background: #f8fafc; border: 1px solid #cbd5e1; padding: 6px 10px; font-size: 11.5px; border-radius: 4px; margin-bottom: 8px;">
+      <b>Directions for Q16 to Q20:</b> Select the correct option from the choices given below:<br>
+      <b>(A)</b> Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).<br>
+      <b>(B)</b> Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A).<br>
+      <b>(C)</b> Assertion (A) is true but Reason (R) is false.<br>
+      <b>(D)</b> Assertion (A) is false but Reason (R) is true (or both are false).
+    </div>
+
+
+            <div class="question-card" id="qcard_16">
+              <div class="question-text">
+                <span class="question-number">Q.16</span>
+                Assertion (A): Mitochondria and chloroplasts are described as semi-autonomous organelles.<br>Reason (R): They contain their own circular DNA genomes and 70S ribosomes, capable of self-replication and protein synthesis.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_16"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_17">
+              <div class="question-text">
+                <span class="question-number">Q.17</span>
+                Assertion (A): The plasma membrane is completely rigid and impermeable to water molecules.<br>Reason (R): The plasma membrane is composed of a continuous bilayer of cellulose fibers.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Both (A) and (R) are false.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_17"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_18">
+              <div class="question-text">
+                <span class="question-number">Q.18</span>
+                Assertion (A): Lysosomes are responsible for autolysis of worn-out cells.<br>Reason (R): When a cell is severely damaged or aging, lysosomes rupture and release powerful digestive enzymes that digest the cellular components.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_18"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_19">
+              <div class="question-text">
+                <span class="question-number">Q.19</span>
+                Assertion (A): Meiosis is essential for maintaining constant chromosome number across successive generations in sexually reproducing species.<br>Reason (R): Meiosis halves the chromosome number in gametes, which is subsequently restored upon fertilization.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_19"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_20">
+              <div class="question-text">
+                <span class="question-number">Q.20</span>
+                Assertion (A): Virchow's addition to the cell theory contradicted Schleiden and Schwann's original propositions.<br>Reason (R): Schleiden and Schwann claimed that all living things are composed of cells, whereas Virchow discovered the nucleus.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Both (A) and (R) are false.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_20"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION C: EXPERIMENTAL DATA & CASE STUDY (Q.21 TO Q.25)</span>
+      <span>[5 MARKS]</span>
+    </div>
+
+
+                    <div class="case-study-box">
+                      <h5>READING PASSAGE & EXPERIMENTAL SETUP:</h5>
+                      <p>Case Study: Microscopic Investigation of Plasmolysis in Rhoeo Leaf Epidermis<br>Students peel the lower purple epidermis of a fresh <i>Rhoeo discolor</i> leaf, which contains anthocyanin dye in its cell sap vacuoles. They mount the peel in a drop of water on Slide 1 and examine it under 400x magnification, noting bright purple protoplasts fully filling the polygonal cell walls. Next, they add 3 drops of concentrated 20% sucrose solution to Slide 2. Within 5 minutes, the purple protoplast contracts into an oval blob in the center, leaving clear gaps between the protoplast and the cell wall. Finally, they flush Slide 2 with excess fresh distilled water.</p>
+                    </div>
+                    
+            <div class="question-card" id="qcard_21">
+              <div class="question-text">
+                <span class="question-number">Q.21</span>
+                Why is <i>Rhoeo discolor</i> epidermis chosen specifically for this osmosis demonstration?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>It lacks a cell wall</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Its vacuoles contain natural purple anthocyanin pigment, making the protoplast boundary distinctly visible without artificial staining</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>It cannot undergo osmosis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Its cells are dead</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_21"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_22">
+              <div class="question-text">
+                <span class="question-number">Q.22</span>
+                The withdrawal of the purple protoplast away from the cell wall observed on Slide 2 is called:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Endosmosis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Plasmolysis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>De-plasmolysis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Cytokinesis</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_22"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_23">
+              <div class="question-text">
+                <span class="question-number">Q.23</span>
+                What fluid occupies the space between the shrunken protoplast and the cell wall on Slide 2?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Pure vacuum</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Air bubbles</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>The external hypertonic sucrose solution</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Pure water generated by the cell</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_23"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_24">
+              <div class="question-text">
+                <span class="question-number">Q.24</span>
+                When excess distilled water is added to flush the sucrose away from Slide 2, what phenomenon is observed?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>The cells burst immediately</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>De-plasmolysis occurs as water re-enters by endosmosis, restoring protoplast turgidity against the wall</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>The cells die permanently</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>The purple pigment disappears forever</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_24"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_25">
+              <div class="question-text">
+                <span class="question-number">Q.25</span>
+                If the <i>Rhoeo</i> leaf peel had been boiled in hot water for 5 minutes prior to adding sucrose solution, what would be seen under the microscope?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Plasmolysis would occur twice as fast</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>No plasmolysis would occur because boiling destroys living semi-permeable membranes</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Cells would double in volume</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Vacuoles would turn bright green</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_25"></div>
+            </div>
+            
+
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET B)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & IN-DEPTH EXPLANATIONS (SET B)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>In-Depth Conceptual & Numerical Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.1</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Surface area increases as $r^2$ while volume increases as $r^3$. A small cell maintains a high surface area to volume ratio ($SA/V$) necessary for rapid metabolic transport.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.2</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Water enters cup B by endosmosis across living selectively permeable potato cell membranes. In cup C, boiling killed cells, destroying osmotic selective permeability.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.3</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Proteins synthesized on ribosomes of the Rough ER are shuttled via transport vesicles to the Golgi for modification/sorting, then packaged into secretory vesicles for exocytosis.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.4</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>As water enters a plant cell, turgor pressure builds up; the rigid cellulose wall exerts equal inward wall pressure, halting further osmotic influx before bursting.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.5</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>RER synthesizes membrane proteins and SER synthesizes membrane lipids (phospholipids and cholesterol), together driving membrane biogenesis.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.6</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Cells with extreme, continuous energetic demands (such as avian flight muscles and motile sperm) require maximum cristae surface area to pack respiratory electron transport chains and ATP synthases.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.7</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Fungi possess cell walls constructed from chitin (a polymer of N-acetylglucosamine), whereas plants use cellulose.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.8</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>The fluidity and flexibility of the lipid bilayer allows amoeba to engulf external particulate food through endocytosis/phagocytosis.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.9</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>The nucleolus is a dense, non-membrane-bound subnuclear region where ribosomal RNA (rRNA) is transcribed and combined with proteins into ribosomal subunits.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.10</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>During ripening, chloroplasts structurally reconfigure into chromoplasts: green chlorophyll is broken down while red carotenoid pigments (like lycopene) are synthesized.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.11</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Mitosis is equational division. The parent chromosome number is exactly maintained ($2n = 16$ in both daughter cells).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.12</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Meiosis undergoes two successive nuclear divisions producing 4 haploid gametes, each having half ($n = 8$) the chromosome count of the parent cell.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.13</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Lysosomes maintain an acidic interior using proton pumps, optimizing the activity of acid hydrolases (proteases, nucleases, lipases).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.14</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>The tonoplast is the semi-permeable membrane enclosing the plant central vacuole, maintaining hydrostatic turgor pressure.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.15</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Chromatin consists of DNA wound around octamers of basic histone proteins to form nucleosome fibers.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.16</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Because they carry their own genetic machinery and divide by binary fission independently of nuclear division, they are semi-autonomous.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.17</td>
+              <td style="text-align: center;"><span class="ans-badge">(D)</span></td>
+              <td>Both statements are completely false. The plasma membrane is a flexible, fluid mosaic of phospholipids and proteins, highly permeable to water via aquaporins.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.18</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Lysosomal rupture during programmed cell death or necrotic injury releases hydrolytic enzymes that break down all macromolecular components of the dead cell.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.19</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>If gametes were diploid ($2n$), fertilization would double chromosomes every generation ($4n, 8n$). Meiosis produces haploid ($n$) gametes so $n + n = 2n$ is conserved.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.20</td>
+              <td style="text-align: center;"><span class="ans-badge">(D)</span></td>
+              <td>Both are false. Virchow expanded (did not contradict) cell theory by adding 'Omnis cellula-e cellula' (cells arise from pre-existing cells). Robert Brown discovered the nucleus.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.21</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Anthocyanin pigments dissolve in vacuolar sap, giving a vibrant violet hue that makes shrinking of the living protoplast easily visible.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.22</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Plasmolysis occurs when exosmosis draws water out of the central vacuole in a hypertonic medium, pulling the plasma membrane away from the wall.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.23</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>The cellulose cell wall is fully permeable to water and small solutes (like sucrose), allowing the external sucrose solution to occupy the gap.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.24</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>De-plasmolysis is the reversal of plasmolysis when cells are returned to a hypotonic medium before permanent damage occurs.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.25</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Boiling denatures proteins and disintegrates the lipid bilayer, killing cells and eliminating selective permeability.</td>
+            </tr>
+            
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "B", "2": "B", "3": "B", "4": "B", "5": "B", "6": "B", "7": "B", "8": "B", "9": "B", "10": "A", "11": "B", "12": "B", "13": "B", "14": "A", "15": "A", "16": "A", "17": "D", "18": "A", "19": "A", "20": "D", "21": "B", "22": "B", "23": "C", "24": "B", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET B Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nScroll down to examine detailed step-by-step solutions.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

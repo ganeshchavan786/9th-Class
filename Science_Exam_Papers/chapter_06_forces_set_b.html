@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 Science - How Forces Affect Motion - SET B (HOTS)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<div class="screen-wrapper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="toolbar no-print">
+    <div class="toolbar-title">
+      <span>🔥 CBSE 9TH SCIENCE | CH 6 [SET B - HOTS]</span>
+      <span class="timer-badge" id="timerDisplay">45:00</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="btn btn-secondary" onclick="toggleTimer()" id="timerBtn">⏸️ Pause Timer</button>
+      <button class="btn btn-check" onclick="checkAnswers()">✔️ Check My Score</button>
+      <button class="btn btn-secondary" onclick="toggleAnswerKey()">📄 Toggle Key</button>
+      <button class="btn btn-print" onclick="window.print()">🖨️ Print Paper (A4)</button>
+    </div>
+  </div>
+
+  <!-- Professional Examination Header -->
+  <div class="exam-header">
+    <div class="school-name">CENTRAL BOARD OF SECONDARY EDUCATION</div>
+    <div class="exam-title">HALF-YEARLY PRACTICE EXAMINATION (SESSION 2024-2025)</div>
+    <div class="exam-title" style="font-size: 13.5px; color: #1e3a8a; margin-top: 3px; font-weight: 800;">
+      SUBJECT: SCIENCE (CLASS - IX) | CHAPTER 6: HOW FORCES AFFECT MOTION [SET B - ADVANCED HOTS]
+    </div>
+    <div class="exam-meta-line">
+      <span>TIME ALLOWED: 45 MINUTES</span>
+      <span>MAXIMUM MARKS: 25</span>
+      <span>PAPER CODE: 086/CH06/SET-B</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET B - Higher Order Thinking Skills):</h4>
+    <ol>
+      <li>The question paper comprises <b>25 Multiple Choice Questions (MCQs)</b> of <b>1 mark each</b>.</li>
+      <li><b>Section A (Q1 – Q15):</b> Advanced Conceptual and Numerical MCQs with single correct option.</li>
+      <li><b>Section B (Q16 – Q20):</b> Critical Assertion-Reasoning based questions testing analytical clarity.</li>
+      <li><b>Section C (Q21 – Q25):</b> Case-Study / Practical Experimental Data-interpretation questions.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding circle on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+    <div class="section-banner">
+      <span>SECTION A: ADVANCED & NUMERICAL MCQS (Q.1 TO Q.15)</span>
+      <span>[15 MARKS]</span>
+    </div>
+
+
+            <div class="question-card" id="qcard_1">
+              <div class="question-text">
+                <span class="question-number">Q.1</span>
+                Two blocks of masses $m_1 = 4$ kg and $m_2 = 6$ kg in contact on a frictionless horizontal floor are pushed by a horizontal force of 20 N applied to $m_1$. What is the contact force between the two blocks?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>20 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>12 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>8 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>10 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_1"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_2">
+              <div class="question-text">
+                <span class="question-number">Q.2</span>
+                A man of mass 60 kg stands on a weighing scale inside an elevator. What does the scale read when the elevator accelerates downwards at 2 m/s² ($g = 10\text{ m/s}^2$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>600 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>720 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>480 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>0 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_2"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_3">
+              <div class="question-text">
+                <span class="question-number">Q.3</span>
+                If the elevator cable snaps and it falls freely under gravity ($a = g$), what will the weighing scale read?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>600 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>1200 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Zero (state of weightlessness)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>480 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_3"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_4">
+              <div class="question-text">
+                <span class="question-number">Q.4</span>
+                A constant force acts on an object of mass 5 kg for 0.2 s, changing its velocity from 2 m/s to 8 m/s. What is the magnitude of the impulse delivered to the object?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>30 N·s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>150 N·s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>15 N·s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>6 N·s</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_4"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_5">
+              <div class="question-text">
+                <span class="question-number">Q.5</span>
+                A 1200 kg car travelling at 25 m/s collides head-on with a barrier and stops in 0.05 s. What is the average braking force exerted on the car during collision?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>60,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>600,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>30,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>120,000 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_5"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_6">
+              <div class="question-text">
+                <span class="question-number">Q.6</span>
+                A rocket of initial mass $10,000$ kg ejects gas at a constant velocity of $1000$ m/s relative to the rocket at a rate of $50$ kg/s. What is the initial upward thrust force produced?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>50,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>5,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>500,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>10,000 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_6"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_7">
+              <div class="question-text">
+                <span class="question-number">Q.7</span>
+                A shell of mass 6 kg at rest explodes into two pieces of masses 2 kg and 4 kg. If the 2 kg piece flies off at 30 m/s, what is the speed of the 4 kg piece?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>30 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>15 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>60 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>10 m/s</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_7"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_8">
+              <div class="question-text">
+                <span class="question-number">Q.8</span>
+                A machine gun fires 20 bullets per second, each of mass 35 g with a velocity of 400 m/s. What average force must the soldier exert to hold the gun in place?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>140 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>280 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>560 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>70 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_8"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_9">
+              <div class="question-text">
+                <span class="question-number">Q.9</span>
+                A cricket ball of mass 150 g moving at 12 m/s is hit by a bat and returns along the same line at 20 m/s. If contact time is 0.02 s, the average force exerted by the bat is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>240 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>60 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>150 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>480 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_9"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_10">
+              <div class="question-text">
+                <span class="question-number">Q.10</span>
+                What is the force acting on a body if its momentum $p$ at any instant $t$ is given by $p = 5 t^2 + 2$ in SI units at $t = 3$ s?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>30 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>47 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>15 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>17 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_10"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_11">
+              <div class="question-text">
+                <span class="question-number">Q.11</span>
+                A block of mass 10 kg resting on a rough floor experiences a limiting static friction of 30 N. If a horizontal pulling force of 20 N is applied, the friction force is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>30 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>20 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>10 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Zero</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_11"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_12">
+              <div class="question-text">
+                <span class="question-number">Q.12</span>
+                Why does a heavy truck require a much greater stopping distance than a small motorcycle when both are travelling at 60 km/h?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Because the truck has greater velocity</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Because the truck has much larger mass, possessing vastly greater momentum and kinetic energy</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Because the truck has more wheels</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Because of wind drag</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_12"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_13">
+              <div class="question-text">
+                <span class="question-number">Q.13</span>
+                A stone of mass 1 kg tied to the end of a string is whirled in a horizontal circle of radius 1 m at 4 m/s. The tension force in the string is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>4 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>16 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>8 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>2 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_13"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_14">
+              <div class="question-text">
+                <span class="question-number">Q.14</span>
+                An archer pulls an arrow on a bow and releases it. Which pairs of forces represent Newton's third law action-reaction?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Gravity on arrow and tension in string</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Force exerted by bowstring forward on arrow and force exerted by arrow backward on string</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Weight of arrow and air resistance</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Muscles of archer and bow weight</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_14"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_15">
+              <div class="question-text">
+                <span class="question-number">Q.15</span>
+                If the momentum of an object is doubled, what happens to its kinetic energy?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>It is doubled</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>It increases four times</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>It remains constant</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>It is halved</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_15"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION B: ASSERTION - REASON QUESTIONS (Q.16 TO Q.20)</span>
+      <span>[5 MARKS]</span>
+    </div>
+    <div style="background: #f8fafc; border: 1px solid #cbd5e1; padding: 6px 10px; font-size: 11.5px; border-radius: 4px; margin-bottom: 8px;">
+      <b>Directions for Q16 to Q20:</b> Select the correct option from the choices given below:<br>
+      <b>(A)</b> Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).<br>
+      <b>(B)</b> Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A).<br>
+      <b>(C)</b> Assertion (A) is true but Reason (R) is false.<br>
+      <b>(D)</b> Assertion (A) is false but Reason (R) is true (or both are false).
+    </div>
+
+
+            <div class="question-card" id="qcard_16">
+              <div class="question-text">
+                <span class="question-number">Q.16</span>
+                Assertion (A): A horse cannot pull a cart in deep outer space where there is no ground.<br>Reason (R): To accelerate forward, the horse's hooves must push backward against the ground so the ground pushes the horse-cart forward by reaction.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_16"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_17">
+              <div class="question-text">
+                <span class="question-number">Q.17</span>
+                Assertion (A): Modern car bumpers and crumple zones are designed to collapse easily upon severe collision.<br>Reason (R): Collapsing extends the duration of the impact, thereby reducing the peak retarding force experienced by passengers.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_17"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_18">
+              <div class="question-text">
+                <span class="question-number">Q.18</span>
+                Assertion (A): A person stepping out of a rowing boat onto the riverbank causes the boat to move backwards.<br>Reason (R): The foot pushes the boat backward to gain the forward momentum needed to step onto the bank.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_18"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_19">
+              <div class="question-text">
+                <span class="question-number">Q.19</span>
+                Assertion (A): Newton's first law of motion is often referred to as the law of inertia.<br>Reason (R): Inertia is the inherent resistance of an object to changes in its state of rest or uniform motion.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_19"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_20">
+              <div class="question-text">
+                <span class="question-number">Q.20</span>
+                Assertion (A): When a glass tumbler falls on a cement floor, it breaks, but when it falls on a carpet from the same height, it does not break.<br>Reason (R): The carpet exerts zero total impulse on the falling tumbler.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_20"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION C: EXPERIMENTAL DATA & CASE STUDY (Q.21 TO Q.25)</span>
+      <span>[5 MARKS]</span>
+    </div>
+
+
+                    <div class="case-study-box">
+                      <h5>READING PASSAGE & EXPERIMENTAL SETUP:</h5>
+                      <p>Case Study: Automobile Crash Test & Airbag Dynamics<br>In a national vehicle safety assessment, a test car of total mass 1500 kg travelling at 54 km/h (15 m/s) collides with a rigid concrete wall. An anthropomorphic test dummy of mass 70 kg is restrained in the driver's seat. Two test cases are examined:<br>• <b>Case 1 (Without Airbag):</b> The dummy impacts the rigid steering wheel directly, coming to a dead stop in just 0.01 seconds.<br>• <b>Case 2 (With Airbag):</b> The deployed airbag cushions the dummy, compressing smoothly and bringing the dummy to rest over 0.15 seconds.</p>
+                    </div>
+                    
+            <div class="question-card" id="qcard_21">
+              <div class="question-text">
+                <span class="question-number">Q.21</span>
+                What is the initial momentum of the 70 kg dummy before impact?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>700 kg·m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>1050 kg·m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>3780 kg·m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>1500 kg·m/s</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_21"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_22">
+              <div class="question-text">
+                <span class="question-number">Q.22</span>
+                In Case 1 (without airbag), what is the average retarding force exerted on the dummy's chest?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>10,500 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>105,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>70,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>1,050 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_22"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_23">
+              <div class="question-text">
+                <span class="question-number">Q.23</span>
+                In Case 2 (with airbag), what is the average force exerted on the dummy?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>7,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>105,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>70,000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>15,000 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_23"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_24">
+              <div class="question-text">
+                <span class="question-number">Q.24</span>
+                By what factor does the airbag reduce the peak impact force in this crash scenario?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>5 times</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>10 times</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>15 times</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>20 times</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_24"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_25">
+              <div class="question-text">
+                <span class="question-number">Q.25</span>
+                What fundamental law of physics explains the primary protective mechanism of the airbag?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Newton's first law only</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Impulse-momentum relationship ($F = \Delta p / \Delta t$)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Law of conservation of energy only</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Pascal's hydraulic law</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_25"></div>
+            </div>
+            
+
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET B)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & IN-DEPTH EXPLANATIONS (SET B)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>In-Depth Conceptual & Numerical Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.1</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Common acceleration $a = \frac{F}{m_1 + m_2} = \frac{20}{4 + 6} = 2\text{ m/s}^2$. Contact force pushing $m_2$ is $F_c = m_2 a = 6 \times 2 = 12$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.2</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>Apparent weight $N = m(g - a) = 60(10 - 2) = 60 \times 8 = 480$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.3</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>$N = m(g - g) = 0$. In free fall, contact normal force vanishes, producing apparent weightlessness.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.4</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\text{Impulse} = \Delta p = m(v - u) = 5(8 - 2) = 5 \times 6 = 30\text{ N}\cdot\text{s}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.5</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$F = \frac{m \Delta v}{\Delta t} = \frac{1200 \times 25}{0.05} = \frac{30,000}{0.05} = 600,000$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.6</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\text{Thrust } F = v_{rel} \frac{\Delta m}{\Delta t} = 1000 \times 50 = 50,000$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.7</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$m_1 v_1 + m_2 v_2 = 0 \Rightarrow 2(30) + 4(v_2) = 0 \Rightarrow 4 v_2 = -60 \Rightarrow v_2 = -15$ m/s. Speed $= 15$ m/s in opposite direction.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.8</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Mass per second $= 20 \times 0.035 = 0.70$ kg/s. $F = \frac{\Delta p}{\Delta t} = 0.70 \times 400 = 280$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.9</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\Delta v = 20 - (-12) = 32$ m/s. $F = \frac{0.15 \times 32}{0.02} = \frac{4.8}{0.02} = 240$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.10</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Force is the derivative of momentum: $F = \frac{dp}{dt} = 10 t$. At $t = 3$ s, $F = 10(3) = 30$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.11</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Static friction is self-adjusting up to its maximum limiting value (30 N). When 20 N is applied, static friction exactly equals 20 N to keep the block stationary.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.12</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>With identical velocity, the massive truck has much greater momentum ($p=mv$). For the same braking force, $\Delta t$ and stopping distance are much longer.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.13</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$\text{Centripetal force } F = \frac{m v^2}{r} = \frac{1 \times 4^2}{1} = 16$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.14</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>The bowstring pushes the arrow forward (action), while the arrow simultaneously exerts an equal and opposite backward force on the string (reaction).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.15</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$E_k = \frac{p^2}{2m}$. If momentum becomes $2p$, kinetic energy becomes $\frac{(2p)^2}{2m} = 4 \left(\frac{p^2}{2m}\right) = 4 E_k$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.16</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Walking or pulling requires horizontal contact friction. Pushing backward on ground yields the forward reaction that accelerates horse and cart.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.17</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Crumple zones absorb collision energy by deforming over a longer time $\Delta t$, lowering impact acceleration ($F = \Delta p / \Delta t$) to survivable levels.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.18</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Newton's third law: pushing backward on the boat (action) produces the forward reaction pushing the person to the bank; momentum conservation moves the boat backward.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.19</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>The first law formalizes Galileo's concept of inertia: an object maintains its velocity unless compelled to change by an external net force.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.20</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>Assertion is true. Reason is false: The total impulse $\Delta p$ is identical in both cases, but the soft carpet increases impact time $\Delta t$, reducing force below the glass fracture threshold.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.21</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$p = m v = 70\text{ kg} \times 15\text{ m/s} = 1050\text{ kg}\cdot\text{m/s}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.22</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$F = \frac{\Delta p}{\Delta t} = \frac{1050}{0.01} = 105,000$ N (105 kN, fatal magnitude!).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.23</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$F = \frac{1050}{0.15} = 7,000$ N (7 kN, survivable with seatbelt load limiters).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.24</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>$\frac{105,000}{7,000} = 15$ times lower force.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.25</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>For a fixed change in momentum $\Delta p$, increasing impact duration $\Delta t$ proportionally reduces the net destructive force $F$.</td>
+            </tr>
+            
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "B", "2": "C", "3": "C", "4": "A", "5": "B", "6": "A", "7": "B", "8": "B", "9": "A", "10": "A", "11": "B", "12": "B", "13": "B", "14": "B", "15": "B", "16": "A", "17": "A", "18": "A", "19": "A", "20": "C", "21": "B", "22": "B", "23": "A", "24": "C", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET B Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nScroll down to examine detailed step-by-step solutions.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

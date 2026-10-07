@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 Science - Exploration: Entering the World of Secondary Science - SET B (HOTS)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<div class="screen-wrapper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="toolbar no-print">
+    <div class="toolbar-title">
+      <span>🔥 CBSE 9TH SCIENCE | CH 1 [SET B - HOTS]</span>
+      <span class="timer-badge" id="timerDisplay">45:00</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="btn btn-secondary" onclick="toggleTimer()" id="timerBtn">⏸️ Pause Timer</button>
+      <button class="btn btn-check" onclick="checkAnswers()">✔️ Check My Score</button>
+      <button class="btn btn-secondary" onclick="toggleAnswerKey()">📄 Toggle Key</button>
+      <button class="btn btn-print" onclick="window.print()">🖨️ Print Paper (A4)</button>
+    </div>
+  </div>
+
+  <!-- Professional Examination Header -->
+  <div class="exam-header">
+    <div class="school-name">CENTRAL BOARD OF SECONDARY EDUCATION</div>
+    <div class="exam-title">HALF-YEARLY PRACTICE EXAMINATION (SESSION 2024-2025)</div>
+    <div class="exam-title" style="font-size: 13.5px; color: #1e3a8a; margin-top: 3px; font-weight: 800;">
+      SUBJECT: SCIENCE (CLASS - IX) | CHAPTER 1: EXPLORATION: ENTERING THE WORLD OF SECONDARY SCIENCE [SET B - ADVANCED HOTS]
+    </div>
+    <div class="exam-meta-line">
+      <span>TIME ALLOWED: 45 MINUTES</span>
+      <span>MAXIMUM MARKS: 25</span>
+      <span>PAPER CODE: 086/CH01/SET-B</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET B - Higher Order Thinking Skills):</h4>
+    <ol>
+      <li>The question paper comprises <b>25 Multiple Choice Questions (MCQs)</b> of <b>1 mark each</b>.</li>
+      <li><b>Section A (Q1 – Q15):</b> Advanced Conceptual and Numerical MCQs with single correct option.</li>
+      <li><b>Section B (Q16 – Q20):</b> Critical Assertion-Reasoning based questions testing analytical clarity.</li>
+      <li><b>Section C (Q21 – Q25):</b> Case-Study / Practical Experimental Data-interpretation questions.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding circle on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+    <div class="section-banner">
+      <span>SECTION A: ADVANCED & NUMERICAL MCQS (Q.1 TO Q.15)</span>
+      <span>[15 MARKS]</span>
+    </div>
+
+
+            <div class="question-card" id="qcard_1">
+              <div class="question-text">
+                <span class="question-number">Q.1</span>
+                The main scale of a vernier caliper reads in millimeters. If 10 vernier scale divisions coincide with 9 main scale divisions, what is the least count of the instrument?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>0.1 mm (0.01 cm)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>1.0 mm (0.1 cm)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>0.01 mm (0.001 cm)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>0.9 mm (0.09 cm)</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_1"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_2">
+              <div class="question-text">
+                <span class="question-number">Q.2</span>
+                When the jaws of a screw gauge are brought into contact, the zero of the circular scale lies 3 divisions below the reference datum line. This zero error is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Positive zero error (must be subtracted from observed reading)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Negative zero error (must be added to observed reading)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Random parallax error</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Instrumental backlash error</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_2"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_3">
+              <div class="question-text">
+                <span class="question-number">Q.3</span>
+                A student measures the mass of an object as 25.0 g and its volume as 10.0 cm³. What is the density expressed with the correct number of significant figures?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>2.5 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>2.50 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>2.500 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>0.40 g/cm³</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_3"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_4">
+              <div class="question-text">
+                <span class="question-number">Q.4</span>
+                Which of the following is equivalent to 1 kilogram per cubic meter ($1\text{ kg/m}^3$) in CGS units?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$1000\text{ g/cm}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$10^{-3}\text{ g/cm}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$100\text{ g/cm}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$10^{-6}\text{ g/cm}^3$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_4"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_5">
+              <div class="question-text">
+                <span class="question-number">Q.5</span>
+                A student measures a wire's diameter as 2.4 mm, 2.5 mm, 2.4 mm, and 2.7 mm. The mean diameter of the wire is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>2.5 mm</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>2.4 mm</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>2.6 mm</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>2.45 mm</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_5"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_6">
+              <div class="question-text">
+                <span class="question-number">Q.6</span>
+                When heating an inflammable liquid such as ethanol in a chemistry laboratory, which apparatus should always be employed to avoid fire hazard?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Direct heating over an open Bunsen flame</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>A thermostatically controlled water bath</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>A blowpipe flame</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Direct heating in an open silica crucible</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_6"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_7">
+              <div class="question-text">
+                <span class="question-number">Q.7</span>
+                An irregular stone of mass 78 g is lowered into a measuring cylinder containing 45 mL of water. The water level rises to 55 mL. What is the density of the stone?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>1.42 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>7.8 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>0.78 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>780 g/cm³</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_7"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_8">
+              <div class="question-text">
+                <span class="question-number">Q.8</span>
+                How many millimeters are there in $3.5 \times 10^{-2}$ kilometers?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$35,000\text{ mm}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$3,500\text{ mm}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$350\text{ mm}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$350,000\text{ mm}$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_8"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_9">
+              <div class="question-text">
+                <span class="question-number">Q.9</span>
+                In an experiment plotting rate of gas production against temperature, what is the best curve fit when data points show slight experimental scatter?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Connecting every individual point with zig-zag sharp lines</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Drawing a smooth line/curve of best fit that balances points on either side</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Ignoring all points except the first and last</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Drawing a horizontal line through the origin</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_9"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_10">
+              <div class="question-text">
+                <span class="question-number">Q.10</span>
+                A piece of copper of mass 89 g is combined with 178 g of another metal of density 8.9 g/cm³ to form a uniform alloy. If copper density is 8.9 g/cm³, what is the total volume of the alloy?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>10 cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>20 cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>30 cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>40 cm³</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_10"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_11">
+              <div class="question-text">
+                <span class="question-number">Q.11</span>
+                Which SI base unit is defined by fixing the numerical value of the Planck constant $h$ to exactly $6.62607015 \times 10^{-34}$ in units of $J \cdot s$?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Meter</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Second</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Kilogram</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Ampere</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_11"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_12">
+              <div class="question-text">
+                <span class="question-number">Q.12</span>
+                When observing mercury in a glass tube, the meniscus curves upward (convex). The correct reading is taken at:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>The lowest point of the meniscus</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>The highest central point (crest) of the meniscus</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>The boundary touching the glass wall</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>The mid-point of the meniscus curve</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_12"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_13">
+              <div class="question-text">
+                <span class="question-number">Q.13</span>
+                A stopwatch has a smallest division of 0.2 s. A runner's time is recorded as 12.4 s. The percentage uncertainty in this single reading is approximately:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>1.6%</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>0.2%</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>5.0%</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>0.8%</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_13"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_14">
+              <div class="question-text">
+                <span class="question-number">Q.14</span>
+                Which of the following variables must be manipulated to test if plant height depends on light intensity?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Keep light intensity constant while changing soil type</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Vary light intensity while keeping soil, water, and temperature identical</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Vary water, fertilizer, and light intensity simultaneously</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Keep all plants in complete darkness</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_14"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_15">
+              <div class="question-text">
+                <span class="question-number">Q.15</span>
+                Which hazardous chemical symbol displays a skull and crossbones inside a red diamond frame?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Flammable substance</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Acute severe toxicity / Poison</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Corrosive to metals and skin</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Explosive material</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_15"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION B: ASSERTION - REASON QUESTIONS (Q.16 TO Q.20)</span>
+      <span>[5 MARKS]</span>
+    </div>
+    <div style="background: #f8fafc; border: 1px solid #cbd5e1; padding: 6px 10px; font-size: 11.5px; border-radius: 4px; margin-bottom: 8px;">
+      <b>Directions for Q16 to Q20:</b> Select the correct option from the choices given below:<br>
+      <b>(A)</b> Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).<br>
+      <b>(B)</b> Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A).<br>
+      <b>(C)</b> Assertion (A) is true but Reason (R) is false.<br>
+      <b>(D)</b> Assertion (A) is false but Reason (R) is true (or both are false).
+    </div>
+
+
+            <div class="question-card" id="qcard_16">
+              <div class="question-text">
+                <span class="question-number">Q.16</span>
+                Assertion (A): Systematic errors cannot be completely eliminated by taking the arithmetic average of a large number of readings.<br>Reason (R): Systematic errors consistently skew measurements in one specific direction (consistently too high or consistently too low).
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_16"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_17">
+              <div class="question-text">
+                <span class="question-number">Q.17</span>
+                Assertion (A): A hypothesis must be capable of being disproven (falsifiable) to be considered scientific.<br>Reason (R): A statement that cannot be tested or refuted by any possible empirical observation lies outside the domain of science.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_17"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_18">
+              <div class="question-text">
+                <span class="question-number">Q.18</span>
+                Assertion (A): Density is an intensive physical property of a homogeneous pure substance.<br>Reason (R): The ratio of mass to volume remains constant regardless of the total quantity of the substance taken.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_18"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_19">
+              <div class="question-text">
+                <span class="question-number">Q.19</span>
+                Assertion (A): When smelling chemical vapors in a laboratory, one should inhale deeply with the nose directly over the open container.<br>Reason (R): Deep inhalation allows accurate sensory classification of chemical odors.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Both (A) and (R) are false.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_19"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_20">
+              <div class="question-text">
+                <span class="question-number">Q.20</span>
+                Assertion (A): SI units are based on decimal multiples and sub-multiples.<br>Reason (R): Converting between units in the metric SI system simply involves multiplying or dividing by powers of ten.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_20"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION C: EXPERIMENTAL DATA & CASE STUDY (Q.21 TO Q.25)</span>
+      <span>[5 MARKS]</span>
+    </div>
+
+
+                    <div class="case-study-box">
+                      <h5>READING PASSAGE & EXPERIMENTAL SETUP:</h5>
+                      <p>Case Study: Calibrating and Measuring Metal Alloy Density<br>An engineer wants to find the exact density of a newly fabricated metallic cylinder. Using a vernier caliper with a least count of 0.01 cm, she measures the diameter $D = 2.00$ cm and height $H = 5.00$ cm. Using an electronic analytical balance, the mass of the cylinder is determined to be $125.60$ g. Take $\pi = 3.14$.</p>
+                    </div>
+                    
+            <div class="question-card" id="qcard_21">
+              <div class="question-text">
+                <span class="question-number">Q.21</span>
+                What is the radius $r$ of the metallic cylinder in centimeters?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>1.00 cm</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>2.00 cm</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>0.50 cm</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>4.00 cm</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_21"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_22">
+              <div class="question-text">
+                <span class="question-number">Q.22</span>
+                What is the calculated volume of the cylinder using $V = \pi r^2 H$?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$15.70\text{ cm}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$31.40\text{ cm}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$62.80\text{ cm}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$7.85\text{ cm}^3$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_22"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_23">
+              <div class="question-text">
+                <span class="question-number">Q.23</span>
+                What is the density of the metal cylinder calculated from the measurements?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>8.00 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>4.00 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>12.56 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>1.57 g/cm³</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_23"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_24">
+              <div class="question-text">
+                <span class="question-number">Q.24</span>
+                If the metal cylinder is made of stainless steel (density 8.00 g/cm³), what will be its density expressed in SI units ($	ext{kg/m}^3$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$800\text{ kg/m}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$8,000\text{ kg/m}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$80,000\text{ kg/m}^3$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$80\text{ kg/m}^3$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_24"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_25">
+              <div class="question-text">
+                <span class="question-number">Q.25</span>
+                If the electronic balance had a zero error of $+0.60$ g that was uncorrected, what was the true mass and true density of the cylinder?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>126.20 g and 8.04 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>125.00 g and 7.96 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>125.00 g and 8.00 g/cm³</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>124.40 g and 7.90 g/cm³</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_25"></div>
+            </div>
+            
+
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET B)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & IN-DEPTH EXPLANATIONS (SET B)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>In-Depth Conceptual & Numerical Solution</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.1</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Least Count $= 1\text{ MSD} - 1\text{ VSD} = 1\text{ mm} - 0.9\text{ mm} = 0.1\text{ mm} = 0.01\text{ cm}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.2</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>When the zero of the circular scale lies below the reference line, the gauge reads positive without load. Hence it is positive zero error and must be subtracted from the final reading.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.3</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Both 25.0 g and 10.0 cm³ have 3 significant figures. The quotient $25.0 / 10.0 = 2.50\text{ g/cm}^3$ must also have 3 significant figures.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.4</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$1\text{ kg/m}^3 = \frac{1000\text{ g}}{(100\text{ cm})^3} = \frac{10^3}{10^6}\text{ g/cm}^3 = 10^{-3}\text{ g/cm}^3$ (or $0.001\text{ g/cm}^3$).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.5</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\text{Mean} = \frac{2.4 + 2.5 + 2.4 + 2.7}{4} = \frac{10.0}{4} = 2.5\text{ mm}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.6</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Ethanol is highly inflammable (boils at 78°C). Its vapors can ignite easily; hence it must be heated inside a boiling water bath, never directly over an open flame.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.7</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$\text{Displaced volume} = 55 - 45 = 10\text{ mL} = 10\text{ cm}^3$. $\text{Density} = \frac{\text{Mass}}{\text{Volume}} = \frac{78\text{ g}}{10\text{ cm}^3} = 7.8\text{ g/cm}^3$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.8</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$1\text{ km} = 10^6\text{ mm}$. Therefore, $3.5 \times 10^{-2} \times 10^6 = 3.5 \times 10^4 = 35,000\text{ mm}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.9</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>A line or curve of best fit minimizes random observational errors by showing the overall mathematical trend rather than connecting random fluctuations.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.10</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>$V_{Cu} = 89 / 8.9 = 10\text{ cm}^3$. $V_{metal} = 178 / 8.9 = 20\text{ cm}^3$. $\text{Total volume} = 10 + 20 = 30\text{ cm}^3$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.11</td>
+              <td style="text-align: center;"><span class="ans-badge">(C)</span></td>
+              <td>Under the revised SI definitions (2019), the kilogram (kg) is defined based on the fundamental Planck constant $h$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.12</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>Mercury does not wet glass (cohesive forces exceed adhesive forces), forming a convex meniscus. Hence, the reading is taken at the top/crest at eye level.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.13</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\text{Percentage uncertainty} = \frac{\text{Least count}}{\text{Measured value}} \times 100 = \frac{0.2}{12.4} \times 100 \approx 1.61\%$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.14</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>A valid scientific test changes only the independent variable (light intensity) while keeping all other confounding variables strictly controlled.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.15</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>The Globally Harmonized System (GHS) skull and crossbones pictogram denotes acute severe toxicity (fatal or poisonous upon exposure).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.16</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Averaging reduces random Gaussian errors, but systematic errors (like zero error or faulty calibration) always shift readings unidirectionally, so averaging cannot eliminate them.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.17</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>According to the scientific method (Karl Popper's criterion of falsifiability), scientific hypotheses must make testable predictions that could potentially fail in experiments.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.18</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>Intensive properties do not depend on system size or amount of material. Since doubling mass also doubles volume, the ratio (density) remains constant.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.19</td>
+              <td style="text-align: center;"><span class="ans-badge">(D)</span></td>
+              <td>Both statements are completely false and dangerous! Never inhale directly; gently waft vapors towards the nose using your hand from a safe distance.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.20</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>The metric SI system uses base 10 prefixes (kilo, mega, centi, milli, micro), making mathematical conversion straightforward without arbitrary conversion fractions.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.21</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\text{Radius } r = D / 2 = 2.00 / 2 = 1.00\text{ cm}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.22</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$V = \pi r^2 H = 3.14 \times (1.00)^2 \times 5.00 = 15.70\text{ cm}^3$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.23</td>
+              <td style="text-align: center;"><span class="ans-badge">(A)</span></td>
+              <td>$\text{Density} = \frac{\text{Mass}}{\text{Volume}} = \frac{125.60\text{ g}}{15.70\text{ cm}^3} = 8.00\text{ g/cm}^3$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.24</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>To convert from $\text{g/cm}^3$ to $\text{kg/m}^3$, multiply by 1000: $8.00 \times 1000 = 8,000\text{ kg/m}^3$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.25</td>
+              <td style="text-align: center;"><span class="ans-badge">(B)</span></td>
+              <td>$\text{True mass} = 125.60 - 0.60 = 125.00\text{ g}$. $\text{True density} = 125.00 / 15.70 \approx 7.96\text{ g/cm}^3$.</td>
+            </tr>
+            
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "A", "2": "A", "3": "B", "4": "B", "5": "A", "6": "B", "7": "B", "8": "A", "9": "B", "10": "C", "11": "C", "12": "B", "13": "A", "14": "B", "15": "B", "16": "A", "17": "A", "18": "A", "19": "D", "20": "A", "21": "A", "22": "A", "23": "A", "24": "B", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET B Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nScroll down to examine detailed step-by-step solutions.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

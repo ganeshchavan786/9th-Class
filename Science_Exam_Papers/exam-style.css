@@ -1,0 +1,496 @@
+/* ==========================================================================
+   CBSE CLASS IX SCIENCE - PROFESSIONAL EXAMINATION PRINT STYLESHEET
+   ========================================================================== */
+
+:root {
+  --primary-color: #1a365d;
+  --secondary-color: #2b6cb0;
+  --text-color: #1a202c;
+  --border-color: #2d3748;
+  --light-bg: #f7fafc;
+  --highlight: #ebf8ff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Calibri", "Segoe UI", Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+  background-color: #e2e8f0;
+  line-height: 1.45;
+  font-size: 13.5px;
+}
+
+/* Screen Interactive Container */
+.screen-wrapper {
+  max-width: 900px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 30px 35px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+}
+
+/* Control Toolbar (Hidden in Print) */
+.toolbar {
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+  background: #1a365d;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(26, 54, 93, 0.3);
+}
+
+.toolbar-title {
+  font-weight: 700;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toolbar-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn {
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-print {
+  background: #38a169;
+  color: #fff;
+}
+.btn-print:hover {
+  background: #2f855a;
+}
+
+.btn-secondary {
+  background: #edf2f7;
+  color: #2d3748;
+}
+.btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+.btn-check {
+  background: #dd6b20;
+  color: #fff;
+}
+.btn-check:hover {
+  background: #c05621;
+}
+
+.timer-badge {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Examination Paper Header */
+.exam-header {
+  text-align: center;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.school-name {
+  font-size: 19px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #0f172a;
+}
+
+.exam-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 2px;
+}
+
+.exam-meta-line {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 6px;
+  padding: 4px 6px;
+  background: var(--light-bg);
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+}
+
+/* Student Information Block */
+.student-info-box {
+  border: 1.5px solid var(--border-color);
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-bottom: 14px;
+  font-size: 12.5px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.info-row:last-child {
+  margin-bottom: 0;
+}
+
+.info-field {
+  flex: 1;
+}
+
+.dotted-line {
+  display: inline-block;
+  border-bottom: 1px dotted #000;
+  min-width: 140px;
+  vertical-align: bottom;
+  height: 16px;
+}
+
+/* General Instructions Box */
+.instructions-box {
+  background-color: #f8fafc;
+  border-left: 4px solid var(--secondary-color);
+  border-right: 1px solid #e2e8f0;
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  font-size: 12px;
+}
+
+.instructions-box h4 {
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  color: #1e293b;
+}
+
+.instructions-box ol {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.instructions-box li {
+  margin-bottom: 2px;
+}
+
+/* Section Dividers */
+.section-banner {
+  background-color: #edf2f7;
+  border-top: 1.5px solid var(--border-color);
+  border-bottom: 1.5px solid var(--border-color);
+  padding: 4px 8px;
+  font-weight: 800;
+  font-size: 12.5px;
+  text-transform: uppercase;
+  margin: 16px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Questions Grid & Styling */
+.questions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.question-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 9px 12px;
+  background: #ffffff;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  transition: border-color 0.2s;
+}
+
+.question-text {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #0f172a;
+}
+
+.question-number {
+  font-weight: 800;
+  margin-right: 6px;
+  color: #1e3a8a;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 12px;
+  margin-left: 10px;
+}
+
+.option-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  font-size: 12.5px;
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.option-item:hover {
+  background-color: #f1f5f9;
+}
+
+.option-item input[type="radio"] {
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.option-letter {
+  font-weight: 700;
+}
+
+/* Case Study / Reading Source Box */
+.case-study-box {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid #475569;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 3px;
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.case-study-box h5 {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #0f172a;
+}
+
+/* OMR Sheet Design */
+.omr-section {
+  margin-top: 25px;
+  border: 1.5px solid #000;
+  padding: 14px 18px;
+  border-radius: 4px;
+  background: #fff;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.omr-title {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+.omr-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px 12px;
+  font-size: 11.5px;
+}
+
+.omr-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  padding: 3px 6px;
+  border-radius: 3px;
+}
+
+.omr-qnum {
+  font-weight: 700;
+  min-width: 22px;
+}
+
+.omr-bubbles {
+  display: flex;
+  gap: 4px;
+}
+
+.bubble {
+  width: 17px;
+  height: 17px;
+  border: 1.2px solid #334155;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 9.5px;
+  font-weight: bold;
+  color: #334155;
+}
+
+/* Answer Key & Explanations (Prints on separate page) */
+.answers-section {
+  margin-top: 35px;
+  padding-top: 15px;
+  border-top: 2px dashed #94a3b8;
+  page-break-before: always;
+  break-before: page;
+}
+
+.answers-header {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #0f172a;
+  text-transform: uppercase;
+}
+
+.answer-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.answer-table th, .answer-table td {
+  border: 1px solid #cbd5e1;
+  padding: 5px 8px;
+  text-align: left;
+}
+
+.answer-table th {
+  background-color: #f1f5f9;
+  font-weight: 700;
+}
+
+.answer-table tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+.ans-badge {
+  display: inline-block;
+  background: #1e3a8a;
+  color: #fff;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+/* Interactive Feedback */
+.feedback-msg {
+  display: none;
+  margin-top: 5px;
+  padding: 4px 8px;
+  font-size: 11.5px;
+  border-radius: 3px;
+}
+.feedback-correct {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #86efac;
+}
+.feedback-wrong {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+}
+
+/* ==========================================================================
+   PRINT OPTIMIZATIONS (@media print)
+   ========================================================================== */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 14mm 12mm 14mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    font-size: 11.5pt;
+    line-height: 1.35;
+    color: #000000 !important;
+  }
+
+  .screen-wrapper {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .toolbar {
+    display: none !important;
+  }
+
+  .question-card {
+    border: none !important;
+    border-bottom: 0.5px solid #d1d5db !important;
+    padding: 5px 0 !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+    background: transparent !important;
+  }
+
+  .options-grid {
+    gap: 2px 10px !important;
+  }
+
+  .option-item {
+    padding: 1px 0 !important;
+  }
+
+  .option-item input[type="radio"] {
+    display: none !important;
+  }
+
+  .answers-section {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+
+  .omr-section {
+    page-break-before: auto !important;
+    break-inside: avoid !important;
+  }
+
+  .dotted-line {
+    border-bottom: 1px solid #000 !important;
+  }
+}

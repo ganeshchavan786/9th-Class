@@ -1,0 +1,10 @@
+# Large NCERT raw downloads
+iesc1dd/
+iest1dd/
+*.zip
+*.tar.gz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 - All Subjects Examination Portal</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <style>
+    body {
+      background: #f8fafc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #0f172a;
+    }
+    .portal-container {
+      max-width: 1050px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+    .master-header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 50%, #312e81 100%);
+      color: #ffffff;
+      padding: 40px;
+      border-radius: 14px;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.25);
+      margin-bottom: 35px;
+    }
+    .master-header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+    .master-header p {
+      font-size: 15px;
+      color: #cbd5e1;
+      line-height: 1.6;
+      max-width: 800px;
+    }
+    .master-stats {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .stat-pill {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(8px);
+      padding: 7px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+    .subjects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+      gap: 25px;
+    }
+    .subject-card {
+      background: #ffffff;
+      border: 1.5px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 26px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .subject-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    }
+    .card-active {
+      border-color: #3b82f6;
+    }
+    .card-active::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #2563eb, #38bdf8);
+    }
+    .card-ready {
+      border-color: #10b981;
+    }
+    .card-ready::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(90deg, #10b981, #34d399);
+    }
+    .card-upcoming {
+      border-color: #cbd5e1;
+      opacity: 0.9;
+    }
+    .subject-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+    .subject-icon-title {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .subject-icon {
+      font-size: 32px;
+    }
+    .subject-name {
+      font-size: 19px;
+      font-weight: 800;
+      color: #0f172a;
+    }
+    .status-badge {
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .badge-live {
+      background: #dcfce7;
+      color: #166534;
+      border: 1px solid #86efac;
+    }
+    .badge-ready {
+      background: #fef3c7;
+      color: #92400e;
+      border: 1px solid #fde68a;
+    }
+    .badge-queue {
+      background: #f1f5f9;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+    }
+    .subject-desc {
+      font-size: 13.5px;
+      color: #475569;
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
+    .subject-features {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+      font-size: 12.5px;
+      color: #334155;
+    }
+    .subject-features li {
+      padding: 4px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-subject-open {
+      display: block;
+      text-align: center;
+      padding: 11px 18px;
+      font-size: 14px;
+      font-weight: 700;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-live-open {
+      background: #1e40af;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(30, 64, 175, 0.25);
+    }
+    .btn-live-open:hover {
+      background: #1e3a8a;
+    }
+    .btn-ready-action {
+      background: #0f766e;
+      color: #ffffff;
+    }
+    .btn-ready-action:hover {
+      background: #115e59;
+    }
+    .btn-disabled {
+      background: #f1f5f9;
+      color: #94a3b8;
+      cursor: not-allowed;
+      border: 1px solid #e2e8f0;
+    }
+    .footer-note {
+      margin-top: 40px;
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 22px;
+      font-size: 13px;
+      color: #475569;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<div class="portal-container">
+  
+  <div class="master-header">
+    <h1>CBSE CLASS IX — ALL SUBJECTS EXAMINATION HUB</h1>
+    <p>Unified Examination Practice & Paper Generation Portal for Class 9 students preparing for Half-Yearly (Mid-Term) and Annual CBSE examinations. Fully organized by subjects with print-ready A4 question sheets, realistic OMR bubbles, and interactive testing.</p>
+    <div class="master-stats">
+      <div class="stat-pill">🏫 CBSE & NCERT Aligned</div>
+      <div class="stat-pill">🖨️ Professional A4 Printout Ready</div>
+      <div class="stat-pill">⭕ Printable OMR Answer Grids</div>
+      <div class="stat-pill">🌐 Strict English Medium (Zero Regional Fonts)</div>
+    </div>
+  </div>
+
+  <div class="subjects-grid">
+
+    <!-- SUBJECT 1: SCIENCE -->
+    <div class="subject-card card-active">
+      <div>
+        <div class="subject-header-row">
+          <div class="subject-icon-title">
+            <span class="subject-icon">🔬</span>
+            <div>
+              <div class="subject-name">Science (NCERT Curiosity)</div>
+              <div style="font-size: 12px; color: #64748b; font-weight: 600;">Dedicated Folder: <code>Science_Exam_Papers/</code></div>
+            </div>
+          </div>
+          <span class="status-badge badge-live">● COMPLETED</span>
+        </div>
+        <p class="subject-desc">Complete chapter-wise question papers for Chapters 1 to 8 with comprehensive multiple-choice questions, Assertion-Reasoning, and practical experimental scenarios.</p>
+        <ul class="subject-features">
+          <li>✅ <b>8 Chapters Available:</b> Matter, Cell, Tissues, Motion, Mixtures, Forces, Work & Energy, Atom</li>
+          <li>✅ <b>16 Exam Papers Active:</b> Set A (Foundation) + Set B (Advanced HOTS)</li>
+          <li>✅ <b>Total Questions:</b> 400 Unique MCQs (50 MCQs per chapter)</li>
+          <li>✅ <b>Features:</b> 45-min timer, instant automated scoring, printable OMR sheet & solutions</li>
+        </ul>
+      </div>
+      <div>
+        <a href="Science_Exam_Papers/index.html" class="btn-subject-open btn-live-open">
+          🚀 Open Science Exam Papers (Set A & Set B - 400 MCQs) ➡️
+        </a>
+      </div>
+    </div>
+
+    <!-- SUBJECT 2: SOCIAL SCIENCE -->
+    <div class="subject-card card-ready">
+      <div>
+        <div class="subject-header-row">
+          <div class="subject-icon-title">
+            <span class="subject-icon">🌍</span>
+            <div>
+              <div class="subject-name">Social Science (SST)</div>
+              <div style="font-size: 12px; color: #64748b; font-weight: 600;">Textbook Source: <code>iest1dd/</code></div>
+            </div>
+          </div>
+          <span class="status-badge badge-ready">● BOOK DETECTED</span>
+        </div>
+        <p class="subject-desc">NCERT Class 9 Social Science textbook is already available in your directory. Ready to generate chapter-wise question papers whenever you request.</p>
+        <ul class="subject-features">
+          <li>📌 <b>Detected Chapters:</b> Earth's Surface, Atmosphere & Climate, Early Civilisations, etc.</li>
+          <li>📌 <b>Format:</b> History, Geography, Civics & Economics CBSE MCQ blueprints</li>
+          <li>📌 <b>Next Step:</b> Give confirmation to generate <code>Social_Science_Exam_Papers/</code></li>
+        </ul>
+      </div>
+      <div>
+        <a href="javascript:alert('The Social Science NCERT book (iest1dd) is available! Whenever you are ready, simply tell the assistant to generate Social Science exam papers.')" class="btn-subject-open btn-ready-action">
+          ⚡ Ready to Generate on Request
+        </a>
+      </div>
+    </div>
+
+    <!-- SUBJECT 3: MATHEMATICS -->
+    <div class="subject-card card-upcoming">
+      <div>
+        <div class="subject-header-row">
+          <div class="subject-icon-title">
+            <span class="subject-icon">📐</span>
+            <div>
+              <div class="subject-name">Mathematics</div>
+              <div style="font-size: 12px; color: #64748b; font-weight: 600;">CBSE Class IX Math</div>
+            </div>
+          </div>
+          <span class="status-badge badge-queue">UPCOMING</span>
+        </div>
+        <p class="subject-desc">Chapter-wise numerical & competency MCQ practice papers covering Number Systems, Polynomials, Coordinate Geometry, Linear Equations, Lines & Angles, and Triangles.</p>
+        <ul class="subject-features">
+          <li>📌 Formula-based MCQs with step-by-step mathematical working</li>
+          <li>📌 Graphical & geometrical construction interpretation</li>
+          <li>📌 Ready to be created in <code>Mathematics_Exam_Papers/</code></li>
+        </ul>
+      </div>
+      <div>
+        <span class="btn-subject-open btn-disabled">Scheduled for Next Phase</span>
+      </div>
+    </div>
+
+    <!-- SUBJECT 4: ENGLISH -->
+    <div class="subject-card card-upcoming">
+      <div>
+        <div class="subject-header-row">
+          <div class="subject-icon-title">
+            <span class="subject-icon">📖</span>
+            <div>
+              <div class="subject-name">English Language & Literature</div>
+              <div style="font-size: 12px; color: #64748b; font-weight: 600;">Beehive & Moments</div>
+            </div>
+          </div>
+          <span class="status-badge badge-queue">UPCOMING</span>
+        </div>
+        <p class="subject-desc">Reading comprehension passages, grammar (tenses, modals, reported speech), and literature-based MCQs from Beehive and Moments prose and poetry.</p>
+        <ul class="subject-features">
+          <li>📌 Unseen comprehension passage MCQs</li>
+          <li>📌 Integrated grammar & vocabulary cloze tests</li>
+          <li>📌 Ready to be created in <code>English_Exam_Papers/</code></li>
+        </ul>
+      </div>
+      <div>
+        <span class="btn-subject-open btn-disabled">Scheduled for Next Phase</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-note">
+    <b>📁 Folder Organization Guide:</b> Each subject is maintained in its own dedicated folder (e.g. <code>Science_Exam_Papers/</code>, <code>Social_Science_Exam_Papers/</code>) so that all question papers, answer keys, and scripts stay completely clean and organized. You can launch any subject's test directly from this main dashboard!
+  </div>
+
+</div>
+
+</body>
+</html>
