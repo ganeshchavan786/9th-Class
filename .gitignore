@@ -1,10 +1,21 @@
-# Large NCERT raw downloads
+# Large NCERT raw downloads & reference textbooks
+raw_textbooks/
 iesc1dd/
 iest1dd/
 *.zip
 *.tar.gz
 
-# Python
+# Python cache and bytecode
 __pycache__/
+*/__pycache__/
+*/*/__pycache__/
 *.py[cod]
 *$py.class
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+.vscode/
+.idea/

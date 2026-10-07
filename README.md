@@ -1,13 +1,53 @@
 # CBSE Class 9 Examination & Practice Portal 📚
 
-A comprehensive examination practice and paper generation system for CBSE Class 9 students preparing for Half-Yearly (Mid-Term) and Annual examinations.
+An enterprise-grade, comprehensive examination practice and paper generation system for CBSE Class 9 students preparing for Mid-Term (Half-Yearly) and Annual CBSE examinations.
 
 ## 🌐 Live Website (GitHub Pages)
 👉 **[Open Online Examination Portal](https://ganeshchavan786.github.io/9th-Class/)**
 
 ---
 
-## 🔬 Subject Portals & Direct Links
+## 🏛️ Professional Architecture & Project Structure
+
+Organized following enterprise software engineering standards with clear separation of concerns:
+
+```
+9th-Class/
+│
+├── index.html                   # Master Central Exam Portal (All Subjects Landing)
+├── exam-style.css               # Unified CBSE Design System & Print Typography
+├── README.md                    # Project Architecture & Documentation
+├── .gitignore                   # Enterprise-Grade Git Ignore Rules
+│
+├── Science_Exam_Papers/         # Subject Module 1: Science (Curiosity Curriculum)
+│   ├── index.html               # Science Multi-Set Interactive Dashboard
+│   ├── exam-style.css           # Local Print & Screen Styling
+│   ├── chapter_01_..._set_a.html# Set A: Foundation Papers (8 Chapters)
+│   ├── chapter_01_..._set_b.html# Set B: Advanced HOTS Papers (8 Chapters)
+│   ├── chapter_01_..._set_c.html# Set C: NCERT Exemplar Papers (8 Chapters)
+│   ├── chapter_01_..._set_d.html# Set D: Assertion-Reasoning Papers (8 Chapters)
+│   └── PDF_Ready_To_Print/      # Production Ready Print PDFs (32 A4 PDFs)
+│
+├── scripts/                     # Build Automation, Data Pipelines & Compilers
+│   ├── build_all_papers.py      # Set A Paper Generator
+│   ├── build_set_b.py           # Set B Paper Generator
+│   ├── build_set_c.py           # Set C Paper Generator
+│   ├── build_set_d.py           # Set D Paper Generator
+│   ├── data_set_d_part1.py      # Set D Question Bank (Ch 1-4)
+│   ├── data_set_d_part2.py      # Set D Question Bank (Ch 5-8)
+│   ├── convert_all_to_pdf.py    # Headless A4 PDF Compiler (Sets A & B)
+│   ├── convert_set_c_to_pdf.py  # Headless A4 PDF Compiler (Set C)
+│   ├── convert_set_d_to_pdf.py  # Headless A4 PDF Compiler (Set D)
+│   └── update_portal_set_d.py   # Dashboard Synchronization Utility
+│
+└── raw_textbooks/               # Reference NCERT Textbooks (Git-Ignored)
+    ├── iesc1dd/                 # Class 9 Science Source Modules
+    └── iest1dd/                 # Class 9 Social Science Source Modules
+```
+
+---
+
+## 🔬 Subject Portals & Status
 
 ### 1. Science (NCERT Class 9)
 - **Science Portal URL:** `https://ganeshchavan786.github.io/9th-Class/Science_Exam_Papers/`
@@ -21,13 +61,15 @@ A comprehensive examination practice and paper generation system for CBSE Class 
   7. Work, Energy, and Simple Machines
   8. Journey Inside the Atom
 - **Practice Sets Available:**
-  - **Set A:** Foundation & Core Conceptual MCQs (200 MCQs)
+  - **Set A:** Foundation & Core Conceptual MCQs (8 papers $\times$ 25 = 200 MCQs)
   - **Set B:** Advanced HOTS, Numerical Kinematics & Assertion-Reasoning (200 MCQs)
-  - **Total:** 400 Unique MCQs (16 Full Exam Papers)
+  - **Set C:** NCERT Exemplar & Critical Application Questions (200 MCQs)
+  - **Set D:** Assertion & Reasoning Special (200 MCQs)
+  - **Total Active:** **32 Exam Papers • 800 Unique MCQs • 32 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 2. Upcoming Subjects
-- **Social Science:** `Social_Science_Exam_Papers/` (Ready to generate)
+- **Social Science:** `Social_Science_Exam_Papers/` (NCERT book `iest1dd` ready)
 - **Mathematics:** `Maths_Exam_Papers/` (Scheduled)
 - **English:** `English_Exam_Papers/` (Scheduled)
 
@@ -42,4 +84,4 @@ A comprehensive examination practice and paper generation system for CBSE Class 
 - **Strict English Medium:** 100% standard CBSE English medium without regional fonts.
 
 ---
-*Created for Class 9 CBSE Students' Academic Excellence.*
+*Maintained with enterprise-grade modular architecture for Class 9 CBSE Students' Academic Excellence.*
