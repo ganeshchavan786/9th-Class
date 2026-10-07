@@ -26,7 +26,7 @@ Organized following enterprise software engineering standards with clear separat
 │   ├── chapter_01_..._set_b.html# Set B: Advanced HOTS Papers (8 Chapters)
 │   ├── chapter_01_..._set_c.html# Set C: NCERT Exemplar Papers (8 Chapters)
 │   ├── chapter_01_..._set_d.html# Set D: Assertion-Reasoning Papers (8 Chapters)
-│   └── PDF_Ready_To_Print/      # Production Ready Print PDFs (32 A4 PDFs)
+│   └── PDF_Ready_To_Print/      # Production Ready Print PDFs (56 A4 PDFs)
 │
 ├── scripts/                     # Build Automation, Data Pipelines & Compilers
 │   ├── build_all_papers.py      # Set A Paper Generator
@@ -66,7 +66,9 @@ Organized following enterprise software engineering standards with clear separat
   - **Set C:** NCERT Exemplar & Critical Application Questions (200 MCQs)
   - **Set D:** Assertion & Reasoning Special (200 MCQs)
   - **Set E:** Case Study & Practical Experiments (200 MCQs)
-  - **Total Active:** **40 Exam Papers • 1,000 Unique MCQs • 40 Print-Ready PDFs**
+  - **Set F:** Rapid Fire Speed Test (200 MCQs)
+  - **Set G:** Final Mastery & Grand Challenge Test (200 MCQs)
+  - **Total Active:** **56 Exam Papers • 1,400 Unique MCQs • 56 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 2. Upcoming Subjects
