@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 Science - Work, Energy, and Simple Machines - SET C (Exemplar)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<div class="screen-wrapper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="toolbar no-print">
+    <div class="toolbar-title">
+      <span>🎯 CBSE 9TH SCIENCE | CH 7 [SET C - EXEMPLAR]</span>
+      <span class="timer-badge" id="timerDisplay">45:00</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="btn btn-secondary" onclick="toggleTimer()" id="timerBtn">⏸️ Pause Timer</button>
+      <button class="btn btn-check" onclick="checkAnswers()">✔️ Check My Score</button>
+      <button class="btn btn-secondary" onclick="toggleAnswerKey()">📄 Toggle Key</button>
+      <button class="btn btn-print" onclick="window.print()">🖨️ Print Paper (A4)</button>
+    </div>
+  </div>
+
+  <!-- Professional Examination Header -->
+  <div class="exam-header">
+    <div class="school-name">CENTRAL BOARD OF SECONDARY EDUCATION</div>
+    <div class="exam-title">HALF-YEARLY PRACTICE EXAMINATION (SESSION 2024-2025)</div>
+    <div class="exam-title" style="font-size: 13.5px; color: #047857; margin-top: 3px; font-weight: 800;">
+      SUBJECT: SCIENCE (CLASS - IX) | CHAPTER 7: WORK, ENERGY, AND SIMPLE MACHINES [SET C - NCERT EXEMPLAR SPECIAL]
+    </div>
+    <div class="exam-meta-line">
+      <span>TIME ALLOWED: 45 MINUTES</span>
+      <span>MAXIMUM MARKS: 25</span>
+      <span>PAPER CODE: 086/CH07/SET-C</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET C - NCERT Exemplar & Critical Thinking):</h4>
+    <ol>
+      <li>The question paper comprises <b>25 Multiple Choice Questions (MCQs)</b> of <b>1 mark each</b>.</li>
+      <li><b>Section A (Q1 – Q15):</b> NCERT Exemplar based Multiple Choice Questions with single correct option.</li>
+      <li><b>Section B (Q16 – Q20):</b> Deep Assertion-Reasoning based questions testing scientific cause-and-effect.</li>
+      <li><b>Section C (Q21 – Q25):</b> Case-Study / Laboratory Experimental Investigation questions.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding circle on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+    <div class="section-banner">
+      <span>SECTION A: NCERT EXEMPLAR MCQS (Q.1 TO Q.15)</span>
+      <span>[15 MARKS]</span>
+    </div>
+
+
+            <div class="question-card" id="qcard_1">
+              <div class="question-text">
+                <span class="question-number">Q.1</span>
+                A roller coaster car of mass $m$ enters a vertical circular loop of radius $R$. What is the minimum velocity required at the lowest point of the track to complete the loop without falling off at the apex ($g$ is acceleration due to gravity)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$\sqrt{gR}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$\sqrt{2gR}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$\sqrt{5gR}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$\sqrt{3gR}$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_1"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_2">
+              <div class="question-text">
+                <span class="question-number">Q.2</span>
+                A force $\vec{F} = (3\hat{i} + 4\hat{j})$ N acts on a particle, displacing it by $\vec{s} = (5\hat{i} + 2\hat{j})$ m. What is the total work done?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>15 J</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>23 J</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>8 J</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>35 J</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_2"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_3">
+              <div class="question-text">
+                <span class="question-number">Q.3</span>
+                A 1000 kg car travelling at 72 km/h (20 m/s) has its kinetic energy converted into heat by friction brakes to stop. How much thermal energy is dissipated in the brakes?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>100 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>200 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>400 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>50 kJ</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_3"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_4">
+              <div class="question-text">
+                <span class="question-number">Q.4</span>
+                A spring with spring constant $k = 500$ N/m is compressed by 4 cm ($0.04$ m). What is the magnitude of the restoring force exerted by the spring?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>20 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>200 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>2 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>0.4 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_4"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_5">
+              <div class="question-text">
+                <span class="question-number">Q.5</span>
+                A pump is rated at 2.0 kW. How many liters of water can it lift in 10 minutes to an overhead tank 10 m high ($g = 10\text{ m/s}^2$, density of water $= 1\text{ kg/L}$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>6,000 L</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>12,000 L</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>1,200 L</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>24,000 L</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_5"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_6">
+              <div class="question-text">
+                <span class="question-number">Q.6</span>
+                Which of the following is a non-conservative force where work done depends on the actual path taken?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Gravitational force</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Electrostatic force</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Kinetic friction force</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Ideal spring restoring force</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_6"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_7">
+              <div class="question-text">
+                <span class="question-number">Q.7</span>
+                A 2 kg metal ball is released from rest from a height of 5 m above a sandpit. It penetrates 0.10 m into the sand before stopping. What is the average retarding force exerted by the sand ($g = 10\text{ m/s}^2$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>1000 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>1020 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>500 N</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>200 N</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_7"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_8">
+              <div class="question-text">
+                <span class="question-number">Q.8</span>
+                A wheel and axle machine has a wheel radius of 40 cm and an axle radius of 8 cm. What is the ideal mechanical advantage (velocity ratio)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>5</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>0.2</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>4</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>32</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_8"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_9">
+              <div class="question-text">
+                <span class="question-number">Q.9</span>
+                An object of mass $m$ has a momentum $p$. Its kinetic energy is given by:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$p m$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$\frac{p^2}{2m}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$\frac{2p^2}{m}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$\frac{p}{2m}$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_9"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_10">
+              <div class="question-text">
+                <span class="question-number">Q.10</span>
+                A constant force $F$ accelerates an object from rest to speed $v$ over time $t$. The instantaneous power delivered by the force at time $t$ is:
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$F v$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$\frac{1}{2} F v$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$2 F v$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$\frac{F v}{t}$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_10"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_11">
+              <div class="question-text">
+                <span class="question-number">Q.11</span>
+                What is the average power delivered in the above problem?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$F v$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$\frac{1}{2} F v$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$2 F v$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$F v^2$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_11"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_12">
+              <div class="question-text">
+                <span class="question-number">Q.12</span>
+                A hydroelectric turbine operates with 85% efficiency under a head of 100 m. If water flows through it at 10,000 kg/s ($g = 10\text{ m/s}^2$), what electrical power is generated?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>8.5 MW</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>10 MW</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>1.5 MW</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>85 MW</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_12"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_13">
+              <div class="question-text">
+                <span class="question-number">Q.13</span>
+                A simple machine lifts a load of 400 N through 2 m when an effort of 100 N moves through 10 m. What is the efficiency of the machine?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>80%</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>75%</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>90%</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>85%</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_13"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_14">
+              <div class="question-text">
+                <span class="question-number">Q.14</span>
+                A body of mass 1 kg is thrown vertically upward with 100 J of kinetic energy. At what height above the launch point will its kinetic energy equal its potential energy ($g = 10\text{ m/s}^2$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>2.5 m</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>5.0 m</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>10.0 m</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>1.25 m</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_14"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_15">
+              <div class="question-text">
+                <span class="question-number">Q.15</span>
+                Which class of lever has the mechanical advantage always less than 1 ($MA < 1$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Class 1 lever</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Class 2 lever</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Class 3 lever</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Inclined plane</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_15"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION B: ASSERTION - REASON QUESTIONS (Q.16 TO Q.20)</span>
+      <span>[5 MARKS]</span>
+    </div>
+    <div style="background: #f8fafc; border: 1px solid #cbd5e1; padding: 6px 10px; font-size: 11.5px; border-radius: 4px; margin-bottom: 8px;">
+      <b>Directions for Q16 to Q20:</b> Select the correct option from the choices given below:<br>
+      <b>(A)</b> Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).<br>
+      <b>(B)</b> Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A).<br>
+      <b>(C)</b> Assertion (A) is true but Reason (R) is false.<br>
+      <b>(D)</b> Assertion (A) is false but Reason (R) is true (or both are false).
+    </div>
+
+
+            <div class="question-card" id="qcard_16">
+              <div class="question-text">
+                <span class="question-number">Q.16</span>
+                Assertion (A): Work done by gravity on an object sliding down a frictionless incline of height $h$ equals the work done dropping it vertically through height $h$.<br>Reason (R): Gravitational force is a conservative force, and work done between two vertical levels depends only on initial and final heights, not the path taken.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_16"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_17">
+              <div class="question-text">
+                <span class="question-number">Q.17</span>
+                Assertion (A): A heavier truck and a light car having identical kinetic energies have different momenta.<br>Reason (R): Momentum is proportional to $\sqrt{m}$ for a given constant kinetic energy ($p = \sqrt{2m E_k}$).
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_17"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_18">
+              <div class="question-text">
+                <span class="question-number">Q.18</span>
+                Assertion (A): A machine cannot multiply both force and speed simultaneously.<br>Reason (R): Work output cannot exceed work input ($Load \times d_L \le Effort \times d_E$); if force is multiplied ($MA > 1$), distance and speed must be compromised ($VR < 1$).
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_18"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_19">
+              <div class="question-text">
+                <span class="question-number">Q.19</span>
+                Assertion (A): When a gas expands isothermally against atmospheric pressure, it does positive work.<br>Reason (R): The force exerted by the expanding gas acts in the same direction as the displacement of the piston.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_19"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_20">
+              <div class="question-text">
+                <span class="question-number">Q.20</span>
+                Assertion (A): A stationary satellite in orbit consumes rocket fuel continuously to do gravitational work.<br>Reason (R): The gravitational pull of the Earth continuously accelerates the satellite inward.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_20"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION C: EXPERIMENTAL INVESTIGATION & CASE STUDY (Q.21 TO Q.25)</span>
+      <span>[5 MARKS]</span>
+    </div>
+
+
+                    <div class="case-study-box">
+                      <h5>READING PASSAGE & EXPERIMENTAL INVESTIGATION:</h5>
+                      <p>Case Study: Roller Coaster Gravitational & Kinetic Energy Dynamics<br>A roller coaster car of total mass 500 kg starts from rest at the top of an initial lift hill at Height A ($h_A = 45$ m) above the ground. The car coasts down into a valley at ground level ($h = 0$) and then ascends into a second smaller hill of Height B ($h_B = 25$ m). Neglect friction and air resistance ($g = 10\text{ m/s}^2$).</p>
+                    </div>
+                    
+            <div class="question-card" id="qcard_21">
+              <div class="question-text">
+                <span class="question-number">Q.21</span>
+                What is the gravitational potential energy of the roller coaster car at the peak of the initial hill (Height A)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>22,500 J</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>225,000 J (225 kJ)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>450,000 J</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>112,500 J</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_21"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_22">
+              <div class="question-text">
+                <span class="question-number">Q.22</span>
+                What is the maximum speed of the roller coaster car as it passes through the valley at ground level ($h = 0$)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>20 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>30 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>45 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>25 m/s</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_22"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_23">
+              <div class="question-text">
+                <span class="question-number">Q.23</span>
+                What is the speed of the car when it reaches the peak of the second hill (Height B = 25 m)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>20 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>15 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>25 m/s</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>10 m/s</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_23"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_24">
+              <div class="question-text">
+                <span class="question-number">Q.24</span>
+                What is the kinetic energy of the car at the peak of the second hill (Height B)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>100 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>125 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>75 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>225 kJ</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_24"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_25">
+              <div class="question-text">
+                <span class="question-number">Q.25</span>
+                If realistic track friction dissipates 25 kJ of mechanical energy as heat along the track between Hill A and Hill B, what will be the final kinetic energy at Hill B?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>100 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>75 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>125 kJ</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>50 kJ</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_25"></div>
+            </div>
+            
+
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET C)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & EXEMPLAR EXPLANATIONS (SET C)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>Scientific Rationale & NCERT Exemplar Analysis</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.1</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(C)</span></td>
+              <td>At the top, minimum speed is $v_{top} = \sqrt{gR}$. By energy conservation: $\frac{1}{2}mv_{bottom}^2 = \frac{1}{2}mv_{top}^2 + mg(2R) \Rightarrow v_{bottom}^2 = gR + 4gR = 5gR \Rightarrow v_{bottom} = \sqrt{5gR}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.2</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$W = \vec{F} \cdot \vec{s} = (3 \times 5) + (4 \times 2) = 15 + 8 = 23$ Joules.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.3</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$E_k = \frac{1}{2} m v^2 = \frac{1}{2}(1000)(20^2) = 500 \times 400 = 200,000$ J $= 200$ kJ.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.4</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Hooke's law: $F = k x = 500\text{ N/m} \times 0.04\text{ m} = 20$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.5</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Total energy $= P \times t = 2000\text{ W} \times 600\text{ s} = 1,200,000$ J. $W = mgh \Rightarrow 1,200,000 = m(10)(10) \Rightarrow 100m = 1,200,000 \Rightarrow m = 12,000$ kg $= 12,000$ liters.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.6</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(C)</span></td>
+              <td>Friction is a non-conservative, dissipative force; the work done against friction over a closed path is non-zero and dissipates mechanical energy as heat.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.7</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Total loss of potential energy $= mg(h + d) = 2 \times 10 \times (5 + 0.10) = 20 \times 5.10 = 102$ J. Work done by sand $= F \times d \Rightarrow F \times 0.10 = 102 \Rightarrow F = 1020$ N.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.8</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$MA_{ideal} = \frac{\text{Radius of wheel}}{\text{Radius of axle}} = \frac{40}{8} = 5$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.9</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$p = mv \Rightarrow v = p/m$. $E_k = \frac{1}{2}mv^2 = \frac{1}{2}m(p/m)^2 = \frac{p^2}{2m}$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.10</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Instantaneous power is the scalar product of force and instantaneous velocity: $P = F v$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.11</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$\text{Average power} = \frac{\text{Work}}{\text{Time}} = \frac{\frac{1}{2}mv^2}{t} = \frac{1}{2} \left(\frac{mv}{t}\right) v = \frac{1}{2} F v$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.12</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Input hydraulic power $= mgh/t = 10,000 \times 10 \times 100 = 10,000,000$ W $= 10$ MW. Output power $= 0.85 \times 10 = 8.5$ Megawatts.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.13</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$W_{out} = 400 \times 2 = 800$ J. $W_{in} = 100 \times 10 = 1000$ J. $\eta = \frac{800}{1000} \times 100 = 80\%$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.14</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>At that height, $E_p = 50$ J. $mgh = 50 \Rightarrow 1 \times 10 \times h = 50 \Rightarrow h = 5.0$ m.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.15</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(C)</span></td>
+              <td>In a Class 3 lever (e.g. human forearm holding weight, fishing rod, tweezers), effort is applied between fulcrum and load, making effort arm shorter than load arm ($MA < 1$).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.16</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Because gravity is conservative, $W = mgh$ independent of path curvature or inclination.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.17</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Since $p = \sqrt{2m E_k}$, the heavier vehicle ($m_{truck} > m_{car}$) carries substantially greater momentum.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.18</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Energy conservation dictates that a machine can be a force multiplier ($MA > 1$) or a speed multiplier ($VR < 1$), but never both.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.19</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$W = \int P dV$. When volume expands ($dV > 0$), pressure force and boundary displacement align, performing positive work.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.20</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(D)</span></td>
+              <td>Assertion is completely false: In circular orbit, displacement is perpendicular to gravitational force, so zero work is done ($W=0$) and no fuel is consumed to maintain orbit. Reason is true.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.21</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$E_p = mgh_A = 500 \times 10 \times 45 = 225,000$ J $= 225$ kJ.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.22</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$\frac{1}{2}mv^2 = mgh_A \Rightarrow v = \sqrt{2gh_A} = \sqrt{2 \times 10 \times 45} = \sqrt{900} = 30$ m/s (108 km/h).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.23</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$v = \sqrt{2g(h_A - h_B)} = \sqrt{2 \times 10 \times (45 - 25)} = \sqrt{20 \times 20} = 20$ m/s.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.24</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$E_k = \frac{1}{2} m v^2 = \frac{1}{2} (500) (20^2) = 250 \times 400 = 100,000$ J $= 100$ kJ.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.25</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$\text{Available } E_k = 100\text{ kJ} - 25\text{ kJ (friction loss)} = 75$ kJ.</td>
+            </tr>
+            
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "C", "2": "B", "3": "B", "4": "A", "5": "B", "6": "C", "7": "B", "8": "A", "9": "B", "10": "A", "11": "B", "12": "A", "13": "A", "14": "B", "15": "C", "16": "A", "17": "A", "18": "A", "19": "A", "20": "D", "21": "B", "22": "B", "23": "A", "24": "A", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET C Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nReview the detailed scientific solutions below.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

@@ -56,7 +56,7 @@
     }
     .badge-grid {
       display: flex;
-      gap: 12px;
+      gap: 10px;
       margin-top: 15px;
       flex-wrap: wrap;
     }
@@ -65,7 +65,7 @@
       backdrop-filter: blur(5px);
       padding: 6px 14px;
       border-radius: 20px;
-      font-size: 12.5px;
+      font-size: 12px;
       font-weight: 600;
       border: 1px solid rgba(255, 255, 255, 0.25);
     }
@@ -115,11 +115,11 @@
     }
     .set-btn {
       flex: 1;
-      padding: 8px 10px;
+      padding: 7px 6px;
       text-align: center;
       border-radius: 6px;
       font-weight: 700;
-      font-size: 12px;
+      font-size: 11px;
       text-decoration: none;
       transition: all 0.2s;
       display: block;
@@ -138,12 +138,19 @@
     .set-btn-b:hover {
       background: #b45309;
     }
+    .set-btn-c {
+      background: #047857;
+      color: #ffffff;
+    }
+    .set-btn-c:hover {
+      background: #065f46;
+    }
     .set-pill {
       background: #f1f5f9;
       border: 1px solid #cbd5e1;
       padding: 1px 6px;
       border-radius: 10px;
-      font-size: 10px;
+      font-size: 9.5px;
     }
     .btn-portal {
       flex: 1;
@@ -197,13 +204,13 @@
 
   <div class="hero-banner">
     <h1>CBSE CLASS IX SCIENCE — MULTI-SET EXAMINATION PORTAL</h1>
-    <p>Comprehensive Chapter-Wise Examination Question Papers for Chapters 1 to 8 based on the NCERT Class 9 Science Curriculum. Features graduated difficulty with <b>Set A (Foundation & Core Concepts)</b> and <b>Set B (Advanced HOTS & Numericals)</b>, complete with printable OMR bubble sheets and detailed solutions.</p>
+    <p>Comprehensive Chapter-Wise Examination Question Papers for Chapters 1 to 8 based on the NCERT Class 9 Science Curriculum. Features graduated difficulty with <b>Set A (Foundation)</b>, <b>Set B (HOTS & Numericals)</b>, and <b>Set C (NCERT Exemplar)</b>, complete with printable OMR bubble sheets and detailed solutions.</p>
     <div class="badge-grid">
-      <div class="badge-item">🎯 400 Total Unique MCQs (16 Papers Active)</div>
-      <div class="badge-item">📘 Set A: Foundation & Core Concepts</div>
-      <div class="badge-item">🔥 Set B: Advanced HOTS & Numericals</div>
-      <div class="badge-item">📄 Standard A4 Black-and-White Print Layout</div>
-      <div class="badge-item">⭕ Printable OMR Bubble Grids</div>
+      <div class="badge-item">🎯 600 Total Unique MCQs (24 Full Papers Active)</div>
+      <div class="badge-item">📘 Set A: Foundation (200 MCQs)</div>
+      <div class="badge-item">🔥 Set B: Advanced HOTS (200 MCQs)</div>
+      <div class="badge-item">🎯 Set C: NCERT Exemplar (200 MCQs)</div>
+      <div class="badge-item">📄 Standard A4 Print Ready</div>
     </div>
   </div>
 
@@ -213,7 +220,7 @@
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 1</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Exploration: Entering the World of Secondary Science</div>
@@ -227,19 +234,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_01_exploration.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_01_exploration_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_01_exploration_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -247,22 +256,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch01_Exploration_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch01_Exploration_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch01_Exploration_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch01_Exploration_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch01_Exploration_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 2</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Cell: The Building Block of Life</div>
@@ -276,19 +288,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_02_cell.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_02_cell_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_02_cell_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -296,22 +310,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch02_Cell_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch02_Cell_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch02_Cell_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch02_Cell_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch02_Cell_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 3</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Tissues in Action</div>
@@ -325,19 +342,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_03_tissues.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_03_tissues_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_03_tissues_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -345,22 +364,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch03_Tissues_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch03_Tissues_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch03_Tissues_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch03_Tissues_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch03_Tissues_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 4</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Describing Motion Around Us</div>
@@ -374,19 +396,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_04_motion.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_04_motion_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_04_motion_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -394,22 +418,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch04_Motion_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch04_Motion_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch04_Motion_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch04_Motion_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch04_Motion_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 5</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Exploring Mixtures and their Separation</div>
@@ -423,19 +450,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_05_mixtures.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_05_mixtures_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_05_mixtures_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -443,22 +472,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch05_Mixtures_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch05_Mixtures_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch05_Mixtures_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch05_Mixtures_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch05_Mixtures_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 6</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">How Forces Affect Motion</div>
@@ -472,19 +504,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_06_forces.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_06_forces_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_06_forces_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -492,22 +526,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch06_Forces_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch06_Forces_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch06_Forces_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch06_Forces_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch06_Forces_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 7</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Work, Energy, and Simple Machines</div>
@@ -521,19 +558,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_07_work_energy.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_07_work_energy_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_07_work_energy_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -541,22 +580,25 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch07_Work_Energy_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch07_Work_Energy_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch07_Work_Energy_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch07_Work_Energy_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch07_Work_Energy_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
     <div class="chapter-card">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
         <span class="chapter-badge">CHAPTER 8</span>
         <span style="font-size: 11px; font-weight: 700; color: #166534; background: #dcfce7; padding: 2px 8px; border-radius: 12px; border: 1px solid #86efac;">
-          ✅ 2 SETS ACTIVE (50 MCQs)
+          ✅ 3 SETS ACTIVE (75 MCQs)
         </span>
       </div>
       <div class="chapter-title">Journey Inside the Atom</div>
@@ -570,19 +612,21 @@
         </div>
         
         <!-- Active Sets -->
-        <div style="display: flex; gap: 8px; margin-bottom: 8px;">
+        <div style="display: flex; gap: 6px; margin-bottom: 8px;">
           <a href="chapter_08_atom.html" class="set-btn set-btn-a">
             📘 SET A (Foundation)
           </a>
           <a href="chapter_08_atom_set_b.html" class="set-btn set-btn-b">
-            🔥 SET B (Advanced HOTS)
+            🔥 SET B (HOTS)
+          </a>
+          <a href="chapter_08_atom_set_c.html" class="set-btn set-btn-c">
+            🎯 SET C (Exemplar)
           </a>
         </div>
         
         <!-- Upcoming Sets Badges -->
-        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10.5px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
-          <span style="font-weight: 600;">Next Sets:</span>
-          <span class="set-pill">Set C (Exemplar)</span>
+        <div style="display: flex; gap: 4px; align-items: center; flex-wrap: wrap; font-size: 10px; color: #64748b; padding-top: 4px; border-top: 1px dashed #cbd5e1;">
+          <span style="font-weight: 600;">Upcoming:</span>
           <span class="set-pill">Set D (Assertion)</span>
           <span class="set-pill">Set E (Case Study)</span>
           <span class="set-pill">Set F (Speed)</span>
@@ -590,41 +634,33 @@
         </div>
       </div>
       
-        <!-- Direct PDF Download / Open Actions -->
-        <div style="display: flex; gap: 8px;">
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch08_Atom_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px;">
-            📄 Open Set A (PDF)
-          </a>
-          <a href="PDF_Ready_To_Print/Class_9_Science_Ch08_Atom_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11.5px; padding: 6px 8px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
-            📄 Open Set B (PDF)
-          </a>
-        </div>
+      <!-- Direct PDF Download / Open Actions -->
+      <div style="display: flex; gap: 6px;">
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch08_Atom_Set_A.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px;">
+          📄 PDF Set A
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch08_Atom_Set_B.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #b45309; border-color: #fde68a; background: #fffbeb;">
+          📄 PDF Set B
+        </a>
+        <a href="PDF_Ready_To_Print/Class_9_Science_Ch08_Atom_Set_C.pdf" target="_blank" class="btn-portal btn-outline" style="font-size: 11px; padding: 5px 6px; color: #047857; border-color: #a7f3d0; background: #ecfdf5;">
+          📄 PDF Set C
+        </a>
       </div>
-      
+    </div>
+    
   </div>
 
   <div class="guide-box">
-    <h3>💡 How to Use Set A & Set B for Highest Exam Marks:</h3>
+    <h3>💡 How to Use Set A, Set B & Set C for 100% Exam Marks:</h3>
     <ul>
-      <li><b>Step 1 — Foundation (Set A):</b> Have the student solve <b>Set A</b> first immediately after reading the NCERT chapter to master core definitions, fundamental concepts, and essential facts.</li>
-      <li><b>Step 2 — Challenge & Numericals (Set B):</b> After scoring 80%+ on Set A, administer <b>Set B</b>. It contains challenging Higher Order Thinking Skills (HOTS), multi-step formulas, velocity-time graph analysis, and critical Assertion-Reason questions designed to prepare the student for full marks (100%) in school exams.</li>
-      <li><b>Direct Printing:</b> Click <b>"Print Set A"</b> or <b>"Print Set B"</b> to open a pre-formatted school examination question paper on A4 size with student details and instructions box.</li>
-      <li><b>Upcoming Sets:</b> Sets C, D, E, F, and G can be unlocked and generated anytime for further mega-practice!</li>
+      <li><b>Phase 1 — Set A (Foundation):</b> Solve right after reading textbook chapters to lock in core facts and basic concepts.</li>
+      <li><b>Phase 2 — Set B (HOTS & Numericals):</b> Deep problem-solving with speed-distance equations, force calculations, and tricky assertion-reasoning.</li>
+      <li><b>Phase 3 — Set C (NCERT Exemplar):</b> Master official NCERT Exemplar questions and laboratory practical nuances to ensure full marks in CBSE school papers.</li>
+      <li><b>Upcoming Sets:</b> Sets D, E, F, and G can be generated anytime to complete the 1,400 MCQ mega-bank!</li>
     </ul>
   </div>
 
 </div>
-
-<script>
-function openAndPrint(url) {
-  let w = window.open(url, '_blank');
-  w.onload = function() {
-    setTimeout(function() {
-      w.print();
-    }, 600);
-  };
-}
-</script>
 
 </body>
 </html>

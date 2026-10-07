@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CBSE Class 9 Science - Journey Inside the Atom - SET C (Exemplar)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<div class="screen-wrapper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="toolbar no-print">
+    <div class="toolbar-title">
+      <span>🎯 CBSE 9TH SCIENCE | CH 8 [SET C - EXEMPLAR]</span>
+      <span class="timer-badge" id="timerDisplay">45:00</span>
+    </div>
+    <div class="toolbar-actions">
+      <button class="btn btn-secondary" onclick="toggleTimer()" id="timerBtn">⏸️ Pause Timer</button>
+      <button class="btn btn-check" onclick="checkAnswers()">✔️ Check My Score</button>
+      <button class="btn btn-secondary" onclick="toggleAnswerKey()">📄 Toggle Key</button>
+      <button class="btn btn-print" onclick="window.print()">🖨️ Print Paper (A4)</button>
+    </div>
+  </div>
+
+  <!-- Professional Examination Header -->
+  <div class="exam-header">
+    <div class="school-name">CENTRAL BOARD OF SECONDARY EDUCATION</div>
+    <div class="exam-title">HALF-YEARLY PRACTICE EXAMINATION (SESSION 2024-2025)</div>
+    <div class="exam-title" style="font-size: 13.5px; color: #047857; margin-top: 3px; font-weight: 800;">
+      SUBJECT: SCIENCE (CLASS - IX) | CHAPTER 8: JOURNEY INSIDE THE ATOM [SET C - NCERT EXEMPLAR SPECIAL]
+    </div>
+    <div class="exam-meta-line">
+      <span>TIME ALLOWED: 45 MINUTES</span>
+      <span>MAXIMUM MARKS: 25</span>
+      <span>PAPER CODE: 086/CH08/SET-C</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET C - NCERT Exemplar & Critical Thinking):</h4>
+    <ol>
+      <li>The question paper comprises <b>25 Multiple Choice Questions (MCQs)</b> of <b>1 mark each</b>.</li>
+      <li><b>Section A (Q1 – Q15):</b> NCERT Exemplar based Multiple Choice Questions with single correct option.</li>
+      <li><b>Section B (Q16 – Q20):</b> Deep Assertion-Reasoning based questions testing scientific cause-and-effect.</li>
+      <li><b>Section C (Q21 – Q25):</b> Case-Study / Laboratory Experimental Investigation questions.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding circle on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+    <div class="section-banner">
+      <span>SECTION A: NCERT EXEMPLAR MCQS (Q.1 TO Q.15)</span>
+      <span>[15 MARKS]</span>
+    </div>
+
+
+            <div class="question-card" id="qcard_1">
+              <div class="question-text">
+                <span class="question-number">Q.1</span>
+                In the Geiger-Marsden $\alpha$-particle scattering experiment, what happens to the number of scattered $\alpha$-particles detected as the scattering angle $\theta$ increases from 0° to 180°?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>It increases linearly</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>It drops dramatically according to $N(\theta) \propto \frac{1}{\sin^4(\theta/2)}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>It remains constant at all angles</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q1" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>It drops to zero beyond 10°</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_1"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_2">
+              <div class="question-text">
+                <span class="question-number">Q.2</span>
+                When an electron in a hydrogen atom transitions from a higher discrete energy orbit ($n = 3$) to a lower orbit ($n = 2$), what physical event occurs?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>A proton is emitted from the nucleus</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>A photon of electromagnetic radiation with energy $\Delta E = h\nu$ is emitted</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>The atom collapses into a neutron</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q2" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>The electron is absorbed into the nucleus</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_2"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_3">
+              <div class="question-text">
+                <span class="question-number">Q.3</span>
+                Which of the following isoelectronic ions has the smallest ionic radius: $N^{3-}, O^{2-}, F^-, Na^+, Mg^{2+}, Al^{3+}$ (all having 10 electrons)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$N^{3-}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$O^{2-}$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$Na^+$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q3" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$Al^{3+}$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_3"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_4">
+              <div class="question-text">
+                <span class="question-number">Q.4</span>
+                Why does a neutron make an exceptionally effective projectile for inducing nuclear fission in heavy uranium-235 atoms?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Because neutrons carry positive charge</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Because neutrons carry zero electrical charge and can approach the positively charged nucleus without experiencing electrostatic Coulomb repulsion</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Because neutrons travel faster than light</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q4" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Because neutrons have zero mass</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_4"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_5">
+              <div class="question-text">
+                <span class="question-number">Q.5</span>
+                The electronic configuration of a divalent cation $M^{2+}$ is 2, 8, 14. What is the atomic number of the neutral element $M$?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>24</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>26</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>28</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q5" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>22</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_5"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_6">
+              <div class="question-text">
+                <span class="question-number">Q.6</span>
+                What is the maximum number of electrons that can be accommodated in the $M$-shell ($n = 3$) of an atom?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>8</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>18</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>32</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q6" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>2</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_6"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_7">
+              <div class="question-text">
+                <span class="question-number">Q.7</span>
+                Which of the following isotopes is utilized in industrial thickness gauges to monitor the thickness of manufactured plastic sheets and metal foils?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Cobalt-60</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Strontium-90 (beta emitter)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Iodine-131</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q7" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Uranium-238</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_7"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_8">
+              <div class="question-text">
+                <span class="question-number">Q.8</span>
+                An atom has 20 neutrons and mass number 39. What is its chemical valency?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>1</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>2</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>3</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q8" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>0</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_8"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_9">
+              <div class="question-text">
+                <span class="question-number">Q.9</span>
+                Why did Dalton's original postulate that 'atoms are indivisible and indestructible' require scientific revision?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Because atoms turn into water</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Because the discoveries of electrons, protons, and neutrons proved that atoms are composed of smaller subatomic particles</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Because atoms have no mass</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q9" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Because all atoms are identical</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_9"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_10">
+              <div class="question-text">
+                <span class="question-number">Q.10</span>
+                What is the mass ratio of a proton to an electron approximately?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>1 : 1</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>1840 : 1</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>1 : 1840</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q10" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>100 : 1</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_10"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_11">
+              <div class="question-text">
+                <span class="question-number">Q.11</span>
+                An element $X$ has an atomic number 15. What is the valency exhibited by $X$ in the hydride $XH_3$ and chloride $XCl_5$?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>3 and 5</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>2 and 4</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>1 and 3</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q11" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Only 3</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_11"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_12">
+              <div class="question-text">
+                <span class="question-number">Q.12</span>
+                Heavy water ($D_2O$) contains which isotope of hydrogen?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Protium ($^1_1 H$)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Deuterium ($^2_1 H$)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Tritium ($^3_1 H$)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q12" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Helium</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_12"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_13">
+              <div class="question-text">
+                <span class="question-number">Q.13</span>
+                Which of the following pairs represents isotones (species having identical number of neutrons)?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$^{14}_6 C$ and $^{16}_8 O$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$^{12}_6 C$ and $^{14}_6 C$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$^{40}_{18} Ar$ and $^{40}_{20} Ca$</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q13" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>$^{1}_1 H$ and $^{2}_1 H$</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_13"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_14">
+              <div class="question-text">
+                <span class="question-number">Q.14</span>
+                Which subatomic particle was absent in Thomson's and Rutherford's early atomic models?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Electron</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Proton</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Neutron</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q14" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Positron</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_14"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_15">
+              <div class="question-text">
+                <span class="question-number">Q.15</span>
+                What is the charge on an alpha ($\alpha$) particle?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>$+1$ unit</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>$+2$ units (equal to a helium nucleus $He^{2+}$)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>$-1$ unit</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q15" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Neutral</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_15"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION B: ASSERTION - REASON QUESTIONS (Q.16 TO Q.20)</span>
+      <span>[5 MARKS]</span>
+    </div>
+    <div style="background: #f8fafc; border: 1px solid #cbd5e1; padding: 6px 10px; font-size: 11.5px; border-radius: 4px; margin-bottom: 8px;">
+      <b>Directions for Q16 to Q20:</b> Select the correct option from the choices given below:<br>
+      <b>(A)</b> Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).<br>
+      <b>(B)</b> Both Assertion (A) and Reason (R) are true but Reason (R) is NOT the correct explanation of Assertion (A).<br>
+      <b>(C)</b> Assertion (A) is true but Reason (R) is false.<br>
+      <b>(D)</b> Assertion (A) is false but Reason (R) is true (or both are false).
+    </div>
+
+
+            <div class="question-card" id="qcard_16">
+              <div class="question-text">
+                <span class="question-number">Q.16</span>
+                Assertion (A): The chemical reactivity of an element is determined by its valence electrons.<br>Reason (R): In chemical reactions, only the outermost valence shell electrons are lost, gained, or shared to achieve stable octet configurations.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q16" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_16"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_17">
+              <div class="question-text">
+                <span class="question-number">Q.17</span>
+                Assertion (A): Rutherford's nuclear model could not explain the atomic emission spectra of hydrogen.<br>Reason (R): Classical electromagnetic theory predicted accelerating electrons would continuously radiate energy and collapse into the nucleus, leaving no explanation for discrete spectral lines.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q17" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_17"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_18">
+              <div class="question-text">
+                <span class="question-number">Q.18</span>
+                Assertion (A): The nucleus of an atom carries a positive electric charge.<br>Reason (R): The nucleus contains positively charged protons and electrically neutral neutrons.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q18" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_18"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_19">
+              <div class="question-text">
+                <span class="question-number">Q.19</span>
+                Assertion (A): Isotopes have identical physical properties such as boiling point and density.<br>Reason (R): Physical properties depend on mass, and isotopes of an element have different mass numbers.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q19" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_19"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_20">
+              <div class="question-text">
+                <span class="question-number">Q.20</span>
+                Assertion (A): Canal rays travel in straight lines towards the cathode.<br>Reason (R): Canal rays are produced by ionization of residual gas molecules in a discharge tube under high voltage.
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Both (A) and (R) are true and (R) is the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Both (A) and (R) are true but (R) is NOT the correct explanation of (A).</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>(A) is true but (R) is false.</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q20" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>(A) is false but (R) is true.</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_20"></div>
+            </div>
+            
+
+    <div class="section-banner">
+      <span>SECTION C: EXPERIMENTAL INVESTIGATION & CASE STUDY (Q.21 TO Q.25)</span>
+      <span>[5 MARKS]</span>
+    </div>
+
+
+                    <div class="case-study-box">
+                      <h5>READING PASSAGE & EXPERIMENTAL INVESTIGATION:</h5>
+                      <p>Case Study: Radioactive Isotope Tracers in Medicine & Industry<br>Radioactive isotopes (radioisotopes) emit ionizing radiation (alpha, beta, or gamma) as their unstable nuclei decay. In nuclear medicine and industry:<br>• <b>Technetium-99m:</b> Emits gamma rays with a 6-hour half-life used for imaging heart and bone perfusion.<br>• <b>Iodine-131:</b> Beta and gamma emitter with an 8-day half-life targeting the thyroid gland.<br>• <b>Cobalt-60:</b> Emits high-energy gamma rays (1.17 and 1.33 MeV) used in teletherapy cancer radiotherapy.<br>• <b>Americium-241:</b> Alpha emitter used in household smoke ionization detectors.</p>
+                    </div>
+                    
+            <div class="question-card" id="qcard_21">
+              <div class="question-text">
+                <span class="question-number">Q.21</span>
+                Why is Technetium-99m ideal for diagnostic medical scans inside human patients?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>It remains radioactive in the body for 50 years</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Its short half-life of 6 hours allows clear gamma camera imaging while rapidly decaying to safe background levels, minimizing patient radiation dose</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>It is an alpha emitter that destroys all tissues</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q21" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>It is completely non-radioactive</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_21"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_22">
+              <div class="question-text">
+                <span class="question-number">Q.22</span>
+                Why does radioactive Iodine-131 selectively accumulate in the human thyroid gland?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>The thyroid gland naturally captures and concentrates iodine from the bloodstream to synthesize thyroid hormones (thyroxine)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Thyroid cells repel iodine</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Iodine only binds to bone</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q22" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Because of gastric acid</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_22"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_23">
+              <div class="question-text">
+                <span class="question-number">Q.23</span>
+                In cancer radiotherapy, how do Cobalt-60 gamma rays destroy malignant cancer cells?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>By freezing the tumor</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>High-energy gamma photons cause severe double-stranded DNA breaks in rapidly dividing cancer cells, triggering apoptosis</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>By starving cancer cells of oxygen</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q23" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>By turning cancer cells into healthy skin</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_23"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_24">
+              <div class="question-text">
+                <span class="question-number">Q.24</span>
+                In a household smoke detector, why are alpha particles from Americium-241 utilized instead of gamma rays?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>Alpha particles have high ionizing power to ionize air between detector plates, and smoke particles disrupt this current; their short range cannot penetrate the detector casing</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>Gamma rays are too heavy</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>Alpha particles are invisible</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q24" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>Smoke detectors require boiling water</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_24"></div>
+            </div>
+            
+            <div class="question-card" id="qcard_25">
+              <div class="question-text">
+                <span class="question-number">Q.25</span>
+                Which subatomic particle is identical to the alpha particle emitted by Americium-241?
+              </div>
+              <div class="options-grid">
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="A">
+                  <span class="option-letter">(A)</span>
+                  <span>A high-speed electron</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="B">
+                  <span class="option-letter">(B)</span>
+                  <span>A doubly ionized Helium-4 nucleus ($He^{2+}$)</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="C">
+                  <span class="option-letter">(C)</span>
+                  <span>A neutral neutron</span>
+                </label>
+                
+                <label class="option-item">
+                  <input type="radio" name="q25" value="D">
+                  <span class="option-letter">(D)</span>
+                  <span>A positron</span>
+                </label>
+                
+              </div>
+              <div class="feedback-msg" id="feedback_25"></div>
+            </div>
+            
+
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET C)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & EXEMPLAR EXPLANATIONS (SET C)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>Scientific Rationale & NCERT Exemplar Analysis</th>
+        </tr>
+      </thead>
+      <tbody>
+
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.1</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Rutherford's scattering formula shows that the number of deflected particles drops inversely with $\sin^4(\theta/2)$; only a tiny fraction (1 in 12,000) experiences wide-angle backscattering near 180°.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.2</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>According to Bohr's model, when an electron jumps from a higher to lower stationary state, it emits a quantum photon of light whose energy equals the difference between the two orbital energy levels.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.3</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(D)</span></td>
+              <td>All six ions have identical electron configurations (2, 8). $Al^{3+}$ has the highest nuclear charge ($Z = 13$ protons), which exerts the strongest electrostatic pull on the 10 electrons, contracting the electron cloud to the smallest radius.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.4</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Uncharged neutrons do not experience electrostatic repulsion from positive nuclear protons, allowing them to penetrate deep into heavy nuclei at low thermal speeds.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.5</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Electrons in $M^{2+} = 2 + 8 + 14 = 24$. Since it lost 2 electrons, the neutral atom had $24 + 2 = 26$ electrons ($Z = 26$, Iron).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.6</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>$2 n^2 = 2(3^2) = 2(9) = 18$ electrons.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.7</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Beta emitters like Strontium-90 are absorbed proportional to material thickness, allowing automated radiation sensors to control roller pressure.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.8</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$Z = A - N = 39 - 20 = 19$ (Potassium). Electronic configuration $= 2, 8, 8, 1$. Valency $= 1$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.9</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Subatomic particle discoveries (J.J. Thomson, Goldstein, Chadwick) and nuclear transmutation proved that atoms are divisible complex structures.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.10</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Mass of proton $\approx 1.673 \times 10^{-27}$ kg; mass of electron $\approx 9.109 \times 10^{-31}$ kg. Ratio $\approx 1836 \approx 1840 : 1$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.11</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>$Z = 15$ is Phosphorus (2, 8, 5). It exhibits variable valency 3 (gaining/sharing 3 electrons) and 5 (utilizing all 5 valence electrons with vacant d-orbitals).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.12</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Heavy water is composed of deuterium ($^2_1 H$), having one proton and one neutron, utilized as a moderator in nuclear reactors.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.13</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>In $^{14}_6 C$, neutrons $= 14 - 6 = 8$. In $^{16}_8 O$, neutrons $= 16 - 8 = 8$. Both have 8 neutrons (isotones).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.14</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(C)</span></td>
+              <td>The neutron was not discovered until 1932 by James Chadwick, decades after Thomson (1897) and Rutherford (1911).</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.15</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>An alpha particle consists of two protons and two neutrons, with a net charge of $+2$ ($+3.2 \times 10^{-19}$ C) and mass $\approx 4$ u.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.16</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Core inner electrons are strongly shielded and tightly bound; chemical bonding and valency involve exclusively outer valence electrons.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.17</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Continuous radiation would collapse the atom in $10^{-8}$ s and yield a continuous spectrum. Neils Bohr introduced discrete quantum orbits to solve this.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.18</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Protons have charge $+e$ and neutrons have charge $0$, so the net nuclear charge equals $+Ze$.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.19</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(D)</span></td>
+              <td>Assertion is false: Isotopes have *different* physical properties (density, boiling point, mass). Reason is true.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.20</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Positively charged residual gas ions are accelerated towards the perforated negative cathode, passing through the canals as luminous streams.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.21</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>A 6-hour half-life gives sufficient time to complete diagnostic gamma scans while clearing quickly so the patient does not retain long-term radiation.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.22</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>The thyroid gland has active sodium-iodide symporters that concentrate iodine; localized beta radiation from 131-I destroys overactive thyroid or carcinoma cells.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.23</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>Ionizing radiation creates free radicals and direct DNA breaks; rapidly dividing cancer cells lack repair capacity and undergo mitotic death.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.24</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(A)</span></td>
+              <td>Alpha particles strongly ionize air molecules between electrodes. Smoke absorbs alpha rays, dropping current and triggering the alarm. Alphas cannot penetrate the outer casing, posing zero hazard.</td>
+            </tr>
+            
+            <tr>
+              <td style="font-weight: bold; text-align: center;">Q.25</td>
+              <td style="text-align: center;"><span class="ans-badge" style="background: #047857;">(B)</span></td>
+              <td>An alpha particle consists of two protons and two neutrons tightly bound, identical to a helium-4 nucleus.</td>
+            </tr>
+            
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "B", "2": "B", "3": "D", "4": "B", "5": "B", "6": "B", "7": "B", "8": "A", "9": "B", "10": "B", "11": "A", "12": "B", "13": "A", "14": "C", "15": "B", "16": "A", "17": "A", "18": "A", "19": "D", "20": "A", "21": "B", "22": "A", "23": "B", "24": "A", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET C Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nReview the detailed scientific solutions below.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
