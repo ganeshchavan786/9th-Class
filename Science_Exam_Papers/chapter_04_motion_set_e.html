@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 9 Science - Chapter 4: Describing Motion & Kinematics (SET E - Case Study & Practical Experiments)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <style>
+    .set-e-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: #ffffff;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .case-banner {
+      background: #f0f9ff;
+      border: 1.5px solid #bae6fd;
+      border-left: 5px solid #0284c7;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+    .case-banner h4 {
+      margin: 0 0 8px 0;
+      color: #0369a1;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .case-passage {
+      font-size: 13px;
+      line-height: 1.65;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+
+<div class="exam-paper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="interactive-header no-print">
+    <div class="timer-display">
+      ⏱️ Time Remaining: <span id="timerDisplay">45:00</span>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+      <button class="btn btn-primary" id="timerBtn" onclick="toggleTimer()">⏸️ Pause Timer</button>
+      <button class="btn btn-secondary" onclick="checkAnswers()">✅ Submit & Check</button>
+      <button class="btn btn-primary" onclick="toggleAnswerKey()">🔑 View Solutions</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ Print Exam Paper</button>
+    </div>
+  </div>
+
+  <!-- Standard CBSE School Exam Header -->
+  <div class="exam-header">
+    <div class="school-title">CENTRAL BOARD OF SECONDARY EDUCATION — PRACTICE EXAMINATION</div>
+    <div class="exam-sub">CLASS IX • SCIENCE (SUBJECT CODE: 086) • ACADEMIC SESSION 2026-27</div>
+    <div style="margin-top: 5px;">
+      <span class="set-e-badge">SET E — CASE STUDY & PRACTICAL EXPERIMENTS</span>
+    </div>
+    <div class="exam-chapter">CHAPTER 04: DESCRIBING MOTION & KINEMATICS</div>
+    <div class="meta-row">
+      <span><b>TIME ALLOWED:</b> 45 MINUTES</span>
+      <span><b>MAXIMUM MARKS:</b> 25 MARKS</span>
+      <span><b>SERIES:</b> CBS-IX-SCI-SET-E-04</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET E - Case Study & Practical Experiments):</h4>
+    <ol>
+      <li>The question paper comprises <b>5 In-Depth Practical Case Studies</b> with <b>5 MCQs each (Total: 25 Questions, 1 Mark each)</b>.</li>
+      <li>Read each laboratory experiment, data table, and passage carefully before answering the corresponding questions.</li>
+      <li>Each question has 4 options with a single correct answer.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding bubble on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+            <div class="case-banner">
+              <h4>Case Study 1: Ticker-Timer Analysis of Linear Acceleration on an Incline</h4>
+              <div class="case-passage">Students set up an aluminum track inclined at an angle to the bench. A dynamic trolley was released from rest at the top of the ramp, pulling a paper tape through an electromagnetic ticker-tape timer vibrating at a frequency of 50 Hz (producing 50 dots per second).<br>• Time between two consecutive dots = $1/50\text{ s} = 0.02\text{ s}$.<br>The students analyzed a segment of tape where dot positions were clearly marked:<br>• Distance between Dot 0 and Dot 5 ($t_1 = 0.10\text{ s}$) = $2.0\text{ cm}$<br>• Distance between Dot 5 and Dot 10 ($t_2 = 0.10\text{ s}$) = $6.0\text{ cm}$<br>• Distance between Dot 10 and Dot 15 ($t_3 = 0.10\text{ s}$) = $10.0\text{ cm}$<br>• Distance between Dot 15 and Dot 20 ($t_4 = 0.10\text{ s}$) = $14.0\text{ cm}$</div>
+            </div>
+            
+                <div class="question-card" id="qcard_1">
+                  <div class="question-text">
+                    <span class="question-number">Q.1</span>
+                    What is the average velocity of the trolley during the time interval between Dot 0 and Dot 5 ($0.00\text{ s}$ to $0.10\text{ s}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$0.10\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$0.20\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$0.40\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$0.02\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_1"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_2">
+                  <div class="question-text">
+                    <span class="question-number">Q.2</span>
+                    What is the average velocity of the trolley during the interval between Dot 5 and Dot 10 ($0.10\text{ s}$ to $0.20\text{ s}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$0.20\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$0.60\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$0.40\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$0.80\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_2"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_3">
+                  <div class="question-text">
+                    <span class="question-number">Q.3</span>
+                    Calculate the constant acceleration ($a$) of the trolley down the inclined track:
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$2.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$4.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$0.4\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$9.8\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_3"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_4">
+                  <div class="question-text">
+                    <span class="question-number">Q.4</span>
+                    What indicates that the trolley is moving with uniform acceleration rather than constant velocity?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>The dots on the tape are spaced at equal distances</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>The distance between successive sets of dots increases by a constant difference of 4.0 cm every 0.10 s</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>The tape moves backward</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>The timer frequency fluctuates</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_4"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_5">
+                  <div class="question-text">
+                    <span class="question-number">Q.5</span>
+                    What would the velocity-time ($v$-$t$) graph for this trolley look like?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>A horizontal line parallel to the time axis</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>A straight line sloping upwards with a positive slope of $4.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>A curve with decreasing slope</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>A vertical line perpendicular to the time axis</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_5"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 2: Automotive Braking Distance & Driver Reaction Dynamics</h4>
+              <div class="case-passage">A traffic safety research institute analyzed the total stopping distance of a car travelling at different initial speeds ($u$) on a dry asphalt highway.<br>• Total Stopping Distance consists of two phases:<br>1. <b>Thinking Distance ($d_{think}$):</b> Distance covered during the driver's physiological reaction time ($t_r = 0.60\text{ s}$) before the brakes are engaged ($d_{think} = u \times t_r$).<br>2. <b>Braking Distance ($d_{brake}$):</b> Distance covered while the brakes apply a constant retarding deceleration of $a = -5.0\text{ m/s}^2$ until the car comes to rest ($v=0$).<br>• Data for two test speeds:<br>• Car A speed: $36\text{ km/h} = 10\text{ m/s}$<br>• Car B speed: $72\text{ km/h} = 20\text{ m/s}$</div>
+            </div>
+            
+                <div class="question-card" id="qcard_6">
+                  <div class="question-text">
+                    <span class="question-number">Q.6</span>
+                    What is the thinking distance covered by Car A ($u = 10\text{ m/s}$) before the driver presses the brake pedal?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>3.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>6.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>10.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>12.0 m</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_6"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_7">
+                  <div class="question-text">
+                    <span class="question-number">Q.7</span>
+                    What is the actual braking distance ($d_{brake}$) required for Car A to come to a complete stop?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>5.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>10.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>20.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>15.0 m</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_7"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_8">
+                  <div class="question-text">
+                    <span class="question-number">Q.8</span>
+                    What is the total stopping distance (Thinking + Braking) for Car A?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>10.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>16.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>20.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>26.0 m</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_8"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_9">
+                  <div class="question-text">
+                    <span class="question-number">Q.9</span>
+                    For Car B travelling at double the speed ($72\text{ km/h} = 20\text{ m/s}$), what is its braking distance ($d_{brake}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>20.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>40.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>30.0 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>80.0 m</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_9"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_10">
+                  <div class="question-text">
+                    <span class="question-number">Q.10</span>
+                    Why does braking distance depend quadratically on initial speed ($d_{brake} \propto u^2$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Because car mass doubles with speed</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Because initial kinetic energy is proportional to $u^2$, and the braking work ($F \times d$) must dissipate this kinetic energy</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Because reaction time increases with speed</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Because gravity increases with speed</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_10"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 3: Free-Fall Kinematics & Precision Photogate Measurement of $g$</h4>
+              <div class="case-passage">In a modern school physics lab, students measured the acceleration due to gravity ($g$) using an automated free-fall apparatus equipped with two infrared photogates connected to a millisecond digital timer.<br>• A steel sphere of mass 28 g was held by an electromagnet at height $h$ directly above Photogate 1 ($s=0$, $t=0$).<br>• When released from rest ($u=0$), the ball interrupted Photogate 1 (starting the timer) and interrupted Photogate 2 positioned at a vertical distance $h$ below.<br>• <b>Trial 1:</b> Vertical fall height $h = 0.450\text{ m} \rightarrow$ Measured fall time $t = 0.303\text{ s}$<br>• <b>Trial 2:</b> Vertical fall height $h = 0.800\text{ m} \rightarrow$ Measured fall time $t = 0.404\text{ s}$<br>• <b>Trial 3:</b> Vertical fall height $h = 1.250\text{ m} \rightarrow$ Measured fall time $t = 0.505\text{ s}$</div>
+            </div>
+            
+                <div class="question-card" id="qcard_11">
+                  <div class="question-text">
+                    <span class="question-number">Q.11</span>
+                    Which kinematic equation directly relates the vertical fall height $h$ and time $t$ for a body dropped from rest?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$h = ut + \frac{1}{2}gt^2$ which simplifies to $h = \frac{1}{2}gt^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$v = u + gt$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$v^2 = 2gh$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$h = \frac{u+v}{t}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_11"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_12">
+                  <div class="question-text">
+                    <span class="question-number">Q.12</span>
+                    Using the data from Trial 2 ($h = 0.800\text{ m}$, $t = 0.404\text{ s}$), calculate the experimental value of $g$:
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$9.80\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$9.65\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$10.2\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$9.40\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_12"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_13">
+                  <div class="question-text">
+                    <span class="question-number">Q.13</span>
+                    What is the instantaneous velocity of the steel sphere as it crosses Photogate 2 in Trial 3 ($h = 1.250\text{ m}$, take $g = 9.80\text{ m/s}^2$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$4.95\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$2.45\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$7.00\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$9.80\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_13"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_14">
+                  <div class="question-text">
+                    <span class="question-number">Q.14</span>
+                    If the 28 g steel sphere is replaced by a massive 150 g steel sphere dropped from the exact same height, how does the fall time change?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Fall time decreases to one-fifth</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Fall time increases by five times</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Fall time remains virtually identical</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>The heavier sphere stops mid-air</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_14"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_15">
+                  <div class="question-text">
+                    <span class="question-number">Q.15</span>
+                    What would a graph of $h$ versus $t^2$ yield for a freely falling object?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>A downward parabola</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>A straight line passing through the origin with slope equal to $\frac{1}{2}g$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>A hyperbolic curve</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>A horizontal line</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_15"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 4: Multi-Stage Velocity-Time Graph Analysis of an Express Train</h4>
+              <div class="case-passage">An express train travels along a straight railway track between two stations, Station P and Station Q. The graph of its velocity ($v$ in m/s) against time ($t$ in seconds) is recorded over a 60-second journey:<br>• <b>Stage 1 ($0\text{ to }20\text{ s}$):</b> Velocity increases uniformly from rest ($0\text{ m/s}$) to $30\text{ m/s}$.<br>• <b>Stage 2 ($20\text{ to }50\text{ s}$):</b> The train maintains a constant cruise velocity of $30\text{ m/s}$.<br>• <b>Stage 3 ($50\text{ to }60\text{ s}$):</b> The brakes are applied uniformly, bringing the train to rest at $60\text{ s}$ ($v=0$).</div>
+            </div>
+            
+                <div class="question-card" id="qcard_16">
+                  <div class="question-text">
+                    <span class="question-number">Q.16</span>
+                    What is the acceleration of the train during Stage 1 ($0\text{ to }20\text{ s}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$1.5\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$3.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$0.75\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$2.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_16"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_17">
+                  <div class="question-text">
+                    <span class="question-number">Q.17</span>
+                    What is the acceleration of the train during Stage 2 ($20\text{ to }50\text{ s}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$1.5\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$30\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$-3.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_17"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_18">
+                  <div class="question-text">
+                    <span class="question-number">Q.18</span>
+                    What is the retardation (deceleration) of the train during Stage 3 ($50\text{ to }60\text{ s}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$-1.5\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$3.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$6.0\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$0.3\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_18"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_19">
+                  <div class="question-text">
+                    <span class="question-number">Q.19</span>
+                    What is the total displacement (distance between Station P and Station Q) covered by the train in 60 seconds?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>1200 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>1350 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>1500 m</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>1800 m</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_19"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_20">
+                  <div class="question-text">
+                    <span class="question-number">Q.20</span>
+                    What is the average speed of the train over the entire 60-second journey?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$22.5\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$30.0\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$15.0\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$25.0\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_20"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 5: Centripetal Mechanics in Uniform Circular Motion</h4>
+              <div class="case-passage">In a physics laboratory investigation of circular motion, students whirled a rubber bung of mass $m = 0.050\text{ kg}$ tied to a nylon string of radius $r = 0.80\text{ m}$ in a horizontal circular path.<br>• The string passed through a smooth glass tube, and its lower end supported a hanging counterweight of mass $M = 0.40\text{ kg}$.<br>• The students maintained steady horizontal rotation such that the hanging mass remained stationary at equilibrium ($T = M g = 0.40 \times 9.8 = 3.92\text{ N}$).<br>• The rubber bung completed 20 revolutions in 20.0 seconds (period $T_{rev} = 1.0\text{ s}$).</div>
+            </div>
+            
+                <div class="question-card" id="qcard_21">
+                  <div class="question-text">
+                    <span class="question-number">Q.21</span>
+                    What is the linear speed ($v$) of the rubber bung moving along the circular path?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$2.51\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$5.03\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$1.60\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$10.0\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_21"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_22">
+                  <div class="question-text">
+                    <span class="question-number">Q.22</span>
+                    What is the magnitude of the centripetal acceleration ($a_c$) experienced by the rotating bung?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$6.28\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$31.6\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$15.8\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$9.80\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_22"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_23">
+                  <div class="question-text">
+                    <span class="question-number">Q.23</span>
+                    What provides the necessary centripetal force to keep the rubber bung moving in a circle?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>The tension force in the nylon string</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Gravitational force of the Earth pulling downward</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Air friction pushing the bung forward</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Magnetic attraction from the glass tube</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_23"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_24">
+                  <div class="question-text">
+                    <span class="question-number">Q.24</span>
+                    In which direction does the rubber bung fly if the nylon string snaps suddenly?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Radially inward toward the glass tube</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Radially outward away from the center</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Tangentially along a straight line in the direction of its instantaneous velocity</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>It stops and drops vertically downward</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_24"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_25">
+                  <div class="question-text">
+                    <span class="question-number">Q.25</span>
+                    Why is uniform circular motion classified as an accelerated motion even when its speed is strictly constant?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Because its mass is changing</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Because the direction of the velocity vector is continuously changing at every point along the circular path</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Because the radius increases continuously</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Because time slows down during rotation</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_25"></div>
+                </div>
+                
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET E)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & PRACTICAL INVESTIGATION EXPLANATIONS (SET E)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>Scientific Rationale & Experimental Data Analysis</th>
+        </tr>
+      </thead>
+      <tbody>
+
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.1</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$v_1 = \frac{\Delta s_1}{\Delta t} = \frac{2.0\text{ cm}}{0.10\text{ s}} = 20.0\text{ cm/s} = 0.20\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.2</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$v_2 = \frac{6.0\text{ cm}}{0.10\text{ s}} = 60.0\text{ cm/s} = 0.60\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.3</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$a = \frac{v_2 - v_1}{\Delta t} = \frac{0.60 - 0.20}{0.10} = \frac{0.40\text{ m/s}}{0.10\text{ s}} = 4.0\text{ m/s}^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.4</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Equal increments in displacement during successive equal time intervals ($\Delta s = 4.0$ cm increase per interval) confirm constant acceleration.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.5</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>For uniform acceleration, velocity increases linearly with time ($v = u + at$), yielding a straight line with gradient equal to acceleration.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.6</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$d_{think} = u \times t_r = 10\text{ m/s} \times 0.60\text{ s} = 6.0\text{ m}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.7</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Using $v^2 = u^2 + 2as \Rightarrow 0^2 = 10^2 + 2(-5.0)d_{brake} \Rightarrow 10 d_{brake} = 100 \Rightarrow d_{brake} = 10.0\text{ m}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.8</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Total Stopping Distance $= d_{think} + d_{brake} = 6.0\text{ m} + 10.0\text{ m} = 16.0\text{ m}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.9</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$d_{brake} = \frac{u^2}{2a} = \frac{20^2}{2 \times 5.0} = \frac{400}{10} = 40.0\text{ m}$. Notice that doubling speed quadruples braking distance ($10 \times 4 = 40$ m).</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.10</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>According to the work-energy theorem, braking work equals kinetic energy: $F_{brake} \times d = \frac{1}{2}m u^2 \Rightarrow d \propto u^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.11</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>Since the ball is released from rest ($u = 0$), $s = ut + \frac{1}{2}at^2$ reduces directly to $h = \frac{1}{2}gt^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.12</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$g = \frac{2h}{t^2} = \frac{2 \times 0.800}{(0.404)^2} = \frac{1.600}{0.1632} \approx 9.80\text{ m/s}^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.13</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$v = \sqrt{2gh} = \sqrt{2 \times 9.80 \times 1.250} = \sqrt{24.5} \approx 4.95\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.14</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(C)</span></td>
+                  <td>All bodies, regardless of mass, experience the identical gravitational acceleration ($a=g$) when aerodynamic drag is negligible.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.15</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Since $h = \left(\frac{1}{2}g\right) t^2$, plotting $h$ on y-axis against $t^2$ on x-axis produces a straight line with slope $m = \frac{1}{2}g$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.16</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$a_1 = \frac{v - u}{\Delta t} = \frac{30 - 0}{20} = 1.5\text{ m/s}^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.17</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Velocity is constant at 30 m/s; therefore, rate of change of velocity is zero ($a = 0$).</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.18</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$a_3 = \frac{0 - 30}{10} = -3.0\text{ m/s}^2$. Retardation is the magnitude of deceleration, which is $3.0\text{ m/s}^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.19</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Total displacement equals the area of the trapezium beneath the $v$-$t$ graph: $\text{Area} = \frac{1}{2} \times (\text{sum of parallel sides}) \times \text{height} = \frac{1}{2} \times (60 + 30) \times 30 = \frac{1}{2} \times 90 \times 30 = 1350\text{ m}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.20</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$\text{Average speed} = \frac{\text{Total Distance}}{\text{Total Time}} = \frac{1350\text{ m}}{60\text{ s}} = 22.5\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.21</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$v = \frac{2\pi r}{T_{rev}} = \frac{2 \times 3.1416 \times 0.80\text{ m}}{1.0\text{ s}} = 5.026\text{ m/s} \approx 5.03\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.22</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$a_c = \frac{v^2}{r} = \frac{(5.026)^2}{0.80} = \frac{25.27}{0.80} \approx 31.6\text{ m/s}^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.23</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>The inward radial tension in the string pulls the revolving bung toward the center of rotation, providing the centripetal force.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.24</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(C)</span></td>
+                  <td>The moment centripetal tension disappears, the bung continues along its instantaneous tangential straight-line velocity due to inertia.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.25</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Velocity is a vector quantity. Even if its magnitude (speed) is constant, continuous turning of its direction produces continuous centripetal acceleration.</td>
+                </tr>
+                
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "B", "2": "B", "3": "B", "4": "B", "5": "B", "6": "B", "7": "B", "8": "B", "9": "B", "10": "B", "11": "A", "12": "A", "13": "A", "14": "C", "15": "B", "16": "A", "17": "B", "18": "B", "19": "B", "20": "A", "21": "B", "22": "B", "23": "A", "24": "C", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET E Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nReview the detailed experimental solutions below.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

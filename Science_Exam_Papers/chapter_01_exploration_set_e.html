@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 9 Science - Chapter 1: Exploration: Entering the World of Secondary Science (SET E - Case Study & Practical Experiments)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <style>
+    .set-e-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: #ffffff;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .case-banner {
+      background: #f0f9ff;
+      border: 1.5px solid #bae6fd;
+      border-left: 5px solid #0284c7;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+    .case-banner h4 {
+      margin: 0 0 8px 0;
+      color: #0369a1;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .case-passage {
+      font-size: 13px;
+      line-height: 1.65;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+
+<div class="exam-paper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="interactive-header no-print">
+    <div class="timer-display">
+      ⏱️ Time Remaining: <span id="timerDisplay">45:00</span>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+      <button class="btn btn-primary" id="timerBtn" onclick="toggleTimer()">⏸️ Pause Timer</button>
+      <button class="btn btn-secondary" onclick="checkAnswers()">✅ Submit & Check</button>
+      <button class="btn btn-primary" onclick="toggleAnswerKey()">🔑 View Solutions</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ Print Exam Paper</button>
+    </div>
+  </div>
+
+  <!-- Standard CBSE School Exam Header -->
+  <div class="exam-header">
+    <div class="school-title">CENTRAL BOARD OF SECONDARY EDUCATION — PRACTICE EXAMINATION</div>
+    <div class="exam-sub">CLASS IX • SCIENCE (SUBJECT CODE: 086) • ACADEMIC SESSION 2026-27</div>
+    <div style="margin-top: 5px;">
+      <span class="set-e-badge">SET E — CASE STUDY & PRACTICAL EXPERIMENTS</span>
+    </div>
+    <div class="exam-chapter">CHAPTER 01: EXPLORATION: ENTERING THE WORLD OF SECONDARY SCIENCE</div>
+    <div class="meta-row">
+      <span><b>TIME ALLOWED:</b> 45 MINUTES</span>
+      <span><b>MAXIMUM MARKS:</b> 25 MARKS</span>
+      <span><b>SERIES:</b> CBS-IX-SCI-SET-E-01</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET E - Case Study & Practical Experiments):</h4>
+    <ol>
+      <li>The question paper comprises <b>5 In-Depth Practical Case Studies</b> with <b>5 MCQs each (Total: 25 Questions, 1 Mark each)</b>.</li>
+      <li>Read each laboratory experiment, data table, and passage carefully before answering the corresponding questions.</li>
+      <li>Each question has 4 options with a single correct answer.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding bubble on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+            <div class="case-banner">
+              <h4>Case Study 1: Simple Pendulum Oscillation & Determination of Acceleration due to Gravity ($g$)</h4>
+              <div class="case-passage">A group of Class 9 students set up a simple pendulum in the physics laboratory to study the variation of its time period ($T$) with its effective length ($L$). They used a light, inextensible thread tied to a spherical brass bob of mass 50 g. The effective length was measured from the point of suspension to the center of gravity of the bob. Keeping the angular displacement small (< 10°), they timed 20 complete oscillations using a digital stopwatch for different lengths and recorded the data below:<br><br><b>Table 1: Pendulum Experimental Observations</b><br>• Length $L_1 = 0.40\text{ m} \rightarrow$ Time for 20 oscillations = $25.4\text{ s} \rightarrow T = 1.27\text{ s} \rightarrow T^2 = 1.61\text{ s}^2$<br>• Length $L_2 = 0.60\text{ m} \rightarrow$ Time for 20 oscillations = $31.1\text{ s} \rightarrow T = 1.55\text{ s} \rightarrow T^2 = 2.40\text{ s}^2$<br>• Length $L_3 = 0.80\text{ m} \rightarrow$ Time for 20 oscillations = $35.9\text{ s} \rightarrow T = 1.80\text{ s} \rightarrow T^2 = 3.24\text{ s}^2$<br>• Length $L_4 = 1.00\text{ m} \rightarrow$ Time for 20 oscillations = $40.1\text{ s} \rightarrow T = 2.01\text{ s} \rightarrow T^2 = 4.04\text{ s}^2$<br>The students then plotted a graph of $T^2$ versus $L$ to calculate $g$ using the relation $T = 2\pi \sqrt{L/g}$.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_1">
+                  <div class="question-text">
+                    <span class="question-number">Q.1</span>
+                    What is the expected nature and mathematical shape of the graph plotted between $T^2$ (on y-axis) and length $L$ (on x-axis)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>A parabola curving towards the length axis</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>A straight line passing through the origin</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>A hyperbola curving asymptotically</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>A horizontal line parallel to the length axis</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_1"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_2">
+                  <div class="question-text">
+                    <span class="question-number">Q.2</span>
+                    Based on the experimental data for $L = 1.00$ m ($T^2 = 4.04\text{ s}^2$), what is the calculated experimental value of $g$ (take $\pi = 3.1416$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$9.77\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$9.80\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$10.2\text{ m/s}^2$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$9.50\text{ m/s}^2$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_2"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_3">
+                  <div class="question-text">
+                    <span class="question-number">Q.3</span>
+                    Why were the students instructed to record the time for 20 full oscillations rather than timing a single oscillation?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Because a pendulum bob stops after 20 oscillations</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>To substantially reduce human reaction time error in stopwatch operation by distributing it over 20 cycles</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Because the formula is valid only for 20 oscillations</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>To increase the amplitude of the pendulum</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_3"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_4">
+                  <div class="question-text">
+                    <span class="question-number">Q.4</span>
+                    If the 50 g brass bob is replaced by a 150 g lead bob while keeping the length strictly at 1.00 m, what will happen to the time period?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>It will triple to 6.03 s</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>It will decrease to 1.16 s</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>It will remain unchanged at 2.01 s</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>It will increase by $\sqrt{3}$ times</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_4"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_5">
+                  <div class="question-text">
+                    <span class="question-number">Q.5</span>
+                    Why is it essential to maintain small angular amplitude (< 10°) during simple pendulum experiments in school laboratories?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>To prevent air resistance from breaking the string</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Because simple harmonic motion is strictly valid under the small angle approximation $\sin\theta \approx \theta$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>To allow the bob to accelerate past the speed of sound</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>To increase the value of gravitational acceleration</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_5"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 2: Precision Metrology with Vernier Calipers and Screw Gauge</h4>
+              <div class="case-passage">In a physics metrology practical, students measured the dimensions of a solid metallic cylinder and a thin copper wire using precision laboratory instruments.<br>• <b>Instrument 1 (Vernier Calipers):</b> Used to measure the length and external diameter of the cylinder. The main scale is graduated in millimeters (1 MSD = 1 mm). 10 vernier scale divisions (VSD) coincide exactly with 9 main scale divisions.<br>• <b>Instrument 2 (Micrometer Screw Gauge):</b> Used to measure the diameter of the thin copper wire. The pitch of the screw is 0.5 mm, and the circular thimble has 50 equal divisions.<br>Before taking readings, the students inspected both instruments for zero error. The screw gauge showed that when the studs were brought into contact, the zero mark of the circular scale was 3 divisions below the reference line.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_6">
+                  <div class="question-text">
+                    <span class="question-number">Q.6</span>
+                    What is the least count of the Vernier Calipers used by the students?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>0.1 cm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>0.01 cm (0.1 mm)</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>0.001 cm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>0.05 mm</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_6"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_7">
+                  <div class="question-text">
+                    <span class="question-number">Q.7</span>
+                    What is the least count of the Micrometer Screw Gauge?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>0.01 mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>0.001 mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>0.05 mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>0.1 mm</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_7"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_8">
+                  <div class="question-text">
+                    <span class="question-number">Q.8</span>
+                    What type of zero error is present in the screw gauge when its circular zero lies 3 divisions below the reference line?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Positive zero error of $+0.03$ mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Negative zero error of $-0.03$ mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Positive zero error of $+0.15$ mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Zero error is absent</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_8"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_9">
+                  <div class="question-text">
+                    <span class="question-number">Q.9</span>
+                    While measuring the diameter of the wire, the main scale reads 1.5 mm and the 38th circular division aligns with the reference line. What is the true corrected diameter of the wire?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>1.88 mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>1.85 mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>1.91 mm</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>1.53 mm</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_9"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_10">
+                  <div class="question-text">
+                    <span class="question-number">Q.10</span>
+                    Why is a ratchet provided at the back of a micrometer screw gauge?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>To quickly spin the screw without measuring</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>To prevent overtightening and ensure uniform contact pressure on the object during all measurements</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>To lock the main scale firmly in place</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>To calibrate the pitch of the screw</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_10"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 3: Density Determination & Archimedes' Liquid Displacement</h4>
+              <div class="case-passage">A student was provided with an irregular piece of solid stone of mass 54.0 g. To determine its density experimentally, she used a spring balance, a graduated measuring cylinder of capacity 100 mL, and water of density $1.00\text{ g/cm}^3$.<br>• The spring balance had a least count of 1.0 g.<br>• The initial water volume in the graduated cylinder was recorded as $V_1 = 50.0\text{ mL}$.<br>• The stone was tied to a fine thread and gently lowered completely into the water without touching the walls or bottom of the cylinder.<br>• The new water level rose to $V_2 = 70.0\text{ mL}$.<br>The student then repeated the immersion using a saturated salt brine solution of density $1.20\text{ g/cm}^3$.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_11">
+                  <div class="question-text">
+                    <span class="question-number">Q.11</span>
+                    What is the volume of the irregular stone piece?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>50.0 cm³</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>70.0 cm³</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>20.0 cm³</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>120.0 cm³</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_11"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_12">
+                  <div class="question-text">
+                    <span class="question-number">Q.12</span>
+                    What is the calculated density of the stone in SI units (kg/m³)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$2.70\text{ kg/m}^3$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$2700\text{ kg/m}^3$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$270\text{ kg/m}^3$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$0.27\text{ kg/m}^3$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_12"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_13">
+                  <div class="question-text">
+                    <span class="question-number">Q.13</span>
+                    What is the magnitude of the buoyant force exerted by pure water on the completely submerged stone ($g = 9.8\text{ m/s}^2$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>0.540 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>0.196 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>0.200 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>1.96 N</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_13"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_14">
+                  <div class="question-text">
+                    <span class="question-number">Q.14</span>
+                    When the same stone is immersed in the salt brine (density $1.20\text{ g/cm}^3$), what is the new buoyant force exerted on it?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>0.196 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>0.235 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>0.163 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>0.270 N</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_14"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_15">
+                  <div class="question-text">
+                    <span class="question-number">Q.15</span>
+                    Which precautionary technique ensures accurate volume reading of the water meniscus in a glass graduated cylinder?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Reading the highest edge of the convex liquid curve</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Viewing the cylinder from an oblique angle above the scale</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Placing the eye level exactly horizontal to the lowest point of the concave meniscus</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Adding oil to flatten the meniscus curve</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_15"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 4: Thermal Expansion of Metals & Bimetallic Mechanics</h4>
+              <div class="case-passage">In an experiment investigating the thermal expansion of solids, a student heated three metallic strips of equal initial length (100.0 cm) and cross-section from 25°C to 125°C (temperature increase $\Delta T = 100^\circ\text{C}$). The expansions recorded were:<br>• Strip A (Copper): $\Delta L = 1.70\text{ mm}$<br>• Strip B (Iron): $\Delta L = 1.20\text{ mm}$<br>• Strip C (Aluminum): $\Delta L = 2.40\text{ mm}$<br>The teacher then presented a bimetallic strip made by welding Strip A (Copper) and Strip B (Iron) together and heated it over a Bunsen burner flame.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_16">
+                  <div class="question-text">
+                    <span class="question-number">Q.16</span>
+                    Which of the three metals exhibits the lowest coefficient of linear expansion ($lpha$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Strip A (Copper)</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Strip B (Iron)</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Strip C (Aluminum)</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>All three have identical coefficients</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_16"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_17">
+                  <div class="question-text">
+                    <span class="question-number">Q.17</span>
+                    What is the coefficient of linear expansion of Copper (Strip A) per degree Celsius?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$1.7 \times 10^{-5}\text{ /}^\circ\text{C}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$2.4 \times 10^{-5}\text{ /}^\circ\text{C}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$1.2 \times 10^{-5}\text{ /}^\circ\text{C}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$1.7 \times 10^{-3}\text{ /}^\circ\text{C}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_17"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_18">
+                  <div class="question-text">
+                    <span class="question-number">Q.18</span>
+                    When the Copper-Iron bimetallic strip is heated strongly, in which direction does it bend?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Towards the Copper side</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Towards the Iron side</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>It twists into a coil but remains straight</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>It expands symmetrically without any curvature</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_18"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_19">
+                  <div class="question-text">
+                    <span class="question-number">Q.19</span>
+                    If the same Copper-Iron bimetallic strip is subsequently cooled below room temperature in dry ice, what will occur?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>It bends towards the Iron side even more</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>It bends towards the Copper side</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>It fractures immediately into two pieces</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>It stays completely straight</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_19"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_20">
+                  <div class="question-text">
+                    <span class="question-number">Q.20</span>
+                    Which common home electrical appliance uses the bending of a bimetallic strip to automatically regulate temperature?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Electric kettle thermostat</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Incandescent filament bulb</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Electric immersion rod without controller</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Step-down voltage stabilizer</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_20"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 5: Chemical Safety & Hazardous Spill Management</h4>
+              <div class="case-passage">During a chemistry laboratory orientation session, the lab instructor conducted a safety drill on handling hazardous chemicals, heating glassware, and responding to accidental chemical spills.<br>• <b>Scenario A:</b> A student accidentally spills concentrated sulfuric acid ($H_2SO_4$) onto the laboratory workbench and his forearm.<br>• <b>Scenario B:</b> Another student needs to prepare 250 mL of dilute sulfuric acid from concentrated acid.<br>• <b>Scenario C:</b> A liquid in an open glass beaker is being heated over a Bunsen burner.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_21">
+                  <div class="question-text">
+                    <span class="question-number">Q.21</span>
+                    What is the correct and immediate first-aid response when concentrated acid spills onto a student's skin?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Apply strong sodium hydroxide solution immediately to neutralize it</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Wash immediately under a continuous stream of copious running tap water for at least 15 minutes</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Smear the skin thickly with petroleum jelly or cooking oil</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Wrap the skin tightly with dry cotton bandage</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_21"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_22">
+                  <div class="question-text">
+                    <span class="question-number">Q.22</span>
+                    What is the strictly mandated procedure for safely diluting concentrated sulfuric acid with water?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Pour water rapidly into concentrated acid while stirring</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Add concentrated acid slowly and dropwise to water along the sides of the container with continuous stirring</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Mix equal volumes of water and acid together in a sealed bottle and shake vigorously</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Boil the acid first before mixing with cold water</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_22"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_23">
+                  <div class="question-text">
+                    <span class="question-number">Q.23</span>
+                    Why is a wire gauze placed on the tripod stand beneath a glass beaker during heating over a Bunsen burner?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>To prevent chemical vapors from escaping into the room</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>To distribute flame heat evenly across the bottom of the beaker and prevent thermal shock breakage</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>To act as a chemical catalyst for the boiling reaction</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>To absorb smoke produced by the Bunsen flame</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_23"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_24">
+                  <div class="question-text">
+                    <span class="question-number">Q.24</span>
+                    Which region of a Bunsen burner flame is the hottest and recommended for efficient heating?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>The inner dark cone of unburnt gas</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>The outer non-luminous pale blue zone of complete combustion</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>The luminous yellow zone of incomplete combustion</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>The base of the burner collar</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_24"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_25">
+                  <div class="question-text">
+                    <span class="question-number">Q.25</span>
+                    Which of the following personal protective equipment (PPE) is mandatory whenever heating chemicals or working with acids in the lab?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Safety goggles and cotton lab coat</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Woolen gloves and dark sunglasses</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Synthetic nylon jacket and flip-flops</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Leather welding helmet</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_25"></div>
+                </div>
+                
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET E)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & PRACTICAL INVESTIGATION EXPLANATIONS (SET E)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>Scientific Rationale & Experimental Data Analysis</th>
+        </tr>
+      </thead>
+      <tbody>
+
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.1</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Squaring $T = 2\pi \sqrt{L/g}$ gives $T^2 = \left(\frac{4\pi^2}{g}\right) L$. Since $\frac{4\pi^2}{g}$ is a constant slope ($m$), the equation fits $y = mx$, which is a straight line passing through the origin.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.2</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$g = \frac{4\pi^2 L}{T^2} = \frac{4 \times (3.1416)^2 \times 1.00}{4.04} = \frac{39.478}{4.04} \approx 9.77\text{ m/s}^2$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.3</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Human reaction time error in pressing start/stop is typically $\pm 0.2$ s. Timing 20 oscillations divides this error by 20, improving experimental accuracy.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.4</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(C)</span></td>
+                  <td>The time period of a simple pendulum is strictly independent of the mass and material of the bob ($T = 2\pi \sqrt{L/g}$ contains no mass term).</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.5</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>The formula $T = 2\pi \sqrt{L/g}$ is derived assuming simple harmonic motion, which requires $\sin\theta \approx \theta$ in radians (valid only when $\theta < 10^\circ$).</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.6</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$\text{Least count} = 1\text{ MSD} - 1\text{ VSD} = 1\text{ mm} - 0.9\text{ mm} = 0.1\text{ mm} = 0.01\text{ cm}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.7</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$\text{Least count} = \frac{\text{Pitch}}{\text{Number of circular divisions}} = \frac{0.5\text{ mm}}{50} = 0.01\text{ mm}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.8</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>When the zero mark of the circular scale is below the reference datum line, the zero error is positive ($+3 \times 0.01\text{ mm} = +0.03\text{ mm}$). It must be subtracted from the observed reading.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.9</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Observed reading $= 1.5\text{ mm} + (38 \times 0.01\text{ mm}) = 1.88\text{ mm}$. True reading $= \text{Observed} - (\text{Zero Error}) = 1.88 - (+0.03) = 1.85\text{ mm}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.10</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>The ratchet slips and produces a clicking sound once optimum contact pressure is reached, preventing mechanical deformation of the object or stripping of the fine threads.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.11</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(C)</span></td>
+                  <td>Volume of stone $= V_2 - V_1 = 70.0\text{ mL} - 50.0\text{ mL} = 20.0\text{ mL} = 20.0\text{ cm}^3$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.12</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Density $\rho = \frac{\text{Mass}}{\text{Volume}} = \frac{54.0\text{ g}}{20.0\text{ cm}^3} = 2.70\text{ g/cm}^3$. In SI units: $2.70 \times 1000 = 2700\text{ kg/m}^3$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.13</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Buoyant force $F_b = V \rho_{water} g = (20 \times 10^{-6}\text{ m}^3) \times 1000\text{ kg/m}^3 \times 9.8\text{ m/s}^2 = 0.196\text{ N}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.14</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$F_b = V \rho_{brine} g = (20 \times 10^{-6}) \times 1200 \times 9.8 = 0.2352\text{ N} \approx 0.235\text{ N}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.15</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(C)</span></td>
+                  <td>Water forms a concave meniscus in glass due to adhesive forces. To avoid parallax error, the observer's line of sight must align horizontally with the bottom of the meniscus.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.16</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Since $\Delta L = L_0 \alpha \Delta T$, for identical initial length and temperature change, Iron expanded the least (1.20 mm), meaning it has the smallest $\alpha$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.17</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$\alpha = \frac{\Delta L}{L_0 \Delta T} = \frac{0.00170\text{ m}}{1.00\text{ m} \times 100^\circ\text{C}} = 1.7 \times 10^{-5}\text{ /}^\circ\text{C}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.18</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Copper expands more than Iron ($1.7 > 1.2$). To accommodate the greater length, Copper forms the outer curve, forcing the strip to bend towards the less-expanded Iron side.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.19</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Upon cooling, Copper contracts more than Iron, forming the shorter inner curve. Hence, the strip reverses its bend and curves towards the Copper side.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.20</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>Thermostats in electric irons, refrigerators, and automatic kettles use bimetallic strips that bend upon heating to break the electrical circuit, regulating temperature.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.21</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Flushing with large volumes of running water rapidly cools and washes away the acid. Never apply strong alkalis, as exothermic neutralization causes severe thermal burns.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.22</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Dilution of acid is highly exothermic. Adding acid slowly to a large volume of water allows the water to absorb the heat, preventing dangerous acid splattering.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.23</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>The wire gauze (often ceramic-centered) diffuses heat uniformly across the glass surface, preventing localized hot spots that shatter laboratory glassware.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.24</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>The non-luminous outer blue cone receives maximum oxygen, ensuring complete combustion and reaching temperatures up to 1500°C without leaving soot.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.25</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>Chemical splash goggles protect eyes from unexpected eruptions/splatters, while cotton lab coats protect skin and clothing from corrosive chemical damage.</td>
+                </tr>
+                
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "B", "2": "A", "3": "B", "4": "C", "5": "B", "6": "B", "7": "A", "8": "A", "9": "B", "10": "B", "11": "C", "12": "B", "13": "B", "14": "B", "15": "C", "16": "B", "17": "A", "18": "B", "19": "B", "20": "A", "21": "B", "22": "B", "23": "B", "24": "B", "25": "A"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET E Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nReview the detailed experimental solutions below.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

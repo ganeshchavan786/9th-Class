@@ -65,7 +65,8 @@ Organized following enterprise software engineering standards with clear separat
   - **Set B:** Advanced HOTS, Numerical Kinematics & Assertion-Reasoning (200 MCQs)
   - **Set C:** NCERT Exemplar & Critical Application Questions (200 MCQs)
   - **Set D:** Assertion & Reasoning Special (200 MCQs)
-  - **Total Active:** **32 Exam Papers • 800 Unique MCQs • 32 Print-Ready PDFs**
+  - **Set E:** Case Study & Practical Experiments (200 MCQs)
+  - **Total Active:** **40 Exam Papers • 1,000 Unique MCQs • 40 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 2. Upcoming Subjects

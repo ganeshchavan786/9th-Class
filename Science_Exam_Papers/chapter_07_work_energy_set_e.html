@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 9 Science - Chapter 7: Work, Energy & Simple Machines (SET E - Case Study & Practical Experiments)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <style>
+    .set-e-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #0284c7, #0369a1);
+      color: #ffffff;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .case-banner {
+      background: #f0f9ff;
+      border: 1.5px solid #bae6fd;
+      border-left: 5px solid #0284c7;
+      border-radius: 6px;
+      padding: 14px 18px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+    .case-banner h4 {
+      margin: 0 0 8px 0;
+      color: #0369a1;
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .case-passage {
+      font-size: 13px;
+      line-height: 1.65;
+      color: #0f172a;
+    }
+  </style>
+</head>
+<body>
+
+<div class="exam-paper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="interactive-header no-print">
+    <div class="timer-display">
+      ⏱️ Time Remaining: <span id="timerDisplay">45:00</span>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+      <button class="btn btn-primary" id="timerBtn" onclick="toggleTimer()">⏸️ Pause Timer</button>
+      <button class="btn btn-secondary" onclick="checkAnswers()">✅ Submit & Check</button>
+      <button class="btn btn-primary" onclick="toggleAnswerKey()">🔑 View Solutions</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ Print Exam Paper</button>
+    </div>
+  </div>
+
+  <!-- Standard CBSE School Exam Header -->
+  <div class="exam-header">
+    <div class="school-title">CENTRAL BOARD OF SECONDARY EDUCATION — PRACTICE EXAMINATION</div>
+    <div class="exam-sub">CLASS IX • SCIENCE (SUBJECT CODE: 086) • ACADEMIC SESSION 2026-27</div>
+    <div style="margin-top: 5px;">
+      <span class="set-e-badge">SET E — CASE STUDY & PRACTICAL EXPERIMENTS</span>
+    </div>
+    <div class="exam-chapter">CHAPTER 07: WORK, ENERGY & SIMPLE MACHINES</div>
+    <div class="meta-row">
+      <span><b>TIME ALLOWED:</b> 45 MINUTES</span>
+      <span><b>MAXIMUM MARKS:</b> 25 MARKS</span>
+      <span><b>SERIES:</b> CBS-IX-SCI-SET-E-07</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET E - Case Study & Practical Experiments):</h4>
+    <ol>
+      <li>The question paper comprises <b>5 In-Depth Practical Case Studies</b> with <b>5 MCQs each (Total: 25 Questions, 1 Mark each)</b>.</li>
+      <li>Read each laboratory experiment, data table, and passage carefully before answering the corresponding questions.</li>
+      <li>Each question has 4 options with a single correct answer.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding bubble on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+
+            <div class="case-banner">
+              <h4>Case Study 1: Conservation of Mechanical Energy in a Roller Coaster Loop</h4>
+              <div class="case-passage">In a physics amusement park dynamics study, a model roller coaster cart of mass $m = 200\text{ kg}$ was analyzed along a smooth vertical track (neglecting friction and air resistance):<br>• <b>Point A (Starting Hill):</b> Height $h_A = 20.0\text{ m}$ above ground; cart is released from rest ($u_A = 0\text{ m/s}$).<br>• <b>Point B (Bottom of Loop):</b> Ground level ($h_B = 0.0\text{ m}$).<br>• <b>Point C (Top of Circular Loop):</b> Height $h_C = 15.0\text{ m}$ above ground.<br>• Acceleration due to gravity $g = 9.8\text{ m/s}^2$.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_1">
+                  <div class="question-text">
+                    <span class="question-number">Q.1</span>
+                    What is the total mechanical energy ($E_{mech} = E_k + E_p$) of the cart at Point A?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>0 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>39,200 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>19,600 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q1" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>40,000 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_1"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_2">
+                  <div class="question-text">
+                    <span class="question-number">Q.2</span>
+                    What is the speed ($v_B$) of the roller coaster cart as it reaches the lowest point, Point B ($h_B = 0$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$14.0\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$19.8\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$9.8\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q2" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$25.0\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_2"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_3">
+                  <div class="question-text">
+                    <span class="question-number">Q.3</span>
+                    What is the gravitational potential energy of the cart at Point C ($h_C = 15.0\text{ m}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>29,400 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>39,200 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>9,800 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q3" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>14,700 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_3"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_4">
+                  <div class="question-text">
+                    <span class="question-number">Q.4</span>
+                    What is the kinetic energy ($E_{k, C}$) and speed ($v_C$) of the cart at Point C?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>$E_k = 9,800\text{ J}$; $v_C = 9.9\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>$E_k = 39,200\text{ J}$; $v_C = 19.8\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>$E_k = 0\text{ J}$; $v_C = 0\text{ m/s}$</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q4" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>$E_k = 19,600\text{ J}$; $v_C = 14.0\text{ m/s}$</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_4"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_5">
+                  <div class="question-text">
+                    <span class="question-number">Q.5</span>
+                    If track friction dissipated 4,200 J of energy as heat during the descent from A to B, what would the actual kinetic energy at Point B be?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>39,200 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>35,000 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>43,400 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q5" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>19,600 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_5"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 2: Lifting vs Dragging: Work Done Against Gravity and Friction</h4>
+              <div class="case-passage">A warehouse worker needs to move a heavy packing crate of mass $m = 60\text{ kg}$ into a delivery truck whose bed is at a vertical height $h = 1.5\text{ m}$ above the ground ($g = 9.8\text{ m/s}^2$).<br>• <b>Method 1 (Direct Vertical Lift):</b> Lifting the crate straight up onto the truck bed.<br>• <b>Method 2 (Inclined Ramp):</b> Pushing the crate up a smooth wooden ramp of length $L = 5.0\text{ m}$ inclined at an angle $\theta$ (where $\sin\theta = 1.5/5.0 = 0.30$). The friction force resisting motion along the ramp is $f = 80\text{ N}$.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_6">
+                  <div class="question-text">
+                    <span class="question-number">Q.6</span>
+                    What is the minimum work done by the worker against gravity in Method 1 (Direct Vertical Lift)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>600 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>882 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>90 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q6" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>450 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_6"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_7">
+                  <div class="question-text">
+                    <span class="question-number">Q.7</span>
+                    In Method 2, what is the work done solely to overcome friction ($W_{friction}$) along the 5.0 m ramp?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>400 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>80 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>882 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q7" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>120 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_7"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_8">
+                  <div class="question-text">
+                    <span class="question-number">Q.8</span>
+                    What is the total work done by the worker in pushing the crate up the ramp in Method 2?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>882 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>1282 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>400 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q8" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>482 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_8"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_9">
+                  <div class="question-text">
+                    <span class="question-number">Q.9</span>
+                    If Method 2 requires more total energy (1282 J vs 882 J), why does the worker choose to use the ramp?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Because it saves electricity</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Because the ramp reduces the required muscular pushing effort (force) by spreading the work over a longer distance</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Because gravity is zero on a ramp</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q9" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Because it takes less time</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_9"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_10">
+                  <div class="question-text">
+                    <span class="question-number">Q.10</span>
+                    What is the mechanical efficiency ($\eta$) of the inclined ramp as a machine in Method 2?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>100%</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>68.8%</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>45.2%</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q10" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>31.2%</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_10"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 3: Electric Motor Power & Overhead Water Pumping Efficiency</h4>
+              <div class="case-passage">A residential building uses an electric water pump to fill an overhead water storage tank on the roof.<br>• Tank capacity: $V = 1000\text{ Liters} = 1.0\text{ m}^3$ (mass of water $m = 1000\text{ kg}$).<br>• Vertical height of the tank above the ground sump: $h = 18.0\text{ m}$.<br>• Time taken by the pump to fill the tank completely: $t = 5\text{ minutes} = 300\text{ seconds}$.<br>• Electric power rating of the pump motor: $P_{in} = 1000\text{ W} = 1.0\text{ kW}$.<br>• Acceleration due to gravity $g = 9.8\text{ m/s}^2$.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_11">
+                  <div class="question-text">
+                    <span class="question-number">Q.11</span>
+                    What is the useful mechanical work output ($W_{out}$) performed by the pump in lifting the 1000 kg of water?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>18,000 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>176,400 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>180,000 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q11" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>300,000 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_11"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_12">
+                  <div class="question-text">
+                    <span class="question-number">Q.12</span>
+                    What is the useful mechanical power output ($P_{out}$) of the pump during the operation?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>588 W</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>1000 W</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>352.8 W</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q12" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>176.4 W</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_12"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_13">
+                  <div class="question-text">
+                    <span class="question-number">Q.13</span>
+                    What is the total electrical energy consumed by the 1000 W motor in 5 minutes (300 s)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>300,000 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>176,400 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>50,000 J</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q13" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>600,000 J</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_13"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_14">
+                  <div class="question-text">
+                    <span class="question-number">Q.14</span>
+                    Calculate the percentage efficiency ($\eta$) of the water pumping system:
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>100%</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>58.8%</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>72.4%</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q14" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>85.0%</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_14"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_15">
+                  <div class="question-text">
+                    <span class="question-number">Q.15</span>
+                    How many commercial units of electrical energy (kilowatt-hours, kWh) are consumed by the pump during this 5-minute run?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>0.083 kWh</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>1.0 kWh</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>0.5 kWh</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q15" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>0.05 kWh</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_15"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 4: Principle of Moments & Mechanical Advantage of Levers</h4>
+              <div class="case-passage">Students conducted an experiment on a 1.00 m uniform meter stick pivoted at its center (fulcrum $F$ at the 50.0 cm mark) to study levers and the principle of moments.<br>• <b>Class 1 Lever Investigation:</b><br>  - A load of mass $M = 300\text{ g}$ ($W = 3.0\text{ N}$) was hung at the 10.0 cm mark (Load arm $d_L = 50.0 - 10.0 = 40.0\text{ cm}$).<br>  - An effort force was applied by hanging slotted masses at the 90.0 cm mark (Effort arm $d_E = 90.0 - 50.0 = 40.0\text{ cm}$) to restore rotational equilibrium.<br>• Next, the effort was moved to the 100.0 cm mark ($d_E = 50.0\text{ cm}$) while keeping the load fixed at 10.0 cm.</div>
+            </div>
+            
+                <div class="question-card" id="qcard_16">
+                  <div class="question-text">
+                    <span class="question-number">Q.16</span>
+                    According to the Principle of Moments, what condition governs rotational equilibrium?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Total clockwise moment equals total anticlockwise moment about the fulcrum</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Mass on the right must be larger than mass on the left</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Velocity ratio must equal zero</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q16" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Effort force must equal zero</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_16"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_17">
+                  <div class="question-text">
+                    <span class="question-number">Q.17</span>
+                    What effort force ($E$) is required to balance the 3.0 N load when the effort is at the 100.0 cm mark ($d_E = 50.0\text{ cm}$, $d_L = 40.0\text{ cm}$)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>3.0 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>2.4 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>1.5 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q17" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>4.0 N</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_17"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_18">
+                  <div class="question-text">
+                    <span class="question-number">Q.18</span>
+                    What is the Mechanical Advantage ($	ext{MA} = 	ext{Load}/	ext{Effort}$) of this lever when $E = 2.4\text{ N}$ and $	ext{Load} = 3.0\text{ N}$?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>1.0</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>1.25</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>0.80</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q18" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>2.0</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_18"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_19">
+                  <div class="question-text">
+                    <span class="question-number">Q.19</span>
+                    Which common tool operates as a Class 2 lever where the load lies between the fulcrum and the effort?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>A pair of scissors</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>A wheelbarrow or nutcracker</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>A pair of laboratory tweezers</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q19" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>A crowbar</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_19"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_20">
+                  <div class="question-text">
+                    <span class="question-number">Q.20</span>
+                    Why is the mechanical advantage of a Class 3 lever (such as a fishing rod or human forearm) always less than 1?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>Because the effort arm is shorter than the load arm ($d_E < d_L$), sacrificing force to gain speed and displacement</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>Because of friction</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>Because energy is destroyed</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q20" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>Because it is broken</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_20"></div>
+                </div>
+                
+            <div class="case-banner">
+              <h4>Case Study 5: Mechanical Advantage & Efficiency of Pulley Systems</h4>
+              <div class="case-passage">Students set up two pulley arrangements to lift a heavy block of mass $m = 20.0\text{ kg}$ (Load $W = 196\text{ N}$):<br>• <b>System A (Single Fixed Pulley):</b> A single pulley fixed to an overhead rigid ceiling support. A student pulls downward on the rope to raise the load vertically upward.<br>• <b>System B (Block and Tackle with 4 Pulleys):</b> Two pulleys in the upper fixed block and two pulleys in the lower movable block. The load is suspended from the lower block. The total mass of the lower block and hooks is $w_{pulley} = 2.0\text{ kg}$ ($19.6\text{ N}$).</div>
+            </div>
+            
+                <div class="question-card" id="qcard_21">
+                  <div class="question-text">
+                    <span class="question-number">Q.21</span>
+                    What is the Velocity Ratio ($	ext{VR}$) and Ideal Mechanical Advantage of System A (Single Fixed Pulley)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>1</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>2</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>4</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q21" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>0.5</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_21"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_22">
+                  <div class="question-text">
+                    <span class="question-number">Q.22</span>
+                    What is the primary mechanical advantage of using a single fixed pulley if it does not reduce the required effort force?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>It creates energy</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>It allows effort to be applied in a convenient downward direction (using the worker's own body weight) rather than lifting upward</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>It multiplies velocity by 10</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q22" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>It eliminates gravity</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_22"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_23">
+                  <div class="question-text">
+                    <span class="question-number">Q.23</span>
+                    In System B (Block and Tackle with 4 pulleys), how many parallel rope segments support the movable load block?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>2</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>4</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>6</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q23" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>1</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_23"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_24">
+                  <div class="question-text">
+                    <span class="question-number">Q.24</span>
+                    What ideal effort ($E$) is required in System B to lift the 196 N load if pulley weight and friction are neglected?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>196 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>98 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>49 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q24" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>24.5 N</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_24"></div>
+                </div>
+                
+                <div class="question-card" id="qcard_25">
+                  <div class="question-text">
+                    <span class="question-number">Q.25</span>
+                    If the lower movable pulley block has a weight of 19.6 N, what actual effort ($E_{actual}$) is required (neglecting axle friction)?
+                  </div>
+                  <div class="options-grid">
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="A">
+                      <span class="option-letter">(A)</span>
+                      <span>49 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="B">
+                      <span class="option-letter">(B)</span>
+                      <span>53.9 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="C">
+                      <span class="option-letter">(C)</span>
+                      <span>98 N</span>
+                    </label>
+                    
+                    <label class="option-item">
+                      <input type="radio" name="q25" value="D">
+                      <span class="option-letter">(D)</span>
+                      <span>44.1 N</span>
+                    </label>
+                    
+                  </div>
+                  <div class="feedback-msg" id="feedback_25"></div>
+                </div>
+                
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET E)</div>
+    <div class="omr-grid">
+
+            <div class="omr-row">
+              <span class="omr-qnum">01</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">02</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">03</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">04</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">05</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">06</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">07</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">08</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">09</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">10</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">11</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">12</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">13</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">14</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">15</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">16</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">17</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">18</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">19</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">20</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">21</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">22</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">23</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">24</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+            <div class="omr-row">
+              <span class="omr-qnum">25</span>
+              <div class="omr-bubbles">
+                <div class="bubble">A</div>
+                <div class="bubble">B</div>
+                <div class="bubble">C</div>
+                <div class="bubble">D</div>
+              </div>
+            </div>
+            
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & PRACTICAL INVESTIGATION EXPLANATIONS (SET E)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>Scientific Rationale & Experimental Data Analysis</th>
+        </tr>
+      </thead>
+      <tbody>
+
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.1</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$E_{mech} = mgh_A + \frac{1}{2}m u_A^2 = 200\text{ kg} \times 9.8\text{ m/s}^2 \times 20.0\text{ m} + 0 = 39,200\text{ J}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.2</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>By conservation of energy: $\frac{1}{2}m v_B^2 = mgh_A \Rightarrow v_B = \sqrt{2gh_A} = \sqrt{2 \times 9.8 \times 20.0} = \sqrt{392} \approx 19.8\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.3</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$E_p = mgh_C = 200 \times 9.8 \times 15.0 = 29,400\text{ J}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.4</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$E_{k, C} = E_{total} - E_{p, C} = 39,200 - 29,400 = 9,800\text{ J}$. Speed: $v_C = \sqrt{\frac{2 E_k}{m}} = \sqrt{\frac{2 \times 9800}{200}} = \sqrt{98} \approx 9.9\text{ m/s}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.5</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Actual $E_k = E_{initial} - E_{friction} = 39,200\text{ J} - 4,200\text{ J} = 35,000\text{ J}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.6</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$W_{gravity} = mgh = 60\text{ kg} \times 9.8\text{ m/s}^2 \times 1.5\text{ m} = 882\text{ J}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.7</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$W_{friction} = f \times L = 80\text{ N} \times 5.0\text{ m} = 400\text{ J}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.8</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$W_{total} = W_{gravity} + W_{friction} = 882\text{ J} + 400\text{ J} = 1282\text{ J}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.9</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Simple machines act as force multipliers: Lifting requires $588\text{ N}$, while pushing up the ramp requires only $F = mg\sin\theta + f = (60 \times 9.8 \times 0.30) + 80 = 176.4 + 80 = 256.4\text{ N}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.10</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$\text{Efficiency} = \frac{\text{Useful Work Output (against gravity)}}{\text{Total Work Input}} \times 100 = \frac{882\text{ J}}{1282\text{ J}} \times 100 \approx 68.8\%$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.11</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$W_{out} = mgh = 1000\text{ kg} \times 9.8\text{ m/s}^2 \times 18.0\text{ m} = 176,400\text{ J}$ (176.4 kJ).</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.12</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$P_{out} = \frac{W_{out}}{t} = \frac{176,400\text{ J}}{300\text{ s}} = 588\text{ W}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.13</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>$E_{consumed} = P_{in} \times t = 1000\text{ W} \times 300\text{ s} = 300,000\text{ J} = 300\text{ kJ}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.14</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$\text{Efficiency} = \frac{P_{out}}{P_{in}} \times 100 = \frac{588\text{ W}}{1000\text{ W}} \times 100 = 58.8\%$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.15</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>Energy in $\text{kWh} = \text{Power (kW)} \times \text{Time (hours)} = 1.0\text{ kW} \times \left(\frac{5}{60}\text{ h}\right) = \frac{1}{12}\text{ kWh} \approx 0.0833\text{ kWh}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.16</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>A lever is in rotational equilibrium when the algebraic sum of all moments about the pivot equals zero: $\text{Anticlockwise Moment} = \text{Clockwise Moment}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.17</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$\text{Effort} \times d_E = \text{Load} \times d_L \Rightarrow E \times 50.0 = 3.0 \times 40.0 \Rightarrow E = \frac{120.0}{50.0} = 2.4\text{ N}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.18</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>$\text{MA} = \frac{\text{Load}}{\text{Effort}} = \frac{3.0\text{ N}}{2.4\text{ N}} = 1.25$ (or $\text{MA} = \frac{d_E}{d_L} = \frac{50}{40} = 1.25$).</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.19</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>In a wheelbarrow and nutcracker, the load is in the middle (between fulcrum and effort), giving a mechanical advantage always greater than 1.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.20</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>In Class 3 levers, the effort is applied between the fulcrum and load ($d_E < d_L$). While $\text{MA} < 1$ requires more force, it multiplies speed and displacement.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.21</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(A)</span></td>
+                  <td>In a single fixed pulley, the effort moves the exact same distance as the load ($\text{VR} = 1$). It changes the direction of effort without multiplying force.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.22</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Pulling downward allows the worker to utilize body weight effectively and ergonomically to raise loads upward.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.23</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>In a 4-pulley system (2 fixed, 2 movable), the load is shared equally among $n = 4$ supporting segments of the continuous rope, making $\text{VR} = 4$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.24</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(C)</span></td>
+                  <td>$E = \frac{\text{Load}}{n} = \frac{196\text{ N}}{4} = 49\text{ N}$.</td>
+                </tr>
+                
+                <tr>
+                  <td style="font-weight: bold; text-align: center;">Q.25</td>
+                  <td style="text-align: center;"><span class="ans-badge" style="background: #0284c7;">(B)</span></td>
+                  <td>Total weight lifted $= \text{Load} + w_{pulley} = 196 + 19.6 = 215.6\text{ N}$. Actual effort $= \frac{215.6}{4} = 53.9\text{ N}$.</td>
+                </tr>
+                
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"1": "B", "2": "B", "3": "A", "4": "A", "5": "B", "6": "B", "7": "A", "8": "B", "9": "B", "10": "B", "11": "B", "12": "A", "13": "A", "14": "B", "15": "A", "16": "A", "17": "B", "18": "B", "19": "B", "20": "A", "21": "A", "22": "B", "23": "B", "24": "C", "25": "B"};
+
+let timeLeft = 45 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = 25;
+  for (let i = 1; i <= total; i++) {
+    let radios = document.getElementsByName("q" + i);
+    let selected = null;
+    for (let r of radios) {
+      if (r.checked) selected = r.value;
+    }
+    let card = document.getElementById("qcard_" + i);
+    let feedback = document.getElementById("feedback_" + i);
+    if (!feedback) continue;
+    
+    if (selected === correctAnswers[i]) {
+      score++;
+      feedback.className = "feedback-msg feedback-correct";
+      feedback.style.display = "block";
+      feedback.innerHTML = "✅ Correct! (" + correctAnswers[i] + ")";
+      if (card) card.style.borderColor = "#86efac";
+    } else if (selected === null) {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "⚠️ Unattempted. Correct option is <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    } else {
+      feedback.className = "feedback-msg feedback-wrong";
+      feedback.style.display = "block";
+      feedback.innerHTML = "❌ Your answer: (" + selected + ") | Correct: <b>(" + correctAnswers[i] + ")</b>";
+      if (card) card.style.borderColor = "#fca5a5";
+    }
+  }
+  alert("SET E Test Evaluated!\nYour Score: " + score + " / " + total + " (" + Math.round((score/total)*100) + "%)\nReview the detailed experimental solutions below.");
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  if (sec.style.display === "none") {
+    sec.style.display = "block";
+  } else {
+    sec.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
