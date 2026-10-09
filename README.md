@@ -84,8 +84,9 @@ Organized following enterprise software engineering standards with clear separat
   8. Building Blocks in Economics: The Problem of Choice (Economics)
   9. The Price Puzzle: What Drives the Market (Economics)
 - **Practice Sets Available:**
-  - **Set A:** Foundation & Core Concepts (9 papers $	imes$ 25 = 225 MCQs)
-  - **Total Active:** **9 Exam Papers • 225 Unique MCQs • 9 Print-Ready PDFs**
+  - **Set A:** Foundation & Core Concepts (9 papers $\times$ 25 = 225 MCQs)
+  - **Set B:** Advanced HOTS & Analytical Thinking (9 papers $\times$ 25 = 225 MCQs)
+  - **Total Active:** **18 Exam Papers • 450 Unique MCQs • 18 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Social_Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 3. Upcoming Subjects
