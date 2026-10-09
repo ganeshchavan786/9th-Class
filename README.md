@@ -86,7 +86,8 @@ Organized following enterprise software engineering standards with clear separat
 - **Practice Sets Available:**
   - **Set A:** Foundation & Core Concepts (9 papers $\times$ 25 = 225 MCQs)
   - **Set B:** Advanced HOTS & Analytical Thinking (9 papers $\times$ 25 = 225 MCQs)
-  - **Total Active:** **18 Exam Papers • 450 Unique MCQs • 18 Print-Ready PDFs**
+  - **Set C:** NCERT In-Text Sources & Tricky Questions (9 papers $\times$ 25 = 225 MCQs)
+  - **Total Active:** **27 Exam Papers • 675 Unique MCQs • 27 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Social_Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 3. Upcoming Subjects
