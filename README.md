@@ -90,7 +90,8 @@ Organized following enterprise software engineering standards with clear separat
   - **Set D:** Assertion & Reasoning Special (9 papers $\times$ 25 = 225 MCQs)
   - **Set E:** Case Study & Source-Based Scenarios (9 papers $\times$ 25 = 225 MCQs)
   - **Set F:** Rapid Fire Speed Test (9 papers $\times$ 25 = 225 MCQs)
-  - **Total Active:** **54 Exam Papers • 1,350 Unique MCQs • 54 Print-Ready PDFs**
+  - **Set G:** Final Mastery & Grand Challenge Test (9 papers $\times$ 25 = 225 MCQs)
+  - **Total Active:** **63 Exam Papers • 1,575 Unique MCQs • 63 Print-Ready PDFs (100% Curriculum Complete)**
 - **Printable PDFs:** Available inside `Social_Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 3. Upcoming Subjects

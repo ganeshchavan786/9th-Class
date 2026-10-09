@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class 9 Social Science - Chapter 6: Democracy (SET G - Final Mastery & Grand Challenge)</title>
+  <link rel="stylesheet" href="exam-style.css">
+  <style>
+    .set-g-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #b91c1c, #991b1b);
+      color: #ffffff;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-weight: 800;
+      font-size: 12px;
+      letter-spacing: 0.8px;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .grand-banner {
+      background: #fef2f2;
+      border: 1.5px solid #fecaca;
+      border-left: 5px solid #b91c1c;
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-bottom: 16px;
+      font-size: 12.5px;
+      color: #7f1d1d;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+<div class="exam-paper">
+
+  <!-- Interactive Control Bar (Hidden on Print) -->
+  <div class="interactive-header no-print">
+    <div class="timer-display">
+      ⏱️ Grand Challenge Countdown: <span id="timerDisplay">60:00</span>
+    </div>
+    <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+      <button class="btn btn-primary" id="timerBtn" onclick="toggleTimer()">⏸️ Pause Timer</button>
+      <button class="btn btn-secondary" onclick="checkAnswers()">🏆 Submit Grand Challenge</button>
+      <button class="btn btn-primary" onclick="toggleAnswerKey()">🔑 View Detailed Solutions</button>
+      <button class="btn btn-primary" onclick="window.print()">🖨️ Print Exam Paper</button>
+    </div>
+  </div>
+
+  <!-- Standard CBSE School Exam Header -->
+  <div class="exam-header">
+    <div class="school-title">CENTRAL BOARD OF SECONDARY EDUCATION — PRACTICE EXAMINATION</div>
+    <div class="exam-sub">CLASS IX • SOCIAL SCIENCE (SUBJECT CODE: 087) • ACADEMIC SESSION 2026-27</div>
+    <div style="margin-top: 5px;">
+      <span class="set-g-badge">SET G — FINAL MASTERY & GRAND CHALLENGE TEST (60 MINS)</span>
+    </div>
+    <div class="exam-chapter">CHAPTER 06: DEMOCRACY</div>
+    <div class="meta-row">
+      <span><b>TIME ALLOWED:</b> 60 MINUTES</span>
+      <span><b>MAXIMUM MARKS:</b> 25 MARKS</span>
+      <span><b>SERIES:</b> CBS-IX-SST-SET-G-06</span>
+    </div>
+  </div>
+
+  <!-- Student Info Box -->
+  <div class="student-info-box">
+    <div class="info-row">
+      <div class="info-field"><b>Student's Name:</b> <span class="dotted-line" style="min-width: 250px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Roll No.:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+    <div class="info-row" style="margin-top: 6px;">
+      <div class="info-field"><b>Class & Section:</b> Class IX - <span class="dotted-line" style="min-width: 60px;"></span></div>
+      <div class="info-field" style="text-align: center;"><b>Date of Exam:</b> <span class="dotted-line" style="min-width: 110px;"></span></div>
+      <div class="info-field" style="text-align: right;"><b>Invigilator's Sign:</b> <span class="dotted-line" style="min-width: 120px;"></span></div>
+    </div>
+  </div>
+
+  <!-- General Instructions -->
+  <div class="instructions-box">
+    <h4>General Instructions (SET G - Final Mastery & Grand Challenge Test):</h4>
+    <ol>
+      <li>The question paper comprises <b>25 Olympiad / NTSE / Advanced Analytical Multiple Choice Questions</b> of <b>1 mark each</b>.</li>
+      <li>Designed for <b>Final Curricular Mastery & In-Depth Analytical Rigour</b>: Target time is <b>60 Minutes</b>.</li>
+      <li>All questions are compulsory. There is no negative marking.</li>
+      <li>Darken the corresponding bubble on the <b>OMR Sheet</b> completely using a blue/black ballpoint pen.</li>
+    </ol>
+  </div>
+
+  <div class="grand-banner">
+    🏆 <b>GRAND CHALLENGE SPECIAL:</b> This final assessment tests your multi-disciplinary analytical reasoning across historical source criticism, geomorphological dynamics, constitutional jurisprudence, and microeconomic market equilibria!
+  </div>
+
+  <!-- Questions Container -->
+  <div class="questions-container">
+    <!-- Question 1 -->
+    <div class="question-card" id="qcard_q1">
+      <div class="q-header">
+        <span class="q-number">Q1.</span>
+        <span class="q-text">In political philosophy, how does Montesquieu's doctrine of 'Separation of Powers' (Trias Politica) serve as an indispensable cornerstone of constitutional democracy?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q1" value="A" onchange="syncOmr('1', 'A')">
+          <span class="opt-tag">A</span>
+          <span>It consolidates all legislative, executive, and judicial authority into the head of state to ensure rapid policy enforcement</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q1" value="B" onchange="syncOmr('1', 'B')">
+          <span class="opt-tag">B</span>
+          <span>It distributes state power among independent legislative, executive, and judicial branches with reciprocal checks and balances to prevent arbitrary tyranny</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q1" value="C" onchange="syncOmr('1', 'C')">
+          <span class="opt-tag">C</span>
+          <span>It eliminates judicial review so that parliamentary majorities can override the constitution at will</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q1" value="D" onchange="syncOmr('1', 'D')">
+          <span class="opt-tag">D</span>
+          <span>It replaces civilian elections with rotating military councils</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q1">
+        <strong>Scholarly Concept & Analysis:</strong> Montesquieu formulated that political liberty exists only when legislative, executive, and judicial powers are separated, preventing any single body from exercising tyrannical tyranny over citizens.
+      </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question-card" id="qcard_q2">
+      <div class="q-header">
+        <span class="q-number">Q2.</span>
+        <span class="q-text">What is the critical distinction between 'Procedural Democracy' and 'Substantive Democracy' in contemporary political theory?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q2" value="A" onchange="syncOmr('2', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Procedural democracy requires digital EVMs, whereas substantive democracy relies on physical paper ballots</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q2" value="B" onchange="syncOmr('2', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Procedural democracy focuses strictly on institutional mechanisms (periodic elections, multi-party competition), whereas substantive democracy guarantees real socio-economic equality, human rights, and meaningful public deliberation</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q2" value="C" onchange="syncOmr('2', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Procedural democracy is practiced only in military dictatorships, while substantive democracy is practiced only in city-states</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q2" value="D" onchange="syncOmr('2', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Procedural democracy bans all political parties, while substantive democracy permits only one state party</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q2">
+        <strong>Scholarly Concept & Analysis:</strong> Procedural democracy satisfies formal constitutional rules (elections, rule of law), while substantive democracy realizes the core values of justice, equality of opportunity, and socio-economic empowerment.
+      </div>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question-card" id="qcard_q3">
+      <div class="q-header">
+        <span class="q-number">Q3.</span>
+        <span class="q-text">Under the landmark 'Basic Structure Doctrine' formulated by the Supreme Court of India in Kesavananda Bharati v. State of Kerala (1973), which principle protects the core tenets of democracy from parliamentary amendment?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q3" value="A" onchange="syncOmr('3', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Parliament possesses unfettered sovereignty to repeal Fundamental Rights under Article 368</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q3" value="B" onchange="syncOmr('3', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Parliament's constituent power to amend the Constitution does not extend to altering or destroying its foundational features, such as democracy, secularism, rule of law, and judicial review</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q3" value="C" onchange="syncOmr('3', 'C')">
+          <span class="opt-tag">C</span>
+          <span>The President can suspend elections indefinitely upon cabinet advice</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q3" value="D" onchange="syncOmr('3', 'D')">
+          <span class="opt-tag">D</span>
+          <span>The executive branch can appoint and dismiss judges without judicial consultation</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q3">
+        <strong>Scholarly Concept & Analysis:</strong> The Kesavananda Bharati ruling held that while Parliament has broad amending powers under Article 368, it cannot alter the 'Basic Structure' of the Constitution, which includes democracy and republican form of government.
+      </div>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question-card" id="qcard_q4">
+      <div class="q-header">
+        <span class="q-number">Q4.</span>
+        <span class="q-text">Which historical case exemplifies how an elected democratic leader systematically dismantled constitutional checks to establish an authoritarian regime through legal decrees?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q4" value="A" onchange="syncOmr('4', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Robert Mugabe in Zimbabwe amending the constitution, intimidating opposition voters, and controlling the media through ZANU-PF</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q4" value="B" onchange="syncOmr('4', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Abraham Lincoln signing the Emancipation Proclamation in 1863</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q4" value="C" onchange="syncOmr('4', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Nelson Mandela stepping down voluntarily after one term in South Africa in 1999</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q4" value="D" onchange="syncOmr('4', 'D')">
+          <span class="opt-tag">D</span>
+          <span>George Washington establishing the two-term presidential convention in 1796</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q4">
+        <strong>Scholarly Concept & Analysis:</strong> Robert Mugabe's ZANU-PF government in Zimbabwe used formal constitutional amendments, press censorship, and harassment of opposition activists to entrench authoritarian rule behind a veneer of regular elections.
+      </div>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question-card" id="qcard_q5">
+      <div class="q-header">
+        <span class="q-number">Q5.</span>
+        <span class="q-text">Why is the Pakistani military dictator General Pervez Musharraf's issuance of the 'Legal Framework Order' (LFO) in August 2002 considered antithetical to democratic rule?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q5" value="A" onchange="syncOmr('5', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Because it granted citizens the right to recall military officers</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q5" value="B" onchange="syncOmr('5', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Because it unilaterally amended Pakistan's Constitution, giving the military President absolute power to dissolve national and provincial assemblies and subordinating civilian governance to a military-dominated National Security Council</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q5" value="C" onchange="syncOmr('5', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Because it lowered the voting age to 16 years</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q5" value="D" onchange="syncOmr('5', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Because it abolished political campaign spending limits</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q5">
+        <strong>Scholarly Concept & Analysis:</strong> The 2002 Legal Framework Order granted General Musharraf autocratic powers to dismiss elected parliaments, appoint military chiefs, and install military oversight over civilian governance, subverting true democracy.
+      </div>
+    </div>
+
+    <!-- Question 6 -->
+    <div class="question-card" id="qcard_q6">
+      <div class="q-header">
+        <span class="q-number">Q6.</span>
+        <span class="q-text">How did Mexico's Institutional Revolutionary Party (PRI) maintain unbroken political dominance for 71 years (1929–2000) despite conducting regular six-year presidential elections?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q6" value="A" onchange="syncOmr('6', 'A')">
+          <span class="opt-tag">A</span>
+          <span>By strictly following fair campaign rules and winning 100% of voluntary votes without state interference</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q6" value="B" onchange="syncOmr('6', 'B')">
+          <span class="opt-tag">B</span>
+          <span>By deploying state machinery, coercing civil servants to attend rallies, forcing public school teachers to mobilize parents, and shifting polling booths at the eleventh hour to disenfranchise opposition voters</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q6" value="C" onchange="syncOmr('6', 'C')">
+          <span class="opt-tag">C</span>
+          <span>By conducting all voting through transparent electronic voting machines monitored by the United Nations</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q6" value="D" onchange="syncOmr('6', 'D')">
+          <span class="opt-tag">D</span>
+          <span>By formally outlawing the existence of all opposition political parties in the constitution</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q6">
+        <strong>Scholarly Concept & Analysis:</strong> The PRI weaponized government patronage, coerced civil servants and unions, monopolized media coverage, and manipulated election day infrastructure, creating an unfair playing field.
+      </div>
+    </div>
+
+    <!-- Question 7 -->
+    <div class="question-card" id="qcard_q7">
+      <div class="q-header">
+        <span class="q-number">Q7.</span>
+        <span class="q-text">What fundamental democratic principle is violated when Fiji's electoral system accords greater mathematical weight to the vote of an indigenous Fijian than to that of an Indo-Fijian citizen?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q7" value="A" onchange="syncOmr('7', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Principle of Proportional Representation</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q7" value="B" onchange="syncOmr('7', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Principle of 'One Person, One Vote, One Value' (Universal Political Equality)</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q7" value="C" onchange="syncOmr('7', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Principle of Judicial Review</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q7" value="D" onchange="syncOmr('7', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Principle of Executive Discretion</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q7">
+        <strong>Scholarly Concept & Analysis:</strong> Democratic equality mandates that every adult citizen possesses one vote and each vote carries equal mathematical value. Weighted voting based on ethnicity violates Universal Political Equality.
+      </div>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="question-card" id="qcard_q8">
+      <div class="q-header">
+        <span class="q-number">Q8.</span>
+        <span class="q-text">In A.V. Dicey's classical formulation, what are the three core components of the 'Rule of Law' that distinguish a democracy from an autocracy?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q8" value="A" onchange="syncOmr('8', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Supremacy of regular law over arbitrary power, equality before the law for all citizens, and constitutional law originating from ordinary judicial determinations</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q8" value="B" onchange="syncOmr('8', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Absolute royal immunity, retroactive criminal punishment, and secret courts</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q8" value="C" onchange="syncOmr('8', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Executive decrees overriding judicial verdicts, hereditary magistrates, and censorship</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q8" value="D" onchange="syncOmr('8', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Mandatory military rule, public curfews, and suspension of habeas corpus</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q8">
+        <strong>Scholarly Concept & Analysis:</strong> Dicey defined the Rule of Law by three tenets: absence of arbitrary power (supremacy of regular law), equal subjection of all classes to ordinary law, and the primacy of individual rights enforced by courts.
+      </div>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="question-card" id="qcard_q9">
+      <div class="q-header">
+        <span class="q-number">Q9.</span>
+        <span class="q-text">Which criterion differentiates a 'Majoritarian Tyranny' from a genuine constitutional democracy?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q9" value="A" onchange="syncOmr('9', 'A')">
+          <span class="opt-tag">A</span>
+          <span>In a majoritarian tyranny, electoral majority rule operates without respecting fundamental minority rights, whereas a constitutional democracy constrains majority power through entrenched constitutional safeguards and civil liberties</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q9" value="B" onchange="syncOmr('9', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Majoritarian tyrannies hold zero parliamentary debates, while democracies have no written laws</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q9" value="C" onchange="syncOmr('9', 'C')">
+          <span class="opt-tag">C</span>
+          <span>In majoritarian systems, judges are chosen by foreign ambassadors</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q9" value="D" onchange="syncOmr('9', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Constitutional democracies ban political parties from gaining more than 50% of the vote</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q9">
+        <strong>Scholarly Concept & Analysis:</strong> Democracy is not merely 51% subjugating 49%. Constitutional democracy protects fundamental rights of minorities against majoritarian overreach through institutional checks and judicial review.
+      </div>
+    </div>
+
+    <!-- Question 10 -->
+    <div class="question-card" id="qcard_q10">
+      <div class="q-header">
+        <span class="q-number">Q10.</span>
+        <span class="q-text">What argument did Nobel laureate Amartya Sen advance regarding democracy and the prevention of catastrophic famines?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q10" value="A" onchange="syncOmr('10', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Famines occur solely due to technological failures in grain silos</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q10" value="B" onchange="syncOmr('10', 'B')">
+          <span class="opt-tag">B</span>
+          <span>No substantial famine has ever occurred in an independent democratic country with a relatively free press, because democratic governments face public scrutiny and electoral accountability to respond urgently to food shortages</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q10" value="C" onchange="syncOmr('10', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Authoritarian regimes distribute food more equitably during crises because they do not waste time on parliamentary debates</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q10" value="D" onchange="syncOmr('10', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Famines are caused exclusively by global export tariffs</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q10">
+        <strong>Scholarly Concept & Analysis:</strong> Sen demonstrated that democracy, through opposition criticism, free journalism, and periodic elections, forces governments to take prompt preventive action against famines, contrasting democratic India with Mao's China.
+      </div>
+    </div>
+
+    <!-- Question 11 -->
+    <div class="question-card" id="qcard_q11">
+      <div class="q-header">
+        <span class="q-number">Q11.</span>
+        <span class="q-text">In ancient Athens, what was the function of the democratic institution of 'Ostracism'?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q11" value="A" onchange="syncOmr('11', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Electing the head of the Olympian priesthood for life</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q11" value="B" onchange="syncOmr('11', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Voting on broken pottery shards (ostraka) to temporarily exile any prominent political leader deemed a threat to democratic stability or aspiring to tyranny for 10 years</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q11" value="C" onchange="syncOmr('11', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Imposing trade tariffs on Spartan grain merchants</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q11" value="D" onchange="syncOmr('11', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Awarding Olympic gold medals to naval admirals</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q11">
+        <strong>Scholarly Concept & Analysis:</strong> Athenian citizens inscribed names on pottery fragments (ostraka); if 6,000 votes were cast, the individual was exiled for 10 years without loss of property, neutralising potential tyrants.
+      </div>
+    </div>
+
+    <!-- Question 12 -->
+    <div class="question-card" id="qcard_q12">
+      <div class="q-header">
+        <span class="q-number">Q12.</span>
+        <span class="q-text">Why does a genuine democracy require an 'Autonomous and Independent Judiciary'?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q12" value="A" onchange="syncOmr('12', 'A')">
+          <span class="opt-tag">A</span>
+          <span>To draft the government's economic budgets and tax policies</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q12" value="B" onchange="syncOmr('12', 'B')">
+          <span class="opt-tag">B</span>
+          <span>To ensure that laws enacted by parliament and executive orders comply with constitutional norms and protect citizens' fundamental rights from state overreach</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q12" value="C" onchange="syncOmr('12', 'C')">
+          <span class="opt-tag">C</span>
+          <span>To enforce mandatory voting for every citizen under penalty of prison</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q12" value="D" onchange="syncOmr('12', 'D')">
+          <span class="opt-tag">D</span>
+          <span>To replace parliament during national emergencies</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q12">
+        <strong>Scholarly Concept & Analysis:</strong> An independent judiciary acts as the sentinel qui vive of the constitution, possessing the power of judicial review to strike down unconstitutional legislation and protect individual freedoms.
+      </div>
+    </div>
+
+    <!-- Question 13 -->
+    <div class="question-card" id="qcard_q13">
+      <div class="q-header">
+        <span class="q-number">Q13.</span>
+        <span class="q-text">In the Polish struggle for democracy leading up to 1989, what was 'Solidarity' (Solidarność)?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q13" value="A" onchange="syncOmr('13', 'A')">
+          <span class="opt-tag">A</span>
+          <span>A royalist military squadron loyal to the Soviet Union</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q13" value="B" onchange="syncOmr('13', 'B')">
+          <span class="opt-tag">B</span>
+          <span>An independent, non-communist trade union led by Lech Wałęsa that mobilized civil disobedience and forced the communist regime to conduct free multi-party elections</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q13" value="C" onchange="syncOmr('13', 'C')">
+          <span class="opt-tag">C</span>
+          <span>A foreign multinational corporation that owned the Gdansk shipyard</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q13" value="D" onchange="syncOmr('13', 'D')">
+          <span class="opt-tag">D</span>
+          <span>A state-sponsored censorship committee regulating Warsaw newspapers</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q13">
+        <strong>Scholarly Concept & Analysis:</strong> Solidarity arose in the Gdansk shipyards under Lech Wałęsa, becoming a mass social movement that shattered single-party communist monopoly and ushered in democratic transitions in Eastern Europe.
+      </div>
+    </div>
+
+    <!-- Question 14 -->
+    <div class="question-card" id="qcard_q14">
+      <div class="q-header">
+        <span class="q-number">Q14.</span>
+        <span class="q-text">Why is freedom of speech and expression (protected under Article 19(1)(a) of the Indian Constitution) considered the 'lifeblood' of a democratic polity?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q14" value="A" onchange="syncOmr('14', 'A')">
+          <span class="opt-tag">A</span>
+          <span>It guarantees that government officials can never be investigated for corruption</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q14" value="B" onchange="syncOmr('14', 'B')">
+          <span class="opt-tag">B</span>
+          <span>It allows citizens and the press to question executive policies, debate public issues, expose administrative misconduct, and form informed collective opinions essential for electoral accountability</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q14" value="C" onchange="syncOmr('14', 'C')">
+          <span class="opt-tag">C</span>
+          <span>It permits commercial advertisers to make false medical claims</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q14" value="D" onchange="syncOmr('14', 'D')">
+          <span class="opt-tag">D</span>
+          <span>It exempts citizens from paying municipal taxes</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q14">
+        <strong>Scholarly Concept & Analysis:</strong> Freedom of speech enables vibrant public deliberation, oversight of governmental power, and peaceful dissent, without which periodic voting becomes an empty formality.
+      </div>
+    </div>
+
+    <!-- Question 15 -->
+    <div class="question-card" id="qcard_q15">
+      <div class="q-header">
+        <span class="q-number">Q15.</span>
+        <span class="q-text">What distinguishes direct democracy from representative indirect democracy?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q15" value="A" onchange="syncOmr('15', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Direct democracy uses paper ballots; representative democracy uses electronic voting machines</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q15" value="B" onchange="syncOmr('15', 'B')">
+          <span class="opt-tag">B</span>
+          <span>In direct democracy, citizens directly vote on laws and policy decisions (e.g., Swiss referendums and ancient Athens), whereas in representative democracy, citizens elect legislators to deliberate and enact laws on their behalf</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q15" value="C" onchange="syncOmr('15', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Direct democracy exists only in military states; representative democracy exists only in monarchies</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q15" value="D" onchange="syncOmr('15', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Representative democracy allows monarchs to veto citizen votes directly</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q15">
+        <strong>Scholarly Concept & Analysis:</strong> In direct democracy, eligible citizens vote directly on legislation (referendums/initiatives), while representative democracy delegates legislative authority to elected parliamentary representatives.
+      </div>
+    </div>
+
+    <!-- Question 16 -->
+    <div class="question-card" id="qcard_q16">
+      <div class="q-header">
+        <span class="q-number">Q16.</span>
+        <span class="q-text">Which institutional mechanism provides 'Horizontal Accountability' within a democratic constitutional framework?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q16" value="A" onchange="syncOmr('16', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Voters casting ballots every five years during general elections</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q16" value="B" onchange="syncOmr('16', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Internal checks between co-equal state branches: the legislature, executive, judiciary, comptroller and auditor general, and human rights commissions</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q16" value="C" onchange="syncOmr('16', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Trade unions calling general industrial strikes across factories</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q16" value="D" onchange="syncOmr('16', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Foreign diplomatic embassies issuing quarterly press releases</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q16">
+        <strong>Scholarly Concept & Analysis:</strong> Horizontal accountability refers to internal state oversight where separate constitutional organs (judiciary, legislative committees, CAG, ombudsman) monitor and check executive transgressions.
+      </div>
+    </div>
+
+    <!-- Question 17 -->
+    <div class="question-card" id="qcard_q17">
+      <div class="q-header">
+        <span class="q-number">Q17.</span>
+        <span class="q-text">Why is the Chinese system of government considered non-democratic despite holding periodic elections to the National People's Congress?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q17" value="A" onchange="syncOmr('17', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Because only 10 people in China are permitted to vote</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q17" value="B" onchange="syncOmr('17', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Because candidates must secure prior approval from the Chinese Communist Party (CCP) or its allied eight small parties, guaranteeing a one-party monopoly with zero genuine opposition alternatives</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q17" value="C" onchange="syncOmr('17', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Because Chinese elections are conducted entirely by foreign software corporations</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q17" value="D" onchange="syncOmr('17', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Because voting is conducted solely in the Latin language</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q17">
+        <strong>Scholarly Concept & Analysis:</strong> China's single-party system lacks true political contestation: no candidate can contest without CCP clearance, denying voters an authentic choice to change the governing regime.
+      </div>
+    </div>
+
+    <!-- Question 18 -->
+    <div class="question-card" id="qcard_q18">
+      <div class="q-header">
+        <span class="q-number">Q18.</span>
+        <span class="q-text">What is the defining purpose of a 'Constitutional Bill of Rights' in modern democracies?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q18" value="A" onchange="syncOmr('18', 'A')">
+          <span class="opt-tag">A</span>
+          <span>To grant absolute powers to the police to bypass judicial warrants during riots</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q18" value="B" onchange="syncOmr('18', 'B')">
+          <span class="opt-tag">B</span>
+          <span>To place essential individual liberties beyond the reach of transient legislative majorities and state encroachment</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q18" value="C" onchange="syncOmr('18', 'C')">
+          <span class="opt-tag">C</span>
+          <span>To outline tax payment schedules for corporate enterprises</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q18" value="D" onchange="syncOmr('18', 'D')">
+          <span class="opt-tag">D</span>
+          <span>To define military ranks in the armed forces</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q18">
+        <strong>Scholarly Concept & Analysis:</strong> A Bill of Rights enshrines inviolable human liberties (speech, faith, equality, due process) as supreme constitutional law, insulating citizens against arbitrary executive or legislative infringement.
+      </div>
+    </div>
+
+    <!-- Question 19 -->
+    <div class="question-card" id="qcard_q19">
+      <div class="q-header">
+        <span class="q-number">Q19.</span>
+        <span class="q-text">In Alexis de Tocqueville's classic analysis 'Democracy in America' (1835), what did he identify as a major peril inherent to egalitarian democratic societies?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q19" value="A" onchange="syncOmr('19', 'A')">
+          <span class="opt-tag">A</span>
+          <span>The permanent restoration of feudal aristocracies</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q19" value="B" onchange="syncOmr('19', 'B')">
+          <span class="opt-tag">B</span>
+          <span>The 'Tyranny of the Majority' and conformist social pressure stifling intellectual originality and minority individuality</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q19" value="C" onchange="syncOmr('19', 'C')">
+          <span class="opt-tag">C</span>
+          <span>The complete disappearance of commercial agriculture</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q19" value="D" onchange="syncOmr('19', 'D')">
+          <span class="opt-tag">D</span>
+          <span>The immediate collapse of all federal courts</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q19">
+        <strong>Scholarly Concept & Analysis:</strong> Tocqueville warned that in egalitarian democracies, overwhelming majoritarian consensus could tyrannize minority viewpoints, producing cultural conformism and intellectual docility.
+      </div>
+    </div>
+
+    <!-- Question 20 -->
+    <div class="question-card" id="qcard_q20">
+      <div class="q-header">
+        <span class="q-number">Q20.</span>
+        <span class="q-text">Why does democratic governance lead to better policy decisions compared to autocratic rule?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q20" value="A" onchange="syncOmr('20', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Because democratic decisions are made instantaneously by one military general</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q20" value="B" onchange="syncOmr('20', 'B')">
+          <span class="opt-tag">B</span>
+          <span>Because democratic policy formulation involves open debate, multi-stakeholder consultations, legislative scrutiny, and consideration of diverse viewpoints, reducing the risk of catastrophic blind spots</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q20" value="C" onchange="syncOmr('20', 'C')">
+          <span class="opt-tag">C</span>
+          <span>Because democracies rely entirely on artificial intelligence rather than human ministers</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q20" value="D" onchange="syncOmr('20', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Because democracies automatically abolish all public disagreements</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q20">
+        <strong>Scholarly Concept & Analysis:</strong> Deliberative democracy requires extensive consultation and consensus-building, allowing errors to be detected and corrected before implementation, unlike hasty autocratic decrees.
+      </div>
+    </div>
+
+    <!-- Question 21 -->
+    <div class="question-card" id="qcard_q21">
+      <div class="q-header">
+        <span class="q-number">Q21.</span>
+        <span class="q-text">What role does the 'Loyal Opposition' play in a functioning parliamentary democracy?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q21" value="A" onchange="syncOmr('21', 'A')">
+          <span class="opt-tag">A</span>
+          <span>To violently overthrow the government through armed insurrection</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q21" value="B" onchange="syncOmr('21', 'B')">
+          <span class="opt-tag">B</span>
+          <span>To scrutinize government bills, demand executive transparency, voice alternate policy paradigms, and stand ready as a credible constitutional alternative to form the government</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q21" value="C" onchange="syncOmr('21', 'C')">
+          <span class="opt-tag">C</span>
+          <span>To agree with every ruling party policy without question</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q21" value="D" onchange="syncOmr('21', 'D')">
+          <span class="opt-tag">D</span>
+          <span>To manage the central bank's foreign exchange reserves</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q21">
+        <strong>Scholarly Concept & Analysis:</strong> The parliamentary Opposition acts as a constructive critic: it questions ministers, debates policy flaws in standing committees, and represents dissenting citizen interests within constitutional bounds.
+      </div>
+    </div>
+
+    <!-- Question 22 -->
+    <div class="question-card" id="qcard_q22">
+      <div class="q-header">
+        <span class="q-number">Q22.</span>
+        <span class="q-text">Which criterion constitutes the most reliable test of whether a nation is a genuine democracy?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q22" value="A" onchange="syncOmr('22', 'A')">
+          <span class="opt-tag">A</span>
+          <span>Whether the governing ruling party can actually lose a free and fair election and peacefully surrender state power to the opposition</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q22" value="B" onchange="syncOmr('22', 'B')">
+          <span class="opt-tag">B</span>
+          <span>The total number of military fighter aircraft in its air force</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q22" value="C" onchange="syncOmr('22', 'C')">
+          <span class="opt-tag">C</span>
+          <span>The height of the prime minister's official residence</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q22" value="D" onchange="syncOmr('22', 'D')">
+          <span class="opt-tag">D</span>
+          <span>Whether the country has a single national state religion</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q22">
+        <strong>Scholarly Concept & Analysis:</strong> Adam Przeworski famously encapsulated democracy as 'a system in which parties lose elections.' The real test is the incumbents' willingness to accept electoral defeat and transfer power peacefully.
+      </div>
+    </div>
+
+    <!-- Question 23 -->
+    <div class="question-card" id="qcard_q23">
+      <div class="q-header">
+        <span class="q-number">Q23.</span>
+        <span class="q-text">What is the danger of 'Democratic Backsliding' (or Autocratic Legalism) observed in contemporary global politics?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q23" value="A" onchange="syncOmr('23', 'A')">
+          <span class="opt-tag">A</span>
+          <span>The sudden conquest of a country by alien spacecraft</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q23" value="B" onchange="syncOmr('23', 'B')">
+          <span class="opt-tag">B</span>
+          <span>The gradual, subtle erosion of democratic norms, judicial independence, press freedom, and electoral integrity by elected leaders using constitutional means from within</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q23" value="C" onchange="syncOmr('23', 'C')">
+          <span class="opt-tag">C</span>
+          <span>The spontaneous increase in public voter turnout to 100%</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q23" value="D" onchange="syncOmr('23', 'D')">
+          <span class="opt-tag">D</span>
+          <span>The total elimination of paper currency in financial markets</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q23">
+        <strong>Scholarly Concept & Analysis:</strong> Democratic backsliding involves elected incumbents systematically subverting checks and balances, weakening courts, and capturing public media under a facade of legality.
+      </div>
+    </div>
+
+    <!-- Question 24 -->
+    <div class="question-card" id="qcard_q24">
+      <div class="q-header">
+        <span class="q-number">Q24.</span>
+        <span class="q-text">Under the concept of 'Deliberative Democracy', the legitimacy of a state law derives primarily from:</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q24" value="A" onchange="syncOmr('24', 'A')">
+          <span class="opt-tag">A</span>
+          <span>The sheer brute force and military weaponry possessed by the ruling police</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q24" value="B" onchange="syncOmr('24', 'B')">
+          <span class="opt-tag">B</span>
+          <span>The quality of open, inclusive, reasoned public argumentation and collective deliberation among free and equal citizens prior to enactment</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q24" value="C" onchange="syncOmr('24', 'C')">
+          <span class="opt-tag">C</span>
+          <span>The secret instructions given by foreign financial creditors</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q24" value="D" onchange="syncOmr('24', 'D')">
+          <span class="opt-tag">D</span>
+          <span>The astrological alignment of the stars on the day of the vote</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q24">
+        <strong>Scholarly Concept & Analysis:</strong> Deliberative democracy (developed by Habermas and Rawls) holds that legitimate law emerges from authentic, reasoned dialogue and inclusive justification among equal citizens, not just raw headcounts.
+      </div>
+    </div>
+
+    <!-- Question 25 -->
+    <div class="question-card" id="qcard_q25">
+      <div class="q-header">
+        <span class="q-number">Q25.</span>
+        <span class="q-text">Why is the right to peacefully assemble and protest protected as an essential element of democratic citizenship?</span>
+      </div>
+      <div class="options-group">
+        <label class="option-label">
+          <input type="radio" name="q25" value="A" onchange="syncOmr('25', 'A')">
+          <span class="opt-tag">A</span>
+          <span>It enables citizens to hold public authorities accountable between election cycles, express grievances, and influence policy decisions without resorting to violence</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q25" value="B" onchange="syncOmr('25', 'B')">
+          <span class="opt-tag">B</span>
+          <span>It allows citizens to permanently block all hospitals and railways without justification</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q25" value="C" onchange="syncOmr('25', 'C')">
+          <span class="opt-tag">C</span>
+          <span>It replaces the need for municipal police departments entirely</span>
+        </label>
+        <label class="option-label">
+          <input type="radio" name="q25" value="D" onchange="syncOmr('25', 'D')">
+          <span class="opt-tag">D</span>
+          <span>It automatically repeals any law voted by parliament upon demand</span>
+        </label>
+      </div>
+      <div class="exp-box" id="exp_q25">
+        <strong>Scholarly Concept & Analysis:</strong> Peaceful assembly provides a vital conduit for civic participation between elections, allowing marginalized communities to highlight grievances and advocate reform within constitutional parameters.
+      </div>
+    </div>
+  </div>
+
+  <!-- Printable OMR Sheet Grid -->
+  <div class="omr-section">
+    <div class="omr-title">CBSE CANDIDATE OMR ANSWER RESPONSE GRID (SET G)</div>
+    <div class="omr-grid">
+      <div class="omr-row" id="omr_row_1">
+        <span class="omr-qnum">01</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_2">
+        <span class="omr-qnum">02</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_3">
+        <span class="omr-qnum">03</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_4">
+        <span class="omr-qnum">04</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_5">
+        <span class="omr-qnum">05</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_6">
+        <span class="omr-qnum">06</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_7">
+        <span class="omr-qnum">07</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_8">
+        <span class="omr-qnum">08</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_9">
+        <span class="omr-qnum">09</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_10">
+        <span class="omr-qnum">10</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_11">
+        <span class="omr-qnum">11</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_12">
+        <span class="omr-qnum">12</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_13">
+        <span class="omr-qnum">13</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_14">
+        <span class="omr-qnum">14</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_15">
+        <span class="omr-qnum">15</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_16">
+        <span class="omr-qnum">16</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_17">
+        <span class="omr-qnum">17</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_18">
+        <span class="omr-qnum">18</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_19">
+        <span class="omr-qnum">19</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_20">
+        <span class="omr-qnum">20</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_21">
+        <span class="omr-qnum">21</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_22">
+        <span class="omr-qnum">22</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_23">
+        <span class="omr-qnum">23</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_24">
+        <span class="omr-qnum">24</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+      <div class="omr-row" id="omr_row_25">
+        <span class="omr-qnum">25</span>
+        <div class="omr-bubble" data-opt="A">A</div>
+        <div class="omr-bubble" data-opt="B">B</div>
+        <div class="omr-bubble" data-opt="C">C</div>
+        <div class="omr-bubble" data-opt="D">D</div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 11.5px;">
+      <div><b>Total Questions Attempted:</b> _____ / 25</div>
+      <div><b>Marks Obtained:</b> _____ / 25</div>
+      <div><b>Evaluator's Signature:</b> ___________________</div>
+    </div>
+  </div>
+
+  <!-- Answer Key & Explanations (Separate Page in Print) -->
+  <div class="answers-section" id="answerKeySection">
+    <div class="answers-header">OFFICIAL ANSWER KEY & IN-DEPTH SCHOLARLY EXPLANATIONS (SET G)</div>
+    <table class="answer-table">
+      <thead>
+        <tr>
+          <th style="width: 50px;">Q. No.</th>
+          <th style="width: 70px;">Correct</th>
+          <th>Curricular Concept & Scholarly Analysis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">1</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Montesquieu formulated that political liberty exists only when legislative, executive, and judicial powers are separated, preventing any single body from exercising tyrannical tyranny over citizens.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">2</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Procedural democracy satisfies formal constitutional rules (elections, rule of law), while substantive democracy realizes the core values of justice, equality of opportunity, and socio-economic empowerment.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">3</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>The Kesavananda Bharati ruling held that while Parliament has broad amending powers under Article 368, it cannot alter the 'Basic Structure' of the Constitution, which includes democracy and republican form of government.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">4</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">A</td>
+          <td>Robert Mugabe's ZANU-PF government in Zimbabwe used formal constitutional amendments, press censorship, and harassment of opposition activists to entrench authoritarian rule behind a veneer of regular elections.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">5</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>The 2002 Legal Framework Order granted General Musharraf autocratic powers to dismiss elected parliaments, appoint military chiefs, and install military oversight over civilian governance, subverting true democracy.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">6</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>The PRI weaponized government patronage, coerced civil servants and unions, monopolized media coverage, and manipulated election day infrastructure, creating an unfair playing field.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">7</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Democratic equality mandates that every adult citizen possesses one vote and each vote carries equal mathematical value. Weighted voting based on ethnicity violates Universal Political Equality.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">8</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">A</td>
+          <td>Dicey defined the Rule of Law by three tenets: absence of arbitrary power (supremacy of regular law), equal subjection of all classes to ordinary law, and the primacy of individual rights enforced by courts.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">9</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">A</td>
+          <td>Democracy is not merely 51% subjugating 49%. Constitutional democracy protects fundamental rights of minorities against majoritarian overreach through institutional checks and judicial review.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">10</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Sen demonstrated that democracy, through opposition criticism, free journalism, and periodic elections, forces governments to take prompt preventive action against famines, contrasting democratic India with Mao's China.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">11</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Athenian citizens inscribed names on pottery fragments (ostraka); if 6,000 votes were cast, the individual was exiled for 10 years without loss of property, neutralising potential tyrants.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">12</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>An independent judiciary acts as the sentinel qui vive of the constitution, possessing the power of judicial review to strike down unconstitutional legislation and protect individual freedoms.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">13</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Solidarity arose in the Gdansk shipyards under Lech Wałęsa, becoming a mass social movement that shattered single-party communist monopoly and ushered in democratic transitions in Eastern Europe.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">14</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Freedom of speech enables vibrant public deliberation, oversight of governmental power, and peaceful dissent, without which periodic voting becomes an empty formality.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">15</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>In direct democracy, eligible citizens vote directly on legislation (referendums/initiatives), while representative democracy delegates legislative authority to elected parliamentary representatives.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">16</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Horizontal accountability refers to internal state oversight where separate constitutional organs (judiciary, legislative committees, CAG, ombudsman) monitor and check executive transgressions.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">17</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>China's single-party system lacks true political contestation: no candidate can contest without CCP clearance, denying voters an authentic choice to change the governing regime.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">18</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>A Bill of Rights enshrines inviolable human liberties (speech, faith, equality, due process) as supreme constitutional law, insulating citizens against arbitrary executive or legislative infringement.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">19</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Tocqueville warned that in egalitarian democracies, overwhelming majoritarian consensus could tyrannize minority viewpoints, producing cultural conformism and intellectual docility.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">20</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Deliberative democracy requires extensive consultation and consensus-building, allowing errors to be detected and corrected before implementation, unlike hasty autocratic decrees.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">21</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>The parliamentary Opposition acts as a constructive critic: it questions ministers, debates policy flaws in standing committees, and represents dissenting citizen interests within constitutional bounds.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">22</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">A</td>
+          <td>Adam Przeworski famously encapsulated democracy as 'a system in which parties lose elections.' The real test is the incumbents' willingness to accept electoral defeat and transfer power peacefully.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">23</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Democratic backsliding involves elected incumbents systematically subverting checks and balances, weakening courts, and capturing public media under a facade of legality.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">24</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">B</td>
+          <td>Deliberative democracy (developed by Habermas and Rawls) holds that legitimate law emerges from authentic, reasoned dialogue and inclusive justification among equal citizens, not just raw headcounts.</td>
+        </tr>
+        <tr>
+          <td style="text-align: center; font-weight: bold;">25</td>
+          <td style="text-align: center; font-weight: bold; color: #166534;">A</td>
+          <td>Peaceful assembly provides a vital conduit for civic participation between elections, allowing marginalized communities to highlight grievances and advocate reform within constitutional parameters.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Back to Dashboard Link (Hidden on Print) -->
+  <div class="no-print" style="margin-top: 30px; text-align: center;">
+    <a href="index.html" class="btn btn-secondary" style="font-size: 14px; padding: 10px 20px;">
+      ⬅️ Return to Social Science Examination Dashboard
+    </a>
+  </div>
+
+</div>
+
+<script>
+const correctAnswers = {"q1": "B", "q2": "B", "q3": "B", "q4": "A", "q5": "B", "q6": "B", "q7": "B", "q8": "A", "q9": "A", "q10": "B", "q11": "B", "q12": "B", "q13": "B", "q14": "B", "q15": "B", "q16": "B", "q17": "B", "q18": "B", "q19": "B", "q20": "B", "q21": "B", "q22": "A", "q23": "B", "q24": "B", "q25": "A"};
+
+let timeLeft = 60 * 60;
+let timerRunning = true;
+let timerInterval = setInterval(updateTimer, 1000);
+
+function updateTimer() {
+  if (!timerRunning) return;
+  if (timeLeft <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById("timerDisplay").innerText = "00:00 (Time Over)";
+    alert("Grand Challenge time is up! Please submit and check your answers.");
+    return;
+  }
+  timeLeft--;
+  let mins = Math.floor(timeLeft / 60);
+  let secs = timeLeft % 60;
+  document.getElementById("timerDisplay").innerText = 
+    (mins < 10 ? "0" + mins : mins) + ":" + (secs < 10 ? "0" + secs : secs);
+}
+
+function toggleTimer() {
+  timerRunning = !timerRunning;
+  document.getElementById("timerBtn").innerText = timerRunning ? "⏸️ Pause Timer" : "▶️ Resume Timer";
+}
+
+function checkAnswers() {
+  let score = 0;
+  let total = Object.keys(correctAnswers).length;
+  let unanswered = 0;
+
+  for (let q in correctAnswers) {
+    let selected = document.querySelector(`input[name="${q}"]:checked`);
+    let card = document.getElementById(`qcard_${q}`);
+    let expBox = document.getElementById(`exp_${q}`);
+    let qNum = q.replace("q", "");
+    let omrRow = document.getElementById(`omr_row_${qNum}`);
+
+    // Reset styles
+    if (card) {
+      card.classList.remove("correct-card", "incorrect-card");
+    }
+    if (omrRow) {
+      let bubbles = omrRow.querySelectorAll(".omr-bubble");
+      bubbles.forEach(b => b.classList.remove("omr-filled", "omr-correct-bubble", "omr-wrong-bubble"));
+    }
+
+    if (selected) {
+      let userAns = selected.value;
+      if (omrRow) {
+        let chosenBubble = omrRow.querySelector(`.omr-bubble[data-opt="${userAns}"]`);
+        if (chosenBubble) chosenBubble.classList.add("omr-filled");
+      }
+
+      if (userAns === correctAnswers[q]) {
+        score++;
+        if (card) card.classList.add("correct-card");
+        if (omrRow) {
+          let correctB = omrRow.querySelector(`.omr-bubble[data-opt="${userAns}"]`);
+          if (correctB) correctB.classList.add("omr-correct-bubble");
+        }
+      } else {
+        if (card) card.classList.add("incorrect-card");
+        if (omrRow) {
+          let wrongB = omrRow.querySelector(`.omr-bubble[data-opt="${userAns}"]`);
+          if (wrongB) wrongB.classList.add("omr-wrong-bubble");
+          let rightB = omrRow.querySelector(`.omr-bubble[data-opt="${correctAnswers[q]}"]`);
+          if (rightB) rightB.classList.add("omr-correct-bubble");
+        }
+      }
+    } else {
+      unanswered++;
+      if (omrRow) {
+        let rightB = omrRow.querySelector(`.omr-bubble[data-opt="${correctAnswers[q]}"]`);
+        if (rightB) rightB.classList.add("omr-correct-bubble");
+      }
+    }
+
+    if (expBox) expBox.style.display = "block";
+  }
+
+  // Show Answer key
+  document.getElementById("answerKeySection").style.display = "block";
+
+  // Score alert
+  let perc = ((score / total) * 100).toFixed(1);
+  alert(`Grand Challenge Completed!\n\nYour Score: ${score} / ${total} (${perc}%)\nUnanswered: ${unanswered}\n\nReview the question cards and the official solution key below.`);
+}
+
+function toggleAnswerKey() {
+  let sec = document.getElementById("answerKeySection");
+  let isHidden = (sec.style.display === "none" || sec.style.display === "");
+  sec.style.display = isHidden ? "block" : "none";
+  
+  // Also reveal individual explanations
+  for (let q in correctAnswers) {
+    let expBox = document.getElementById(`exp_${q}`);
+    if (expBox) expBox.style.display = isHidden ? "block" : "none";
+  }
+}
+</script>
+
+</body>
+</html>
