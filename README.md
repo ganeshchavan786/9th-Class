@@ -88,7 +88,8 @@ Organized following enterprise software engineering standards with clear separat
   - **Set B:** Advanced HOTS & Analytical Thinking (9 papers $\times$ 25 = 225 MCQs)
   - **Set C:** NCERT In-Text Sources & Tricky Questions (9 papers $\times$ 25 = 225 MCQs)
   - **Set D:** Assertion & Reasoning Special (9 papers $\times$ 25 = 225 MCQs)
-  - **Total Active:** **36 Exam Papers • 900 Unique MCQs • 36 Print-Ready PDFs**
+  - **Set E:** Case Study & Source-Based Scenarios (9 papers $\times$ 25 = 225 MCQs)
+  - **Total Active:** **45 Exam Papers • 1,125 Unique MCQs • 45 Print-Ready PDFs**
 - **Printable PDFs:** Available inside `Social_Science_Exam_Papers/PDF_Ready_To_Print/`
 
 ### 3. Upcoming Subjects
